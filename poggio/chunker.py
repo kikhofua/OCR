@@ -15,12 +15,13 @@ def chunkify():
                 s.write(line)
                 s.write("\n")
                 s.write(post)
-            num += 1
-    return
-
+                num += 1
+            pass
+        return
 
 if __name__ == "__main__":
     chunkify()
+
 
 
 #
