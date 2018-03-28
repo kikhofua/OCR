@@ -3,7 +3,7 @@ import shutil
 import subprocess as sub
 
 
-INTERMEDIATE_LATEX_FILE = "intermeciate.tex"
+INTERMEDIATE_LATEX_FILE = "intermediate.tex"
 CLEANED_LATEX_FILE = "intermediate-clean.tex"
 INTERMEDIATE_LATEX_DIR = "data/intermediate/"
 FINAL_LATEX_DIR = "data/expanded_latex/"

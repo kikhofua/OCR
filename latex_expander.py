@@ -3,13 +3,20 @@ import os
 import re
 
 
+STY_FILE = "intermediate-private.sty"
+STY_HEADER = "\\usepackage{intermediate-private}"
+INTERMEDIATE_LATEX = os.path.join(expander.INTERMEDIATE_LATEX_DIR, expander.INTERMEDIATE_LATEX_FILE)
+INTERMEDIATE_STY = os.path.join(expander.INTERMEDIATE_LATEX_DIR, STY_FILE)
+UNEXPANDED_DIR = "data/example"
 
-unexpanded_dir = "data/example"
+
+
 s = re.compile(r'\\newcommand{?\\[a-zA-Z0-9]+}?')
 
-for subdir, dirs, files in os.walk(unexpanded_dir):
+for subdir, dirs, files in os.walk(UNEXPANDED_DIR):
     for f in files:
         expander.delete_intermediate_files()
+
         # the algorithm
         with open(f, 'r') as unexpanded:
             buildup_string = ""
@@ -20,8 +27,10 @@ for subdir, dirs, files in os.walk(unexpanded_dir):
 
             # the copy file for copying all non-macros
             # the sty file for the current document/file
-            with open(f_name+"_copy", "w+") as expanded:
-                with open(f_name + ".sty", "w+") as sty:
+            with open(INTERMEDIATE_LATEX, "w+") as expanded:
+                expanded.write(STY_HEADER)
+
+                with open(INTERMEDIATE_STY, "w+") as sty:
                     for line in unexpanded:
                         if expander.is_beginning_of_document(line):
                             in_body = True
