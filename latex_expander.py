@@ -64,5 +64,5 @@ for subdir, dirs, files in os.walk(UNEXPANDED_DIR):
                         if in_body:
                             expanded.write(line)
         expander.run_demacro()
-        expander.put_clean_latex_in_proper_directory(file.name)
+        expander.put_clean_latex_in_proper_directory(f_path)
 

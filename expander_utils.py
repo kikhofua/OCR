@@ -26,8 +26,11 @@ def is_beginning_of_document(line):
 
 
 def run_demacro():
-    tex_path = os.path.join(INTERMEDIATE_LATEX_DIR, INTERMEDIATE_LATEX_FILE)
-    sub.run(["demacro", tex_path])
+    old_dir = os.getcwd()
+    os.chdir(INTERMEDIATE_LATEX_DIR)
+    # tex_path = os.path.join(INTERMEDIATE_LATEX_DIR, INTERMEDIATE_LATEX_FILE)
+    sub.run(["de-macro", INTERMEDIATE_LATEX_FILE])
+    os.chdir(old_dir)
 
 
 def put_clean_latex_in_proper_directory(original_file):
