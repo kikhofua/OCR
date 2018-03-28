@@ -1,16 +1,15 @@
-import expander_utils as expdr
+import expander_utils as expander
 import os
 import re
 
 
 
 unexpanded_dir = "data/example"
-# s = re.compile(r'?P<maro_name>\\newcommand{?\\[a-zA-Z0-9]+}?')
 s = re.compile(r'\\newcommand{?\\[a-zA-Z0-9]+}?')
 
 for subdir, dirs, files in os.walk(unexpanded_dir):
     for f in files:
-        delete_intermediate_files()
+        expander.delete_intermediate_files()
         # the algorithm
         with open(f, 'r') as unexpanded:
             buildup_string = ""
@@ -24,7 +23,7 @@ for subdir, dirs, files in os.walk(unexpanded_dir):
             with open(f_name+"_copy", "w+") as expanded:
                 with open(f_name + ".sty", "w+") as sty:
                     for line in unexpanded:
-                        if is_beginning_of_document(line):
+                        if expander.is_beginning_of_document(line):
                             in_body = True
 
                         if not in_body:
@@ -48,6 +47,6 @@ for subdir, dirs, files in os.walk(unexpanded_dir):
 
                         if in_body:
                             expanded.write(line)
-        expdr.run_demacro()
-        expdr.put_clean_latex_in_proper_directory(file.name)
+        expander.run_demacro()
+        expander.put_clean_latex_in_proper_directory(file.name)
 
