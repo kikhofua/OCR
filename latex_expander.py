@@ -1,8 +1,8 @@
-# 1) go though the example directory and for each file read it
+import expander_utils as expdr
 import os
 import re
 
-BEGIN_DOCUMENT_LATEX = "\\begin{document}"
+
 
 unexpanded_dir = "data/example"
 # s = re.compile(r'?P<maro_name>\\newcommand{?\\[a-zA-Z0-9]+}?')
@@ -11,14 +11,13 @@ s = re.compile(r'\\newcommand{?\\[a-zA-Z0-9]+}?')
 for subdir, dirs, files in os.walk(unexpanded_dir):
     for f in files:
         delete_intermediate_files()
-
         # the algorithm
         with open(f, 'r') as unexpanded:
-            # TODO:...
             buildup_string = ""
             l_count, r_count = 0, 0
             f_name = os.path.basename(f.name)
             building = False
+            in_body = False
 
             # the copy file for copying all non-macros
             # the sty file for the current document/file
@@ -26,8 +25,9 @@ for subdir, dirs, files in os.walk(unexpanded_dir):
                 with open(f_name + ".sty", "w+") as sty:
                     for line in unexpanded:
                         if is_beginning_of_document(line):
-                            break
-                        else:
+                            in_body = True
+
+                        if not in_body:
                             # if no match, just write to copy of file
                             if not building:
                                 if s.match(line) is None:
@@ -46,15 +46,8 @@ for subdir, dirs, files in os.walk(unexpanded_dir):
                                     buildup_string = ""
                                     l_count, r_count = 0, 0
 
+                        if in_body:
+                            expanded.write(line)
+        expdr.run_demacro()
+        expdr.put_clean_latex_in_proper_directory(file.name)
 
-
-
-
-
-
-
-
-
-
-        run_demacro()
-        put_clean_latex_in_proper_directory()
