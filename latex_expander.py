@@ -55,9 +55,9 @@ import os, sys
 #                 subdir_pref = subdir_prefixes[file[0:2]]
 #                 file_path = os.path.join("data", "latex", subdir_pref, file)
 #                 good_latex_file.write("{}\n".format(file_path))
-import os
-from shutil import copy
-dest_dir = os.path.join("data", "good_latex")
-with open('data/good_files.txt', 'r') as good_latex_file:
-    for file_name in good_latex_file:
-        copy(file_name[:-5], dest_dir)
+# import os
+# from shutil import copy
+# dest_dir = os.path.join("data", "good_latex")
+# with open('data/good_files.txt', 'r') as good_latex_file:
+#     for file_name in good_latex_file:
+#         copy(file_name[:-5], dest_dir)
