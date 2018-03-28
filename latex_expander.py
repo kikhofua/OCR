@@ -11,17 +11,17 @@ UNEXPANDED_DIR = "data/example"
 
 
 
-s = re.compile(r'\\newcommand{?\\[a-zA-Z0-9]+}?')
+s = re.compile(r'\\(newcommand|def){?\\[a-zA-Z0-9]+}?')
 
 for subdir, dirs, files in os.walk(UNEXPANDED_DIR):
-    for f in files:
+    for f_name in files:
         expander.delete_intermediate_files()
 
         # the algorithm
-        with open(f, 'r') as unexpanded:
+        f_path = os.path.join(UNEXPANDED_DIR, f_name)
+        with open(f_path, 'r') as unexpanded:
             buildup_string = ""
             l_count, r_count = 0, 0
-            f_name = os.path.basename(f.name)
             building = False
             in_body = False
 
@@ -36,8 +36,8 @@ for subdir, dirs, files in os.walk(UNEXPANDED_DIR):
                             in_body = True
 
                         if not in_body:
-                            # if no match, just write to copy of file
                             if not building:
+                                # if no match, just write to copy of file
                                 if s.match(line) is None:
                                     expanded.write(line)
                                 else:
@@ -50,7 +50,14 @@ for subdir, dirs, files in os.walk(UNEXPANDED_DIR):
                                 r_count += line.count("}")
                                 if l_count == r_count:
                                     building = False
-                                    sty.write(buildup_string)
+                                    if "#" in buildup_string or "@" in buildup_string:
+                                        expanded.write(buildup_string)
+                                    else:
+                                        if buildup_string.count("\\newcommand") > 1 or buildup_string.count("\\def") > 1:
+                                            expanded.write(buildup_string)
+                                        else:
+                                            buildup_string = buildup_string.replace("\\def", "\\newcommand")
+                                            sty.write(buildup_string)
                                     buildup_string = ""
                                     l_count, r_count = 0, 0
 
