@@ -28,8 +28,13 @@ def is_beginning_of_document(line):
 def run_demacro():
     old_dir = os.getcwd()
     os.chdir(INTERMEDIATE_LATEX_DIR)
-    sub.run(["de-macro", INTERMEDIATE_LATEX_FILE])
-    os.chdir(old_dir)
+    try:
+        sub.run(["de-macro", INTERMEDIATE_LATEX_FILE], timeout=5)
+    except sub.TimeoutExpired as time_error:
+        raise time_error
+    finally:
+        os.chdir(old_dir)
+
 
 
 def put_clean_latex_in_proper_directory(original_file):

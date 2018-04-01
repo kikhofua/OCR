@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 .idea/
 data/
 pkey
 pkey.pub
-=======
-data/
-.idea/
-__pycache__/
->>>>>>> a168e9b87221a4a011f42cb8527f734a3a32f708
+*.pyc

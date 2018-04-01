@@ -9,16 +9,20 @@ INTERMEDIATE_LATEX = os.path.join(expander.INTERMEDIATE_LATEX_DIR, expander.INTE
 INTERMEDIATE_STY = os.path.join(expander.INTERMEDIATE_LATEX_DIR, STY_FILE)
 UNEXPANDED_DIR = "data/good_latex"
 
+STARTING_FILE = "0208127"
+
 
 s = re.compile(r'\\(newcommand|def){?\\[a-zA-Z0-9]+}?')
 
 for subdir, dirs, files in os.walk(UNEXPANDED_DIR):
     for f_name in files:
-        expander.delete_intermediate_files()
+        if f_name < STARTING_FILE:
+            continue
 
         # the algorithm
+        expander.delete_intermediate_files()
         f_path = os.path.join(UNEXPANDED_DIR, f_name)
-        print("#############################################\nProcssing: {}".format(os.path.basename(f_path)))
+        print("#############################################\nProcssing: {}".format(f_name))
         with open(f_path, 'r+') as unexpanded:
             buildup_string = ""
             l_count, r_count = 0, 0
@@ -64,6 +68,9 @@ for subdir, dirs, files in os.walk(UNEXPANDED_DIR):
 
                         if in_body:
                             expanded.write(line)
-        expander.run_demacro()
-        expander.put_clean_latex_in_proper_directory(f_path)
+        try:
+            expander.run_demacro()
+            expander.put_clean_latex_in_proper_directory(f_path)
+        except Exception:
+            print("Bad file 😭😭😭😭😭😭😭😭😭😭😭😭😭")
 
