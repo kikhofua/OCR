@@ -2,10 +2,10 @@ from queue import Queue
 import os, re
 
 
-FULL_DOCUMENTS_DIR = "data/example/"
+FULL_DOCUMENTS_DIR = "data/expanded_latex/"
 SNIPPETS_DIR = "data/snippets/"
 
-SLIDING_WINDOW = 3
+SLIDING_WINDOW = 5
 
 BEGIN_LATEX_DOC = "\\begin{document}"
 END_LATEX_DOC = "\\end{document}"
@@ -27,6 +27,7 @@ def create_new_snippet_from_queue(lines, snippet_number):
 for subdir, dirs, files in os.walk(FULL_DOCUMENTS_DIR):
     snippet_counter = 0
     for f_name in files:
+        print(f_name)
         in_document_body = False
         lines_queue = Queue(maxsize=SLIDING_WINDOW)
         f_path = os.path.join(FULL_DOCUMENTS_DIR, f_name)
@@ -50,7 +51,7 @@ for subdir, dirs, files in os.walk(FULL_DOCUMENTS_DIR):
                         match = re.search(entire_block, multi_line_builder)
                         if match:
                             line = multi_line_builder
-                            print("{}$$$$$$$$$$$$$$${}$$$$$$$$$$$$$$$$$$$$$$$".format(multi_line_builder, snippet_counter))
+                            # print("{}$$$$$$$$$$$$$$${}$$$$$$$$$$$$$$$$$$$$$$$".format(multi_line_builder, snippet_counter))
                             multi_line_builder = ""
                             building_block = False
                         else:
