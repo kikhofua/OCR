@@ -51,7 +51,6 @@ for subdir, dirs, files in os.walk(FULL_DOCUMENTS_DIR):
                         match = re.search(entire_block, multi_line_builder)
                         if match:
                             line = multi_line_builder
-                            # print("{}$$$$$$$$$$$$$$${}$$$$$$$$$$$$$$$$$$$$$$$".format(multi_line_builder, snippet_counter))
                             multi_line_builder = ""
                             building_block = False
                         else:
