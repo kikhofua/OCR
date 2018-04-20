@@ -23,7 +23,10 @@ class DataGenerator:
         for file in os.listdir(latex_docs_src):
             filename = os.fsdecode(file)
             filepath = os.path.join(latex_docs_src, filename)
-            # TODO: method that goes through all of the good latex documents and generates normalized text snippets and uniformly sized images of the rendered PDF for the snippet
+            # TODO: generates normalized text snippets from well-formed latex document
+            # TODO: tightly crop images and track the maximum width and height of images
+
+        # TODO: pad images so that they are uniformly sized
 
     def extract_snippets_from_latex_document(self, filepath):
         begin_latex_document = "\\begin{document}"
