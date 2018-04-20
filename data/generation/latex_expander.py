@@ -1,4 +1,4 @@
-import expander_utils as expander
+from data.generation import expander_utils as expander
 import os
 import re
 
