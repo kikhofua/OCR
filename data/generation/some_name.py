@@ -1,13 +1,11 @@
-import os, re
+import os, re, cv2
+import numpy as np
 
 from queue import Queue
 from wand.image import Image, Color
 
 
 class DataGenerator:
-
-
-
     def __init__(self, source, snippet_dest, image_dest, snippet_size, image_resolutation=150):
         self.doc_dir = source
         self.snippet_dir = snippet_dest
@@ -94,22 +92,33 @@ class DataGenerator:
         snippet_file_name = os.path.basename(snippet_path)
         command = "pdflatex -interaction=batchmode -output-directory={} {}"
         os.system(command.format(self.image_dir, snippet_path))
-
         pdf_path = os.path.join(self.image_dir, snippet_file_name, ".pdf")
         image_path = self._generate_image_from_pdf(pdf_path, snippet_file_name)
-
         os.remove(os.path.join(self.image_dir, snippet_file_name, ".aux"))
         os.remove(os.path.join(self.image_dir, snippet_file_name, ".log"))
         os.remove(os.path.join(self.image_dir, snippet_file_name, ".tex"))
         os.remove(pdf_path)
         return image_path
 
+    @staticmethod
+    def tightly_crop_image(image_path):
+        gray_img = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
+        pixel_is_text = gray_img < 255
+        text_rows, text_cols = np.nonzero(pixel_is_text)
+        left_bound, right_bound = min(text_cols), max(text_cols)
+        top_bound, bottom_bound = min(text_rows), max(text_rows)
+        tightly_cropped = gray_img[top_bound:bottom_bound, left_bound:right_bound]
+        cv2.imwrite(image_path, tightly_cropped)
+        return left_bound, right_bound, top_bound, bottom_bound
 
-    def full_crop_image(self, image_path):
-        # TODO: method that, given an image, crops it as tightly as possible
+    @staticmethod
+    def pad_image_for_consistent_top_left_start(image_path, desired_width, desired_height):
+        gray_img = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
+        img_width, img_height = gray_img.shape
+        white_background = np.ones((desired_width, desired_height)) * 255
+        padded_img = white_background[:img_width, :img_height] = gray_img
+        cv2.imwrite(image_path, padded_img)
 
 
-    def center_pad_image(self, image_path, desired_width, desired_height):
-        # TODO: method that, given an image and tuple (width, height), pads the image so that its content is centered and its dimensions are (width, height)
 
 
