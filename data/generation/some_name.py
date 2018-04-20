@@ -1,21 +1,25 @@
 import os, re
 
 from queue import Queue
+from wand.image import Image, Color
 
 
 class DataGenerator:
 
 
 
-    def __init__(self, source, destination, snippet_size):
+    def __init__(self, source, snippet_dest, image_dest, snippet_size, image_resolutation=150):
         self.doc_dir = source
-        self.snippet_dir = destination
+        self.snippet_dir = snippet_dest
+        self.image_dir = image_dest
         self.snippet_size = snippet_size
         self.snippet_counter = 0
+        self.img_res = image_resolutation
 
     def generate(self):
         self.snippet_counter = 0
         latex_docs_src = os.fsencode(self.doc_dir)
+        # TODO: track the sizes of all the generated cropped images
         for file in os.listdir(latex_docs_src):
             filename = os.fsdecode(file)
             filepath = os.path.join(latex_docs_src, filename)
@@ -69,14 +73,40 @@ class DataGenerator:
             snippet.write("\\documentstyle[12pt]{article}\n")
             snippet.write("\\begin{document}\n")
             for l in lines:
-                snippet.write("{}\n".format(l))
+                snippet.write("{}\n".format(self._normalize_latex_string(l)))
             snippet.write("\\end{document}\n")
 
+    def _generate_image_from_pdf(self, pdf_path, snippet_name):
+        all_pages = Image(filename=pdf_path, resolution=self.img_res)
+        image_filename = os.path.join(self.image_dir, snippet_name, '.png')
+        for i, page in enumerate(all_pages.sequence):
+            with Image(page) as img:
+                img.format = 'png'
+                img.background_color = Color('white')
+                img.alpha_channel = 'remove'
+                img.save(filename=image_filename)
+        return image_filename
+
     def generate_image_of_snippet(self, snippet_path):
+        snippet_file_name = os.path.basename(snippet_path)
+        command = "pdflatex -interaction=batchmode -output-directory={} {}"
+        os.system(command.format(self.image_dir, snippet_path))
+
+        pdf_path = os.path.join(self.image_dir, snippet_file_name, ".pdf")
+        image_path = self._generate_image_from_pdf(pdf_path, snippet_file_name)
+
+        os.remove(os.path.join(self.image_dir, snippet_file_name, ".aux"))
+        os.remove(os.path.join(self.image_dir, snippet_file_name, ".log"))
+        os.remove(os.path.join(self.image_dir, snippet_file_name, ".tex"))
+        os.remove(pdf_path)
+        return image_path
 
 
-    # 3) method that, given a snippet, returns an image of the rendered pdf
-    # 4) method that, given an image, crops it as tightly as possible
-    # 5) method that, given a list of images, finds the largest width and height of the images in the set
-    # 6) method that, given an image and tuple (width, height), pads the image so that its content is centered and its dimensions are (width, height)
+    def full_crop_image(self, image_path):
+        # TODO: method that, given an image, crops it as tightly as possible
+
+
+    def center_pad_image(self, image_path, desired_width, desired_height):
+        # TODO: method that, given an image and tuple (width, height), pads the image so that its content is centered and its dimensions are (width, height)
+
 
