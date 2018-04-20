@@ -5,3 +5,4 @@ pkey
 pkey.pub
 .idea/
 __pycache__/
+*.pyc

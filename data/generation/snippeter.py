@@ -3,7 +3,7 @@ import os, re
 
 
 FULL_DOCUMENTS_DIR = "data/expanded_latex/"
-SNIPPETS_DIR = "data/snippets/"
+SNIPPETS_DIR = "/data/latex_snippets/"
 
 SLIDING_WINDOW = 5
 
@@ -13,6 +13,7 @@ END_LATEX_DOC = "\\end{document}"
 
 begin_block = re.compile(r'\\begin{(?P<block_name>[a-zA-Z0-9]+)}')
 entire_block = re.compile(r'^\\begin{(?P<block>[a-zA-Z0-9]+)}.*\\end{(?P=block)}$', re.DOTALL)
+
 
 def create_new_snippet_from_queue(lines, snippet_number):
     snippet_path = os.path.join(SNIPPETS_DIR, "sn_{}".format(snippet_number))
@@ -31,7 +32,7 @@ for subdir, dirs, files in os.walk(FULL_DOCUMENTS_DIR):
         in_document_body = False
         lines_queue = Queue(maxsize=SLIDING_WINDOW)
         f_path = os.path.join(FULL_DOCUMENTS_DIR, f_name)
-        with open(f_path, 'r') as document:
+        with open(f_path, 'r', encoding="ISO-8859-1") as document:
             building_block = False
             multi_line_builder = ""
             for line in document:
