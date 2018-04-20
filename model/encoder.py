@@ -16,6 +16,9 @@ class EncoderCNN(nn.Module):
         self.H_prime = 0
         self.W_prime = 0
         self.D_prime = 0
+
+        self.gpu = None
+
         self.main = nn.Sequential(
             # input is h x w
 
@@ -54,5 +57,9 @@ class EncoderCNN(nn.Module):
             nn.AvgPool3d(self.average_pool_kernel, self.average_pool_stride)
         )
 
-    def forward(self, *input):
-        if isinstance(input.data, torch.cuda.FloatTensor) and self.
+    def forward(self, input):
+        if isinstance(input.data, torch.cuda.FloatTensor) and self.gpu > 1:
+            output = nn.parallel.data_parallel(self.main, input, range(self.gpu))
+        else:
+            output = self.main(input)
+        return output
