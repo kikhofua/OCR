@@ -8,7 +8,6 @@ IMG_SNIPPET_DIR = "data/img_snippets/"
 if not os.path.exists(IMG_SNIPPET_DIR):  # create the build directory if not existing
     os.makedirs(IMG_SNIPPET_DIR)
 
-
 def convert_pdf(filename, output_path, resolution=150):
     """ Convert a PDF into images.
 
