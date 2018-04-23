@@ -9,7 +9,7 @@ class EncoderCNN(nn.Module):
         self.W = 0  # input image weight
 
         self.num_convolutions = 5  # number of convolutions, maxpool sequences
-        self.average_pool_kernel = (self.H / 2 ^ self.num_convolutions, self.W / 2 ^ self.num_convolutions)
+        self.average_pool_kernel = (1, 1)
         self.average_pool_stride = self.average_pool_kernel
         self.channels = 64
 
