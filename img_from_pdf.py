@@ -35,5 +35,3 @@ for subdir, dirs, files in os.walk(PDF_SNIPPET_DIR):
     for f in files:
         f_name = os.path.join(PDF_SNIPPET_DIR, f)
         convert_pdf(f_name, IMG_SNIPPET_DIR, 150)
-
-

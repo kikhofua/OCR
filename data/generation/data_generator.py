@@ -128,6 +128,15 @@ class DataGenerator:
         return image_filename
 
     def generate_image_of_snippet(self, snippet_path):
+        '''
+        Generates a PNG image of the PDF that is produced by compiling the
+        Latex snippet at @snippet_path.
+        The PNG has the same file name as @snippet_path and is written to
+        @self.snippet_dir.
+
+        :param snippet_path:
+        :return:
+        '''
         snippet_file_name = os.path.basename(snippet_path)
         command = "pdflatex -interaction=batchmode -output-directory={} {}"
         os.system(command.format(self.image_dir, snippet_path))
@@ -180,5 +189,12 @@ class DataGenerator:
         cv2.imwrite(image_path, padded_image)
 
 
+source = "data/example"
+snippet_destination = "data/snippets"
+image_destination = "data/images"
+snippet_size = 4
+padding = 10
+resolution = 150
 
-
+dg = DataGenerator(source, snippet_destination, image_destination, snippet_size, resolution, padding)
+dg.generate()
