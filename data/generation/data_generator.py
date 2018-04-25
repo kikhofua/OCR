@@ -2,9 +2,7 @@ import os, re, cv2
 import numpy as np
 
 from queue import Queue
-from PIL import Image
 from pdf2image import convert_from_path
-# from wand.image import Image, Color
 
 
 class DataGenerator:
@@ -18,13 +16,14 @@ class DataGenerator:
         self.img_padding = image_padding
 
     def generate(self):
-        self.snippet_counter = 0
-        for latex_doc in os.listdir(self.doc_dir):
-            doc_name = os.fsdecode(latex_doc)
-            doc_path = os.path.join(self.doc_dir, doc_name)
-            self.extract_snippets_from_latex_document(doc_path)
+        # self.snippet_counter = 0
+        # for latex_doc in os.listdir(self.doc_dir):
+        #     doc_name = os.fsdecode(latex_doc)
+        #     doc_path = os.path.join(self.doc_dir, doc_name)
+        #     self.extract_snippets_from_latex_document(doc_path)
 
         max_rows = max_cols = 0
+        largest_photo = None
         for snip in os.listdir(self.snippet_dir):
             snip_name = os.fsdecode(snip)
             snip_path = os.path.join(self.snippet_dir, snip_name)
@@ -33,7 +32,9 @@ class DataGenerator:
                 snip_num_rows, snip_num_cols = self.tightly_crop_image(image_path)
                 max_rows = max(max_rows, snip_num_rows)
                 max_cols = max(max_cols, snip_num_cols)
+                largest_photo = image_path if snip_num_rows * snip_num_cols > max_rows * max_cols else largest_photo
             # break
+        print(largest_photo)
 
         for image in os.listdir(self.image_dir):
             image_name = os.fsdecode(image)
@@ -95,6 +96,8 @@ class DataGenerator:
                     if not building_block:
                         if re.search(begin_block, line):
                             building_block = True
+                        elif "\\" not in line or "$" not in line:  # skip the line if there's nothing interesting
+                            continue
                     if building_block:
                         match = re.search(entire_block, multi_line_builder)
                         if match:
