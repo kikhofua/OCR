@@ -1,10 +1,8 @@
-from collections import OrderedDict, namedtuple
+from collections import OrderedDict
 
 import torch.nn as nn
 
-
-VFMDims = namedtuple('VisualFeatureMapDimensions', 'D_tick H W')
-MLPSpecs = namedtuple('MultilayeredPerceptronSpecs', 'hidden_sizes output_size hidden_act_fn output_act_fn')
+from model.utils import MLPSpecs
 
 
 class InitModule(nn.Module):
@@ -15,7 +13,7 @@ class InitModule(nn.Module):
         self.shared_weights = self.build_shared_weights()
         self.c_0s, self.h_0s = self.build_output_layers()
 
-    def build_output_layers(self):
+    def build_output_layers(self) -> (list, list):
         hidden_states = []
         cell_states = []
         hidden_sizes, output_size, _, output_act_fn = self.specs
