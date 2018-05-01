@@ -1,13 +1,14 @@
 from collections import OrderedDict
 
+import numpy as np
 import torch.nn as nn
 
 from model.utils import MLPSpecs
 
 
-class TokenEmbedder(nn.Module):
+class InitModule(nn.Module):
     def __init__(self, mlp_specs: MLPSpecs):
-        super(TokenEmbedder, self).__init__()
+        super(InitModule, self).__init__()
         self.specs = mlp_specs
         self.sequence_layers = self.build_hidden_layers()
 
@@ -22,5 +23,6 @@ class TokenEmbedder(nn.Module):
         sequential_layers.append(output_layer)
         return nn.Sequential(OrderedDict(sequential_layers))
 
-    def forward(self, token):
-        return self.sequence_layers(token)
+    def forward(self, H, z, E_y):
+        input = np.concatenate((H, z, E_y), axis=0)
+        return self.sequence_layers(input)
