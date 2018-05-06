@@ -1,5 +1,8 @@
 .idea/
-data/
+data/expanded_latex/
+data/example/
 pkey
 pkey.pub
+.idea/
+__pycache__/
 *.pyc

@@ -3,7 +3,7 @@ import torch.nn as nn
 
 
 class EncoderCNN(nn.Module):
-    def __init__(self, opt):
+    def __init__(self, ngpu):
         super(EncoderCNN, self).__init__()
         self.H = 0  # input image height
         self.W = 0  # input image weight
@@ -17,14 +17,16 @@ class EncoderCNN(nn.Module):
         self.W_prime = 0
         self.D_prime = 0
 
-        self.gpu = None
+        self.ngpu = ngpu
+
+        # Use the nn package to define our model as a sequence of layers. nn.Sequential
+        # is a Module which contains other Modules, and applies them in sequence to
+        # produce its output.
 
         self.main = nn.Sequential(
             # input is h x w
-
             # encode the image into a rectangular visual feature map, A', of a H' x W' visual feature vectors a_(h',w')
             # of size D'.
-
             # all convolution kernels have shape (3,3)
             # tanh non-linearity
             # maxpooling shape (2,2) and stride (2,2)
@@ -57,9 +59,14 @@ class EncoderCNN(nn.Module):
             nn.AvgPool3d(self.average_pool_kernel, self.average_pool_stride)
         )
 
-    def forward(self, input):
-        if isinstance(input.data, torch.cuda.FloatTensor) and self.gpu > 1:
-            output = nn.parallel.data_parallel(self.main, input, range(self.gpu))
+    def forward(self, image):
+        if image.is_cuda and self.ngpu > 1:
+            output = nn.parallel.data_parallel(self.main, image, range(self.gpu))
         else:
-            output = self.main(input)
+            output = self.main(image)
         return output
+
+
+
+
+
