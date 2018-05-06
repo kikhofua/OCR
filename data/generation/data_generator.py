@@ -2,7 +2,7 @@ import os, re, cv2
 import numpy as np
 
 from queue import Queue
-from wand.image import Image, Color
+from pdf2image import convert_from_path
 
 
 class DataGenerator:
@@ -16,28 +16,30 @@ class DataGenerator:
         self.img_padding = image_padding
 
     def generate(self):
-        self.snippet_counter = 0
-        latex_docs_src = os.fsencode(self.doc_dir)
-        for latex_doc in os.listdir(latex_docs_src):
-            doc_name = os.fsdecode(latex_doc)
-            doc_path = os.path.join(latex_docs_src, doc_name)
-            self.extract_snippets_from_latex_document(doc_path)
+        # self.snippet_counter = 0
+        # for latex_doc in os.listdir(self.doc_dir):
+        #     doc_name = os.fsdecode(latex_doc)
+        #     doc_path = os.path.join(self.doc_dir, doc_name)
+        #     self.extract_snippets_from_latex_document(doc_path)
 
-        max_width = max_height = 0
-        snippets_src = os.fsencode(self.snippet_dir)
-        for snip in os.listdir(snippets_src):
+        max_rows = max_cols = 0
+        largest_photo = None
+        for snip in os.listdir(self.snippet_dir):
             snip_name = os.fsdecode(snip)
-            snip_path = os.path.join(snippets_src, snip_name)
+            snip_path = os.path.join(self.snippet_dir, snip_name)
             image_path = self.generate_image_of_snippet(snip_path)
-            snip_width, snip_height = self.tightly_crop_image(image_path)
-            max_width = max(max_width, snip_width)
-            max_height = max(max_height, snip_height)
+            if os.path.exists(image_path):
+                snip_num_rows, snip_num_cols = self.tightly_crop_image(image_path)
+                max_rows = max(max_rows, snip_num_rows)
+                max_cols = max(max_cols, snip_num_cols)
+                largest_photo = image_path if snip_num_rows * snip_num_cols > max_rows * max_cols else largest_photo
+            # break
+        print(largest_photo)
 
-        image_src = os.fsencode(self.image_dir)
-        for image in os.listdir(image_src):
+        for image in os.listdir(self.image_dir):
             image_name = os.fsdecode(image)
-            image_path = os.path.join(image_src, image_name)
-            self.pad_image_for_consistent_top_left_start(image_path, max_width, max_height)
+            image_path = os.path.join(self.image_dir, image_name)
+            self.pad_image_for_consistent_top_left_start(image_path, max_rows, max_cols)
 
     def _normalize_latex_string(self, string):
         # TODO: actually implement normalization
@@ -55,7 +57,8 @@ class DataGenerator:
         snippet_path = os.path.join(self.snippet_dir, "sn_{}".format(self.snippet_counter))
         with open(snippet_path, 'w+') as snippet:
             snippet.write("\\documentstyle[12pt]{article}\n")
-            # TODO: include "\usepackage{amsmath}
+            snippet.write("\\usepackage{amsmath, amsthm, amssymb}\n")
+            snippet.write("\\pagestyle{empty}\n")
             snippet.write("\\begin{document}\n")
             for l in lines:
                 snippet.write("{}\n".format(self._normalize_latex_string(l)))
@@ -93,6 +96,8 @@ class DataGenerator:
                     if not building_block:
                         if re.search(begin_block, line):
                             building_block = True
+                        elif "\\" not in line or "$" not in line:  # skip the line if there's nothing interesting
+                            continue
                     if building_block:
                         match = re.search(entire_block, multi_line_builder)
                         if match:
@@ -117,14 +122,10 @@ class DataGenerator:
         :param snippet_name: name of the snippet latex document (PNG will have the same name)
         :return:
         '''
-        all_pages = Image(filename=pdf_path, resolution=self.img_res)
-        image_filename = os.path.join(self.image_dir, snippet_name, '.png')
-        for i, page in enumerate(all_pages.sequence):
-            with Image(page) as img:
-                img.format = 'png'
-                img.background_color = Color('white')
-                img.alpha_channel = 'remove'
-                img.save(filename=image_filename)
+        pages = convert_from_path(pdf_path, self.img_res)
+        image_filename = os.path.join(self.image_dir, snippet_name + '.jpg')
+        for page in pages:
+            page.save(image_filename, 'JPEG')
         return image_filename
 
     def generate_image_of_snippet(self, snippet_path):
@@ -139,13 +140,25 @@ class DataGenerator:
         '''
         snippet_file_name = os.path.basename(snippet_path)
         command = "pdflatex -interaction=batchmode -output-directory={} {}"
+        pdf_path = os.path.join(self.image_dir, snippet_file_name + ".pdf")
+        print("Generating: {}😎".format(pdf_path))
         os.system(command.format(self.image_dir, snippet_path))
-        pdf_path = os.path.join(self.image_dir, snippet_file_name, ".pdf")
         image_path = self._generate_image_from_pdf(pdf_path, snippet_file_name)
-        os.remove(os.path.join(self.image_dir, snippet_file_name, ".aux"))
-        os.remove(os.path.join(self.image_dir, snippet_file_name, ".log"))
-        os.remove(os.path.join(self.image_dir, snippet_file_name, ".tex"))
-        os.remove(pdf_path)
+
+        # we either want the snippet and the image or neither
+        if os.path.exists(image_path):
+            os.remove(pdf_path)
+        else:
+            os.remove(snippet_path)
+
+        aux_path = os.path.join(self.image_dir, snippet_file_name + ".aux")
+        if os.path.exists(aux_path):
+            os.remove(aux_path)
+
+        log_path = os.path.join(self.image_dir, snippet_file_name + ".log")
+        if os.path.exists(log_path):
+            os.remove(log_path)
+
         return image_path
 
     @staticmethod
@@ -164,11 +177,11 @@ class DataGenerator:
         top_bound, bottom_bound = min(text_rows), max(text_rows)
         tightly_cropped = gray_img[top_bound:bottom_bound, left_bound:right_bound]
         cv2.imwrite(image_path, tightly_cropped)
-        width = right_bound - left_bound
-        height = bottom_bound - top_bound
-        return width, height
+        num_cols = right_bound - left_bound
+        num_rows = bottom_bound - top_bound
+        return num_rows, num_cols
 
-    def pad_image_for_consistent_top_left_start(self, image_path, desired_width, desired_height):
+    def pad_image_for_consistent_top_left_start(self, image_path, desired_rows, desired_cols):
         '''
         Inserts the content of the image at @image_path on a white background
         of size @desired_height x @desired_width.
@@ -177,15 +190,15 @@ class DataGenerator:
         This image overwrites the existing image at @image_path
 
         :param image_path: the path of the file to be padded
-        :param desired_width: the desired width the new image BEFORE the margin is applied
-        :param desired_height: the desired height the new image BEFORE the margin is applied
+        :param desired_rows: the desired width the new image BEFORE the margin is applied
+        :param desired_cols: the desired height the new image BEFORE the margin is applied
         :param padding: the amount of extra padding the image should have
         :return:
         '''
         gray_img = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
-        img_width, img_height = gray_img.shape
-        padded_image = np.ones((desired_width + 2*self.img_padding, desired_height + 2*self.img_padding)) * 255
-        padded_image[self.img_padding:img_width+self.img_padding, self.img_padding:img_height+self.img_padding] = gray_img
+        img_rows, img_cols = gray_img.shape
+        padded_image = np.ones((desired_rows + 2 * self.img_padding, desired_cols + 2 * self.img_padding)) * 255
+        padded_image[self.img_padding:img_rows+self.img_padding, self.img_padding:img_cols+self.img_padding] = gray_img
         cv2.imwrite(image_path, padded_image)
 
 
