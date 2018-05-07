@@ -19,7 +19,12 @@ verbatim
 center
 flushleft
 flushright
+
 equation
+multiline
+align
+eqnarray
+IEEEeqnarray
 
 \item
 
@@ -363,6 +368,7 @@ $\sim$
 
 \overline
 \underline
+\underbar
 \sqrt
 \root
 \of
