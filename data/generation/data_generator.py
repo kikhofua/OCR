@@ -4,6 +4,9 @@ import numpy as np
 from queue import Queue
 from pdf2image import convert_from_path
 
+from data.generation.utils import \
+    bad_latex_tokens_regex, begin_block, begin_latex_document, end_latex_document, \
+    entire_block, math_block_regex, inline_math_regex
 
 class DataGenerator:
     def __init__(self, source, snippet_dest, image_dest, snippet_size, image_resolutation=150, image_padding=10):
@@ -41,14 +44,14 @@ class DataGenerator:
             image_path = os.path.join(self.image_dir, image_name)
             self.pad_image_for_consistent_top_left_start(image_path, max_rows, max_cols)
 
-    def _normalize_latex_string(self, string):
-        # TODO: actually implement normalization
+    def _sparsify_math_tokens(self, regex_group):
+        # TODO: finish this
         return string
 
     def create_normalized_snippet_from_lines(self, lines):
         '''
         Creates a well-formed snippet from @lines.
-        Snippets are normalized via @self._normalize_latex_string method and are saved to
+        Snippets are normalized via @self._remove_bad_tokens method and are saved to
         @self.snippet_dir.
 
         :param lines: a list of strings that represents the content of the snippet
@@ -61,23 +64,20 @@ class DataGenerator:
             snippet.write("\\pagestyle{empty}\n")
             snippet.write("\\begin{document}\n")
             for l in lines:
-                snippet.write("{}\n".format(self._normalize_latex_string(l)))
+                snippet.write("{}\n".format(re.sub(bad_latex_tokens_regex, "", l)))
             snippet.write("\\end{document}\n")
 
     def extract_snippets_from_latex_document(self, filepath):
         '''
         Creates snippets from the latex documents in @self.doc_dir by sliding a window
         through the lines of the @filepath document of @size self.snippet_size.
-        Snippets are normalized via @self._normalize_latex_string method and are saved to
+        Snippets are normalized via @self._remove_bad_tokens method and are saved to
         @self.snippet_dir.
 
         :param filepath: path to well formed latex document
         :return:
         '''
-        begin_latex_document = "\\begin{document}"
-        end_latex_document = "\\end{document}"
-        begin_block = re.compile(r'\\begin{(?P<block_name>[a-zA-Z0-9]+)}')
-        entire_block = re.compile(r'^\\begin{(?P<block>[a-zA-Z0-9]+)}.*\\end{(?P=block)}$', re.DOTALL)
+
         with open(filepath, 'r') as document:
             in_document_body = False
             lines_queue = Queue(maxsize=self.snippet_size)
@@ -94,8 +94,12 @@ class DataGenerator:
                     if end_latex_document in line:
                         break
                     if not building_block:
-                        if re.search(begin_block, line):
+                        matches_begin_block = re.search(begin_block, line)
+                        matches_inline_math = re.search(inline_math_regex, line)
+                        if matches_begin_block:
                             building_block = True
+                        elif matches_inline_math:
+                            line = self._sparsify_math_tokens(line)
                         elif "\\" not in line or "$" not in line:  # skip the line if there's nothing interesting
                             continue
                     if building_block:
@@ -104,6 +108,9 @@ class DataGenerator:
                             line = multi_line_builder
                             multi_line_builder = ""
                             building_block = False
+                            math_block = re.search(math_block_regex, line)
+                            if math_block:
+                                line = self._sparsify_math_tokens(line)
                         else:
                             multi_line_builder += "{}\n".format(line)
                             continue
@@ -202,9 +209,9 @@ class DataGenerator:
         cv2.imwrite(image_path, padded_image)
 
 
-source = "data/example"
-snippet_destination = "data/snippets"
-image_destination = "data/images"
+source = "data\\example\\"
+snippet_destination = "data\\snippets\\"
+image_destination = "data\\images\\"
 snippet_size = 4
 padding = 10
 resolution = 150
