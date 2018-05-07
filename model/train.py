@@ -4,23 +4,42 @@ import os
 import torch
 import torch.nn as nn
 from torch import optim
+import torch.utils.data
+import torchvision.datasets as dset
 
 import argparse
-import matplotlib.pyplot as plt
-import matplotlib.ticker as ticker
 from data_processing.data_loader import get_loader
 from model.encoder import *
 from model.decoder import *
 from torch.autograd import Variable
 from torch.nn.utils.rnn import pack_padded_sequence
-import time
-import math
 
 attention_hidden = None
 lstm_hidden = None
 
 
+opt = parser.parse_args()
+print(opt)
+
+if opt.image_dir in ['img_snippets']:
+    # folder dataset
+    img_dataset = dset.ImageFolder(root=opt.img_dir)
+
+assert img_dataset
+
+dataloader = torch.utils.data.DataLoader(dataset, batch_size=opt.batchSize,
+                                         shuffle=True, num_workers=int(opt.workers))
+
+device = torch.device("cuda:0" if opt.cuda else "cpu")
+ngpu = int(opt.ngpu)
+nz = int(opt.nz)
+ngf = int(opt.ngf)
+ndf = int(opt.ndf)
+nc = 3
+
+
 def to_var(x, volatile=False):
+    """Converts an object (image or tensor or list) to a Pytorch Variable"""
     if torch.cuda.is_available():
         x = x.cuda()
     return Variable(x, volatile=volatile)

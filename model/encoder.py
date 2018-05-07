@@ -5,8 +5,8 @@ import torch.nn as nn
 class EncoderCNN(nn.Module):
     def __init__(self, ngpu):
         super(EncoderCNN, self).__init__()
-        self.H = 0  # input image height
-        self.W = 0  # input image weight
+        self.H = 315  # input image height
+        self.W = 835  # input image weight
 
         self.num_convolutions = 5  # number of convolutions, maxpool sequences
         self.average_pool_kernel = (1, 1)
@@ -59,11 +59,11 @@ class EncoderCNN(nn.Module):
             nn.AvgPool3d(self.average_pool_kernel, self.average_pool_stride)
         )
 
-    def forward(self, image):
-        if image.is_cuda and self.ngpu > 1:
-            output = nn.parallel.data_parallel(self.main, image, range(self.gpu))
+    def forward(self, input):
+        if input.is_cuda and self.ngpu > 1:
+            output = nn.parallel.data_parallel(self.main, input, range(self.gpu))
         else:
-            output = self.main(image)
+            output = self.main(input)
         return output
 
 
