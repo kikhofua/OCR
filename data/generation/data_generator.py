@@ -6,7 +6,11 @@ from pdf2image import convert_from_path
 
 from data.generation.utils import \
     bad_latex_tokens_regex, begin_block, begin_latex_document, end_latex_document, \
-    entire_block, math_block_regex, inline_math_regex
+    entire_block, math_block_regex, inline_math_regex, valid_math_token
+
+
+# TODO: need to make sure to wrap ^ and _ in {}s
+# TODO: the \s are getting eatin in the \token things
 
 class DataGenerator:
     def __init__(self, source, snippet_dest, image_dest, snippet_size, image_resolutation=150, image_padding=10):
@@ -19,11 +23,11 @@ class DataGenerator:
         self.img_padding = image_padding
 
     def generate(self):
-        # self.snippet_counter = 0
-        # for latex_doc in os.listdir(self.doc_dir):
-        #     doc_name = os.fsdecode(latex_doc)
-        #     doc_path = os.path.join(self.doc_dir, doc_name)
-        #     self.extract_snippets_from_latex_document(doc_path)
+        self.snippet_counter = 0
+        for latex_doc in os.listdir(self.doc_dir):
+            doc_name = os.fsdecode(latex_doc)
+            doc_path = os.path.join(self.doc_dir, doc_name)
+            self.extract_snippets_from_latex_document(doc_path)
 
         max_rows = max_cols = 0
         largest_photo = None
@@ -44,9 +48,22 @@ class DataGenerator:
             image_path = os.path.join(self.image_dir, image_name)
             self.pad_image_for_consistent_top_left_start(image_path, max_rows, max_cols)
 
-    def _sparsify_math_tokens(self, regex_group):
-        # TODO: finish this
-        return string
+    def _sparsify_inline_maths(self, line):
+        dollar_sign_indices = [0] + [i for i, c in enumerate(line) if c == "$"] + [len(line)]
+        sparsified_line = line[:dollar_sign_indices[1]]
+        for i in range(1, len(dollar_sign_indices) - 2):
+            start = dollar_sign_indices[i]
+            end = dollar_sign_indices[i+1]
+            if i % 2 == 1:
+                sparsified_line += self._sparsify_math_blocks(line[start:end])
+            else:
+                sparsified_line += line[start: end]
+        sparsified_line += line[dollar_sign_indices[-2]:]
+        return sparsified_line
+
+    def _sparsify_math_blocks(self, math_text):
+        tokens = re.findall(valid_math_token, math_text) + [""]
+        return " ".join(tokens)
 
     def create_normalized_snippet_from_lines(self, lines):
         '''
@@ -63,8 +80,12 @@ class DataGenerator:
             snippet.write("\\usepackage{amsmath, amsthm, amssymb}\n")
             snippet.write("\\pagestyle{empty}\n")
             snippet.write("\\begin{document}\n")
+            content = []
             for l in lines:
-                snippet.write("{}\n".format(re.sub(bad_latex_tokens_regex, "", l)))
+                no_bad_tokens = re.sub(bad_latex_tokens_regex, "", l)
+                content.append(no_bad_tokens)
+            concat_cont = " ".join(content)
+            snippet.write("{}\n".format(concat_cont))
             snippet.write("\\end{document}\n")
 
     def extract_snippets_from_latex_document(self, filepath):
@@ -99,7 +120,7 @@ class DataGenerator:
                         if matches_begin_block:
                             building_block = True
                         elif matches_inline_math:
-                            line = self._sparsify_math_tokens(line)
+                            line = self._sparsify_inline_maths(line)
                         elif "\\" not in line or "$" not in line:  # skip the line if there's nothing interesting
                             continue
                     if building_block:
@@ -110,7 +131,7 @@ class DataGenerator:
                             building_block = False
                             math_block = re.search(math_block_regex, line)
                             if math_block:
-                                line = self._sparsify_math_tokens(line)
+                                line = self._sparsify_math_blocks(line)
                         else:
                             multi_line_builder += "{}\n".format(line)
                             continue
