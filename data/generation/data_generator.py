@@ -29,24 +29,24 @@ class DataGenerator:
             doc_path = os.path.join(self.doc_dir, doc_name)
             self.extract_snippets_from_latex_document(doc_path)
 
-        max_rows = max_cols = 0
-        largest_photo = None
-        for snip in os.listdir(self.snippet_dir):
-            snip_name = os.fsdecode(snip)
-            snip_path = os.path.join(self.snippet_dir, snip_name)
-            image_path = self.generate_image_of_snippet(snip_path)
-            if os.path.exists(image_path):
-                snip_num_rows, snip_num_cols = self.tightly_crop_image(image_path)
-                max_rows = max(max_rows, snip_num_rows)
-                max_cols = max(max_cols, snip_num_cols)
-                largest_photo = image_path if snip_num_rows * snip_num_cols > max_rows * max_cols else largest_photo
-            # break
-        print(largest_photo)
-
-        for image in os.listdir(self.image_dir):
-            image_name = os.fsdecode(image)
-            image_path = os.path.join(self.image_dir, image_name)
-            self.pad_image_for_consistent_top_left_start(image_path, max_rows, max_cols)
+        # max_rows = max_cols = 0
+        # largest_photo = None
+        # for snip in os.listdir(self.snippet_dir):
+        #     snip_name = os.fsdecode(snip)
+        #     snip_path = os.path.join(self.snippet_dir, snip_name)
+        #     image_path = self.generate_image_of_snippet(snip_path)
+        #     if os.path.exists(image_path):
+        #         snip_num_rows, snip_num_cols = self.tightly_crop_image(image_path)
+        #         max_rows = max(max_rows, snip_num_rows)
+        #         max_cols = max(max_cols, snip_num_cols)
+        #         largest_photo = image_path if snip_num_rows * snip_num_cols > max_rows * max_cols else largest_photo
+        #     # break
+        # print(largest_photo)
+        #
+        # for image in os.listdir(self.image_dir):
+        #     image_name = os.fsdecode(image)
+        #     image_path = os.path.join(self.image_dir, image_name)
+        #     self.pad_image_for_consistent_top_left_start(image_path, max_rows, max_cols)
 
     def _sparsify_inline_maths(self, line):
         dollar_sign_indices = [0] + [i for i, c in enumerate(line) if c == "$"] + [len(line)]
@@ -65,7 +65,7 @@ class DataGenerator:
         tokens = re.findall(valid_math_token, math_text) + [""]
         return " ".join(tokens)
 
-    def create_normalized_snippet_from_lines(self, lines):
+    def create_snippet_from_lines(self, lines):
         '''
         Creates a well-formed snippet from @lines.
         Snippets are normalized via @self._remove_bad_tokens method and are saved to
@@ -80,11 +80,7 @@ class DataGenerator:
             snippet.write("\\usepackage{amsmath, amsthm, amssymb}\n")
             snippet.write("\\pagestyle{empty}\n")
             snippet.write("\\begin{document}\n")
-            content = []
-            for l in lines:
-                no_bad_tokens = re.sub(bad_latex_tokens_regex, "", l)
-                content.append(no_bad_tokens)
-            concat_cont = " ".join(content)
+            concat_cont = " ".join(lines)
             snippet.write("{}\n".format(concat_cont))
             snippet.write("\\end{document}\n")
 
@@ -110,6 +106,7 @@ class DataGenerator:
                         in_document_body = True
                 else:
                     line = line.strip()
+                    line = re.sub(bad_latex_tokens_regex, "", line)
                     if not line or line.startswith("%"):
                         continue
                     if end_latex_document in line:
@@ -124,20 +121,22 @@ class DataGenerator:
                         elif "\\" not in line or "$" not in line:  # skip the line if there's nothing interesting
                             continue
                     if building_block:
-                        match = re.search(entire_block, multi_line_builder)
+                        new_block = multi_line_builder + line
+                        match = re.search(entire_block, new_block)
                         if match:
-                            line = multi_line_builder
                             multi_line_builder = ""
                             building_block = False
-                            math_block = re.search(math_block_regex, line)
+                            math_block = re.search(math_block_regex, new_block)
                             if math_block:
-                                line = self._sparsify_math_blocks(line)
+                                line = self._sparsify_math_blocks(new_block)
+                            else:
+                                line = new_block
                         else:
                             multi_line_builder += "{}\n".format(line)
                             continue
                     lines_queue.put(line)
                     if lines_queue.full():
-                        self.create_normalized_snippet_from_lines(list(lines_queue.queue))
+                        self.create_snippet_from_lines(list(lines_queue.queue))
                         self.snippet_counter += 1
                         lines_queue.get()
 

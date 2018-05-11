@@ -8,9 +8,17 @@ begin_latex_document = "\\begin{document}"
 
 end_latex_document = "\\end{document}"
 
-begin_block = re.compile(r'\\begin{(?P<block_name>[a-zA-Z0-9]+)}')
+begin_block = re.compile(r"""
+    \\begin{(?P<block_name>[a-zA-Z0-9]+)}
+    | \$\$
+""", re.VERBOSE)
 
-entire_block = re.compile(r'^\\begin{(?P<block>[a-zA-Z0-9]+)}.*\\end{(?P=block)}$', re.DOTALL)
+entire_block = re.compile(r"""
+    ^
+    \\begin{(?P<block>[a-zA-Z0-9]+)}.*\\end{(?P=block)}
+    | \$\$.*\$\$
+    $
+""", re.DOTALL | re.VERBOSE)
 
 bad_latex_tokens_regex = re.compile(r"""
     \\([a-zA-Z0-9])*cite([a-zA-Z0-9])*{.*}
@@ -432,6 +440,7 @@ valid_math_token = re.compile(r"""
     | \\pi
     | \\nu
     | \\Xi
+    | \$\$
     | \\&
     | \\%
     | \\_
@@ -449,5 +458,7 @@ valid_math_token = re.compile(r"""
     | \\@
     | \\{
     | \\}
+    | \\,
+    | \\ #
     | [0-9a-zA-Z!"#%&'()*+,\-./:;?$@[\\\]^_`{|}~=]   # non-latex tokens (ascii)
 """, re.VERBOSE)
