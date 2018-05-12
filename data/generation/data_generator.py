@@ -6,7 +6,7 @@ from pdf2image import convert_from_path
 
 from data.generation.utils import \
     bad_latex_tokens_regex, begin_block, begin_latex_document, end_latex_document, \
-    entire_block, math_block_regex, inline_math_regex, valid_math_token
+    entire_block, math_block_regex, inline_math_regex, valid_math_token, bibliography_regex
 
 
 # TODO: need to make sure to wrap ^ and _ in {}s
@@ -126,8 +126,11 @@ class DataGenerator:
                             multi_line_builder = ""
                             building_block = False
                             math_block = re.search(math_block_regex, new_block)
+                            bibliography = re.search(bibliography_regex, new_block)
                             if math_block:
                                 line = self._sparsify_math_blocks(new_block)
+                            elif bibliography:
+                                line = ""
                             else:
                                 line = new_block
                         else:

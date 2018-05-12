@@ -44,6 +44,12 @@ math_block_regex = re.compile(r"""
     (\\end{(equation|multiline|align|eqnarray|IEEEeqnarray|cases)} | \$\$ | \$)         # ending math mode
 """, re.VERBOSE | re.DOTALL)
 
+bibliography_regex = re.compile(r"""
+    \\begin{thebibliography}
+    .*
+    \\end{thebibliography}
+""", re.VERBOSE | re.DOTALL)
+
 valid_math_token = re.compile(r"""
     \\longleftrightarrow
     | \\Longleftrightarrow
