@@ -10,7 +10,6 @@ from data.generation.utils import \
 
 
 # TODO: need to make sure to wrap ^ and _ in {}s
-# TODO: the \s are getting eatin in the \token things
 
 class DataGenerator:
     def __init__(self, source, snippet_dest, image_dest, snippet_size, image_resolutation=150, image_padding=10):
@@ -29,24 +28,24 @@ class DataGenerator:
             doc_path = os.path.join(self.doc_dir, doc_name)
             self.extract_snippets_from_latex_document(doc_path)
 
-        # max_rows = max_cols = 0
-        # largest_photo = None
-        # for snip in os.listdir(self.snippet_dir):
-        #     snip_name = os.fsdecode(snip)
-        #     snip_path = os.path.join(self.snippet_dir, snip_name)
-        #     image_path = self.generate_image_of_snippet(snip_path)
-        #     if os.path.exists(image_path):
-        #         snip_num_rows, snip_num_cols = self.tightly_crop_image(image_path)
-        #         max_rows = max(max_rows, snip_num_rows)
-        #         max_cols = max(max_cols, snip_num_cols)
-        #         largest_photo = image_path if snip_num_rows * snip_num_cols > max_rows * max_cols else largest_photo
-        #     # break
-        # print(largest_photo)
-        #
-        # for image in os.listdir(self.image_dir):
-        #     image_name = os.fsdecode(image)
-        #     image_path = os.path.join(self.image_dir, image_name)
-        #     self.pad_image_for_consistent_top_left_start(image_path, max_rows, max_cols)
+        max_rows = max_cols = 0
+        largest_photo = None
+        for snip in os.listdir(self.snippet_dir):
+            snip_name = os.fsdecode(snip)
+            snip_path = os.path.join(self.snippet_dir, snip_name)
+            image_path = self.generate_image_of_snippet(snip_path)
+            if os.path.exists(image_path):
+                snip_num_rows, snip_num_cols = self.tightly_crop_image(image_path)
+                max_rows = max(max_rows, snip_num_rows)
+                max_cols = max(max_cols, snip_num_cols)
+                largest_photo = image_path if snip_num_rows * snip_num_cols > max_rows * max_cols else largest_photo
+            # break
+        print(largest_photo)
+
+        for image in os.listdir(self.image_dir):
+            image_name = os.fsdecode(image)
+            image_path = os.path.join(self.image_dir, image_name)
+            self.pad_image_for_consistent_top_left_start(image_path, max_rows, max_cols)
 
     def _sparsify_inline_maths(self, line):
         dollar_sign_indices = [0] + [i for i, c in enumerate(line) if c == "$"] + [len(line)]
@@ -55,14 +54,14 @@ class DataGenerator:
             start = dollar_sign_indices[i]
             end = dollar_sign_indices[i+1]
             if i % 2 == 1:
-                sparsified_line += self._sparsify_math_blocks(line[start:end])
+                sparsified_line += self._sparsify_math_blocks(line[start:end+1])
             else:
-                sparsified_line += line[start: end]
-        sparsified_line += line[dollar_sign_indices[-2]:]
+                sparsified_line += line[start+1: end]
+        sparsified_line += line[dollar_sign_indices[-2]+1:]
         return sparsified_line
 
     def _sparsify_math_blocks(self, math_text):
-        tokens = re.findall(valid_math_token, math_text) + [""]
+        tokens = re.findall(valid_math_token, math_text)
         return " ".join(tokens)
 
     def create_snippet_from_lines(self, lines):

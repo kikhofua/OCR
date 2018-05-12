@@ -14,10 +14,8 @@ begin_block = re.compile(r"""
 """, re.VERBOSE)
 
 entire_block = re.compile(r"""
-    ^
-    \\begin{(?P<block>[a-zA-Z0-9]+)}.*\\end{(?P=block)}
+    ^\\begin{(?P<block>[a-zA-Z0-9]+)}.*\\end{(?P=block)}$
     | \$\$.*\$\$
-    $
 """, re.DOTALL | re.VERBOSE)
 
 bad_latex_tokens_regex = re.compile(r"""
@@ -41,11 +39,9 @@ inline_math_regex = re.compile(r"""
 """, re.VERBOSE | re.DOTALL)
 
 math_block_regex = re.compile(r"""
-    ^   # start of string
-    (\\begin{(equation|multiline|align|eqnarray|IEEEeqnarray)} | \$\$ | \$)       # starting math mode
+    (\\begin{(equation|multiline|align|eqnarray|IEEEeqnarray|cases)} | \$\$ | \$)       # starting math mode
     (?P<math_content>.*)  # the content of math mode
-    (\\end{(equation|multiline|align|eqnarray|IEEEeqnarray)} | \$\$ | \$)         # ending math mode
-    $   # end of string
+    (\\end{(equation|multiline|align|eqnarray|IEEEeqnarray|cases)} | \$\$ | \$)         # ending math mode
 """, re.VERBOSE | re.DOTALL)
 
 valid_math_token = re.compile(r"""
@@ -73,7 +69,8 @@ valid_math_token = re.compile(r"""
     | \\triangleleft
     | \\displaystyle
     | \\displaylines
-    | IEEEeqnarray
+    | \\begin{IEEEeqnarray}
+    | \\end{IEEEeqnarray}
     | \\raggedright
     | \\textgreater
     | \\diamondsuit
@@ -81,7 +78,8 @@ valid_math_token = re.compile(r"""
     | \\Updownarrow
     | \\scriptstyle
     | \\subsection
-    | description
+    | \\begin{description}
+    | \\end{description}
     | \\textnormal
     | \\normalfont
     | \\scriptsize
@@ -98,7 +96,12 @@ valid_math_token = re.compile(r"""
     | \\legalignno
     | \\varepsilon
     | \\paragraph
-    | flushright
+    | \\begin{flushright}
+    | \\end{flushright}
+    | \\begin{array}
+    | \\end{array}
+    | \\begin{cases}
+    | \\end{cases}
     | \\centering
     | \\backslash
     | \\heartsuit
@@ -115,10 +118,14 @@ valid_math_token = re.compile(r"""
     | \\rightskip
     | \\hangafter
     | \\eqalignno
-    | quotation
-    | enumerate
-    | flushleft
-    | multiline
+    | \\begin{quotation}
+    | \\end{quotation}
+    | \\begin{enumerate}
+    | \\end{enumerate}
+    | \\begin{flushleft}
+    | \\end{flushleft}
+    | \\begin{multiline}
+    | \\end{multiline}
     | \\textless
     | \\varsigma
     | \\emptyset
@@ -141,9 +148,12 @@ valid_math_token = re.compile(r"""
     | \\vartheta
     | \\chapter
     | \\section
-    | verbatim
-    | equation
-    | eqnarray
+    | \\begin{verbatim}
+    | \\end{verbatim}
+    | \\begin{equation}
+    | \\end{equation}
+    | \\begin{eqnarray}
+    | \\end{eqnarray}
     | \\textbar
     | \$\\sim\$
     | \\partial
@@ -164,8 +174,10 @@ valid_math_token = re.compile(r"""
     | \\epsilon
     | \\upsilon
     | \\Upsilon
-    | comment
-    | itemize
+    | \\begin{comment}
+    | \\end{comment}
+    | \\begin{itemize}
+    | \\end{itemize}
     | \\textrm
     | \\textsf
     | \\texttt
@@ -216,8 +228,8 @@ valid_math_token = re.compile(r"""
     | \\indent
     | \\lambda
     | \\Lambda
-    | \\begin
-    | center
+    | \\begin{center}
+    | \\end{center}
     | \\small
     | \\large
     | \\Large
@@ -278,9 +290,12 @@ valid_math_token = re.compile(r"""
     | \\Delta
     | \\Omega
     | \\part
-    | quote
-    | verse
-    | align
+    | \\begin{quote}
+    | \\end{quote}
+    | \\begin{verse}
+    | \\end{verse}
+    | \\begin{align}
+    | \\end{align}
     | \\item
     | \\emph
     | \\tiny
@@ -329,7 +344,6 @@ valid_math_token = re.compile(r"""
     | \\circ
     | \\beta
     | \\iota
-    | \\end
     | \\~{}
     | \\c c
     | \\d o
@@ -460,5 +474,5 @@ valid_math_token = re.compile(r"""
     | \\}
     | \\,
     | \\ #
-    | [0-9a-zA-Z!"#%&'()*+,\-./:;?$@[\\\]^_`{|}~=]   # non-latex tokens (ascii)
+    | [0-9a-zA-Z!"#%&'()<>*+,\-./:;?$@[\\\]^_`{|}~=]   # non-latex tokens (ascii)
 """, re.VERBOSE)
