@@ -1,0 +1,9 @@
+\documentstyle[12pt]{article}
+\usepackage{amsmath, amsthm, amssymb}
+\pagestyle{empty}
+\begin{document}
+physical space $  D=4 $.The vacuum energy density is def\/ined as a
+energy density are  subtracted from $ \varepsilon_{vac} $ in eq. (\ref{ev}).
+by $ \varepsilon^n_{vac}$.
+proportional to the  ${\beta}$-functon and the f\/ield strength
+\end{document}

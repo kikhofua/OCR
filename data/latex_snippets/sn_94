@@ -1,0 +1,16 @@
+\documentstyle[12pt]{article}
+\usepackage{amsmath, amsthm, amssymb}
+\pagestyle{empty}
+\begin{document}
+proportional to the  ${\beta}$-functon and the f\/ield strength
+only $g^2(F_{\mu\nu}^a)^2 $. Therefore only this part $ \varepsilon^n_{vac}$
+condensate of $ g^2(F^a_{\mu\nu})^2 $. Notice that  this method seems to
+\begin{equation}
+\label{lag}
+L=-\frac{1}{4}\left(F^a_{\mu\nu}\right)^2-\frac{1}{2\alpha}
+\left(\partial_{\mu}A^a_{\mu}\right)^2-\frac{1}{4}
+\left(Z_3-1\right)
+\left(\partial_{\mu}A^a_{\nu}-\partial_{\nu}A^a_{\mu}\right)^2.
+\end{equation}
+
+\end{document}

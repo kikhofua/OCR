@@ -1,0 +1,13 @@
+\documentstyle[12pt]{article}
+\usepackage{amsmath, amsthm, amssymb}
+\pagestyle{empty}
+\begin{document}
+that the current $ J_k $ is def\/inded as
+\begin{equation}
+\label{gj}
+J_k=U\partial_kU^{-1},
+\end{equation}
+
+therefore globally the f\/ields $ J_k $ are  not a pure gauge.
+We recall that the integral $ \oint dz_i \,\hat J_i $ taken along a closed
+\end{document}

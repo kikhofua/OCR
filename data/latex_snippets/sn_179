@@ -1,0 +1,14 @@
+\documentstyle[12pt]{article}
+\usepackage{amsmath, amsthm, amssymb}
+\pagestyle{empty}
+\begin{document}
+General vector $\mid \Psi >$ of the total Fock space is linear combination of
+\begin{eqnarray}\label{4}
+\mid \varphi >=\prod^{\infty}_{m,n=1}\prod^{D-1}_{\mu_m,\nu_n=0}
+(\alpha_{-m}^{\mu_m})^{s_{m,\mu_m}}(\bar\alpha_{-n}^{\nu_n})^{t_{n,\nu_n}}
+\mid 0, p >,
+\end{eqnarray}
+
+constraints of the classical theory $(\partial_\tau x^\mu \pm
+\partial_\sigma x^\mu)^2=0$
+\end{document}

@@ -1,0 +1,9 @@
+\documentstyle[12pt]{article}
+\usepackage{amsmath, amsthm, amssymb}
+\pagestyle{empty}
+\begin{document}
+by $ \varepsilon^n_{vac}$.
+proportional to the  ${\beta}$-functon and the f\/ield strength
+only $g^2(F_{\mu\nu}^a)^2 $. Therefore only this part $ \varepsilon^n_{vac}$
+condensate of $ g^2(F^a_{\mu\nu})^2 $. Notice that  this method seems to
+\end{document}

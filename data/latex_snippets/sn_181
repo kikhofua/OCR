@@ -1,0 +1,18 @@
+\documentstyle[12pt]{article}
+\usepackage{amsmath, amsthm, amssymb}
+\pagestyle{empty}
+\begin{document}
+constraints of the classical theory $(\partial_\tau x^\mu \pm
+\partial_\sigma x^\mu)^2=0$
+\begin{eqnarray}\label{5}
+L_m=\frac 12\sum_{\forall k}\alpha^\mu_{m-k}\alpha^\mu_k, \quad
+\bar L_m=\frac 12\sum_{\forall k}\bar\alpha^\mu_{m-k}\bar\alpha^\mu_k, \quad
+m\ne 0,
+\end{eqnarray}
+
+\begin{eqnarray}\label{7}
+N=\sum_1^{\infty}\alpha^\mu_{-k}\alpha^\mu_k, \quad
+\bar N=\sum_1^{\infty}\bar\alpha^\mu_{-k}\bar\alpha^\mu_k.
+\end{eqnarray}
+
+\end{document}

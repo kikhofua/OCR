@@ -1,105 +1,94 @@
 import torch
-import torchvision.transforms as transforms
-import torch.utils.data as data
-import os
-import pickle
-import numpy as np
-import nltk
+from torch.utils.data import Dataset
+from torchvision import datasets
+import os, os.path
 from PIL import Image
-from build_vocab import Vocabulary
-from pycocotools.coco import COCO
+from torchvision.transforms import ToTensor
 
 
-class CocoDataset(data.Dataset):
-    """COCO Custom Dataset compatible with torch.utils.data.DataLoader."""
-
-    def __init__(self, root, json, vocab, transform=None):
-        """Set the path for images, captions and vocabulary wrapper.
-
-        Args:
-            root: image directory.
-            json: coco annotation file path.
-            vocab: vocabulary wrapper.
-            transform: image transformer.
-        """
-        self.root = root
-        self.coco = COCO(json)
-        self.ids = list(self.coco.anns.keys())
-        self.vocab = vocab
-        self.transform = transform
-
-    def __getitem__(self, index):
-        """Returns one data pair (image and caption)."""
-        coco = self.coco
-        vocab = self.vocab
-        ann_id = self.ids[index]
-        caption = coco.anns[ann_id]['caption']
-        img_id = coco.anns[ann_id]['image_id']
-        path = coco.loadImgs(img_id)[0]['file_name']
-
-        image = Image.open(os.path.join(self.root, path)).convert('RGB')
-        if self.transform is not None:
-            image = self.transform(image)
-
-        # Convert caption (string) to word ids.
-        tokens = nltk.tokenize.word_tokenize(str(caption).lower())
-        caption = []
-        caption.append(vocab('<start>'))
-        caption.extend([vocab(token) for token in tokens])
-        caption.append(vocab('<end>'))
-        target = torch.Tensor(caption)
-        return image, target
+class ImageSnippetDataset(Dataset):
+    """Reutrns (image, snippet_vector) pairs"""
+    def __init__(self, latex_path, imgs_path):
+        self.latex_path = latex_path
+        self.imgs_path = imgs_path
+        self.v = Vocabulary()
+        self.length = 0
 
     def __len__(self):
-        return len(self.ids)
+        return len([name for name in os.listdir(self.latex_path) if os.path.isfile(os.path.join(self.latex_path, name))])
+
+    def __getitem__(self, index):
+        """Returns one pair of  (image, snippet_vector) pair"""
+        # Converts image to tensor
+        img_filename = os.listdir(self.imgs_path)[index]
+        img_tensor = to_tensor(img_filename, self.imgs_path)
+
+        latex_filename = os.listdir(self.latex_path)[index]
+        latex_file_path = self.latex_path + str(latex_filename)
+
+        f = open(latex_file_path, "r")
+        latex_index_vector = [self.v.add_word("<SOS>")]
+
+        # Converts latex_file to a vector of token indices
+        for line in f:
+            if line == "\\begin{document}":
+                pass
+            elif len(line) > 0:
+                latex_index_vector.extend([self.v.add_word(w) for w in line])
+                latex_index_vector.append(self.v.add_word("<EOS>"))
+
+        self.length = len(latex_index_vector)
+        target = torch.Tensor(latex_index_vector)
+        if torch.cuda.is_available():
+            target = target.cuda()
+
+        return img_tensor, target, self.length
 
 
-def collate_fn(data):
-    """Creates mini-batch tensors from the list of tuples (image, caption).
+def to_tensor(x, path):
+    """Converts an object (image or tensor or list) to a Pytorch Variable"""
+    path_to_x = path + str(x)
+    img = Image.open(path_to_x)
+    img = ToTensor()(img).unsqueeze(0)
 
-    We should build custom collate_fn rather than using default collate_fn,
-    because merging caption (including padding) is not supported in default.
-    Args:
-        data: list of tuple (image, caption).
-            - image: torch tensor of shape (3, 256, 256).
-            - caption: torch tensor of shape (?); variable length.
-    Returns:
-        images: torch tensor of shape (batch_size, 3, 256, 256).
-        targets: torch tensor of shape (batch_size, padded_length).
-        lengths: list; valid length for each padded caption.
-    """
-    # Sort a data list by caption length (descending order).
-    data.sort(key=lambda x: len(x[1]), reverse=True)
-    images, captions = zip(*data)
-
-    # Merge images (from tuple of 3D tensor to 4D tensor).
-    images = torch.stack(images, 0)
-
-    # Merge captions (from tuple of 1D tensor to 2D tensor).
-    lengths = [len(cap) for cap in captions]
-    targets = torch.zeros(len(captions), max(lengths)).long()
-    for i, cap in enumerate(captions):
-        end = lengths[i]
-        targets[i, :end] = cap[:end]
-    return images, targets, lengths
+    if torch.cuda.is_available():
+        img = img.cuda()
+    return img
 
 
-def get_loader(root, json, vocab, transform, batch_size, shuffle, num_workers):
-    """Returns torch.utils.data.DataLoader for custom coco dataset."""
-    # COCO caption dataset
-    coco = CocoDataset(root=root,
-                       json=json,
-                       vocab=vocab,
-                       transform=transform)
+class Vocabulary:
+    def __init__(self):
+        self.word2idx = {"<SOS>":0, "<EOS>":1}
+        self.idx2word = {0: "<SOS>", 1: "<EOS>"}
+        self.idx = 2
 
-    # Data loader for COCO dataset
-    # This will return (images, captions, lengths) for every iteration.
-    # images: tensor of shape (batch_size, 3, 224, 224).
-    # captions: tensor of shape (batch_size, padded_length).
-    # lengths: list indicating valid length for each caption. length is (batch_size).
-    data_loader = torch.utils.data.DataLoader(dataset=coco,
-                                              batch_size=batch_size,
-                                              shuffle=shuffle,
-                                              num_workers=num_workers,
-                                              collate_fn=collate_fn)
-    return data_loader
+    def add_word(self, word):
+        if word not in self.word2idx:
+            self.word2idx[word] = self.idx
+            word_idx = self.idx
+            self.idx2word[self.idx] = word
+            self.idx += 1
+        else:
+            word_idx = self.word2idx[word]
+        return word_idx
+
+    def __call__(self, word):
+        if word not in self.word2idx:
+            return self.word2idx['<unk>']
+        return self.word2idx[word]
+
+    def __len__(self):
+        return len(self.word2idx)
+
+
+if __name__ == '__main__':
+    latex_path = "/Users/Kamoya/OCR/data/latex_snippets/"
+    imgs_path = "/Users/Kamoya/OCR/data/img_snippets/"
+
+    data = ImageSnippetDataset(latex_path, imgs_path)
+    print("Getting size of directory...")
+    print(data.__len__())
+
+    print("Getting a particular item...")
+    print(data.__getitem__(10))
+

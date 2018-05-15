@@ -1,0 +1,15 @@
+\documentstyle[12pt]{article}
+\usepackage{amsmath, amsthm, amssymb}
+\pagestyle{empty}
+\begin{document}
+quantities $L_0, \bar L_0$ involve products of the non-commuting operators.
+\begin{eqnarray}\label{9}
+L_m\mid ph >=\bar L_m\mid ph >=0, \quad  m>0,
+\end{eqnarray}
+
+\begin{eqnarray}\label{10}
+(L_0-a)\mid ph >=(\bar L_0-\bar a)\mid ph >=0.
+\end{eqnarray}
+
+the operator $P^\mu$ is identified with the Poincare shift generator. From
+\end{document}

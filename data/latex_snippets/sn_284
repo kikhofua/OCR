@@ -1,0 +1,9 @@
+\documentstyle[12pt]{article}
+\usepackage{amsmath, amsthm, amssymb}
+\pagestyle{empty}
+\begin{document}
+in the process. The standard choice is $b=2$, $\bar b=0$, which gives the
+desired result $[J^{i-}, J^{j-}]=0$ as a consequence of Eq.(\ref{43}). Other
+for the operators $\alpha^i_m$ and the Weyl prescription for
+$\bar\alpha^i_m$. Then the anomaly terms in the left sector are absent, and
+\end{document}

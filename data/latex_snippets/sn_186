@@ -1,0 +1,15 @@
+\documentstyle[12pt]{article}
+\usepackage{amsmath, amsthm, amssymb}
+\pagestyle{empty}
+\begin{document}
+\begin{eqnarray}\label{9}
+L_m\mid ph >=\bar L_m\mid ph >=0, \quad  m>0,
+\end{eqnarray}
+
+\begin{eqnarray}\label{10}
+(L_0-a)\mid ph >=(\bar L_0-\bar a)\mid ph >=0.
+\end{eqnarray}
+
+the operator $P^\mu$ is identified with the Poincare shift generator. From
+subspace gives mass of the state: $M^2=-P^2$. Then Eq.(\ref{10}) can be
+\end{document}

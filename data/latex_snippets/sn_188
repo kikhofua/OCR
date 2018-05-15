@@ -1,0 +1,12 @@
+\documentstyle[12pt]{article}
+\usepackage{amsmath, amsthm, amssymb}
+\pagestyle{empty}
+\begin{document}
+the operator $P^\mu$ is identified with the Poincare shift generator. From
+subspace gives mass of the state: $M^2=-P^2$. Then Eq.(\ref{10}) can be
+\begin{eqnarray}\label{11}
+M^2=4\pi T(N+\bar N-(a+\bar a)),
+\end{eqnarray}
+
+The standard choice of the constants is, from the beginning: $a=\bar a$.
+\end{document}
