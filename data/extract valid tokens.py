@@ -1,56 +1,13 @@
-# TODO: I need to create a regex that searches for latex tokens to ignore
-# TODO: I need to create { token => id } and [token,...]
+import os, re
 
-import re
+script_dir = os.path.dirname(__file__) #<-- absolute dir the script is in
+rel_dir = "expanded_latex"
+abs_file_dir = os.path.join(script_dir, rel_dir)
 
-
-begin_latex_document = "\\begin{document}"
-
-end_latex_document = "\\end{document}"
-
-begin_block = re.compile(r"""
-    \\begin{(?P<block_name>[a-zA-Z0-9]+)}
-    | \$\$
-""", re.VERBOSE)
-
-entire_block = re.compile(r"""
-    ^\\begin{(?P<block>[a-zA-Z0-9]+)}.*\\end{(?P=block)}$
-    | \$\$.*\$\$
-""", re.DOTALL | re.VERBOSE)
-
-bad_latex_tokens_regex = re.compile(r"""
-    \\([a-zA-Z0-9])*cite([a-zA-Z0-9])*{.*}
-    | \\footnote(\[.*\])?{.*}
-    | \\\\\*
-    | \\kill
-    | \\pagebreak
-    | \\today
-    | \\[hv]space{[-.a-zA-Z0-9]*}
-    | \\rule{[^{]*}{[^{]*}
-    | \\(label|ref|pageref|footnote)(\[\S*\])?{.*}
-    | \\begin{(table|figure)}.*\\end{(table|figure)}
-    | \\caption{\S*}
-""", re.VERBOSE)
-
-inline_math_regex = re.compile(r"""
-    \$                      # start inline math expression
-    (?P<math_content>.*)    # the content of math mode
-    \$                      # end inline math expression
-""", re.VERBOSE | re.DOTALL)
-
-math_block_regex = re.compile(r"""
-    (\\begin{(equation|multiline|align|eqnarray|IEEEeqnarray|cases)} | \$\$ | \$)       # starting math mode
-    (?P<math_content>.*)  # the content of math mode
-    (\\end{(equation|multiline|align|eqnarray|IEEEeqnarray|cases)} | \$\$ | \$)         # ending math mode
-""", re.VERBOSE | re.DOTALL)
-
-bibliography_regex = re.compile(r"""
-    \\begin{thebibliography}
-    .*
-    \\end{thebibliography}
-""", re.VERBOSE | re.DOTALL)
+token_regex = re.compile(r"""\\[a-zA-Z]+""", re.VERBOSE)
 
 valid_math_token = re.compile(r"""
+    ^
     \\longleftrightarrow
     | \\Longleftrightarrow
     | \\scriptscriptystyle
@@ -490,5 +447,33 @@ valid_math_token = re.compile(r"""
     | \\}
     | \\,
     | \\ # white space
-    | [0-9a-zA-Z!"#%&'()<>*+,\-./:;?$@[\\\]^_`{|}~=]   # non-latex tokens (ascii)
+    $
 """, re.VERBOSE)
+
+begin_latex_document = "\\begin{document}"
+
+all_tokens = {}
+count = 0
+for doc in os.listdir(abs_file_dir):
+    file = os.path.join(abs_file_dir, doc)
+    count += 1
+    in_document_body = False
+    with open(file, 'r') as document:
+        print(file, len(all_tokens))
+        for line in document:
+            if not in_document_body:
+                if begin_latex_document in line:
+                    in_document_body = True
+            else:
+                found_tokens = re.findall(token_regex, line)
+                for t in found_tokens:
+                    match = re.search(valid_math_token, t)
+                    if match is None:
+                        all_tokens[t] = line
+    # if count > 2000:
+    #     break
+print("###################################################")
+with open("missing tokens.txt", 'w') as f:
+    for k, v in all_tokens.items():
+        f.write("{}\t\t\t\t\t\t{}".format(k, v))
+

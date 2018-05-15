@@ -10,6 +10,7 @@ from data.generation.utils import \
 
 
 # TODO: need to make sure to wrap ^ and _ in {}s
+# TODO: need to figure out how to predict which statements between $ are math and which ones are not....
 
 class DataGenerator:
     def __init__(self, source, snippet_dest, image_dest, snippet_size, image_resolutation=150, image_padding=10):
@@ -73,13 +74,13 @@ class DataGenerator:
         :param lines: a list of strings that represents the content of the snippet
         :return:
         '''
-        snippet_path = os.path.join(self.snippet_dir, "sn_{}".format(self.snippet_counter))
+        concat_cont = self._sparsify_inline_maths(" ".join(lines))
+        snippet_path = os.path.join(self.snippet_dir, "sn_{}.txt".format(self.snippet_counter))
         with open(snippet_path, 'w+') as snippet:
             snippet.write("\\documentstyle[12pt]{article}\n")
             snippet.write("\\usepackage{amsmath, amsthm, amssymb}\n")
             snippet.write("\\pagestyle{empty}\n")
             snippet.write("\\begin{document}\n")
-            concat_cont = " ".join(lines)
             snippet.write("{}\n".format(concat_cont))
             snippet.write("\\end{document}\n")
 
@@ -98,6 +99,7 @@ class DataGenerator:
             in_document_body = False
             lines_queue = Queue(maxsize=self.snippet_size)
             building_block = False
+            building_inline = False
             multi_line_builder = ""
             for line in document:
                 if not in_document_body:
@@ -112,13 +114,12 @@ class DataGenerator:
                         break
                     if not building_block:
                         matches_begin_block = re.search(begin_block, line)
-                        matches_inline_math = re.search(inline_math_regex, line)
                         if matches_begin_block:
                             building_block = True
-                        elif matches_inline_math:
-                            line = self._sparsify_inline_maths(line)
                         elif "\\" not in line or "$" not in line:  # skip the line if there's nothing interesting
                             continue
+                        elif line.count("$") % 2 == 1:
+                            building_inline = True
                     if building_block:
                         new_block = multi_line_builder + line
                         match = re.search(entire_block, new_block)
@@ -127,15 +128,24 @@ class DataGenerator:
                             building_block = False
                             math_block = re.search(math_block_regex, new_block)
                             bibliography = re.search(bibliography_regex, new_block)
-                            if math_block:
-                                line = self._sparsify_math_blocks(new_block)
-                            elif bibliography:
+                            if bibliography:
                                 line = ""
+                            elif math_block:
+                                line = self._sparsify_math_blocks(new_block)
                             else:
                                 line = new_block
                         else:
                             multi_line_builder += "{}\n".format(line)
                             continue
+                    elif building_inline:
+                        new_block = multi_line_builder + line
+                        if new_block.count("$") % 2 == 1:
+                            multi_line_builder += "{}\n".format(line)
+                            continue
+                        else:
+                            multi_line_builder = ""
+                            building_inline = False
+                            line = new_block
                     lines_queue.put(line)
                     if lines_queue.full():
                         self.create_snippet_from_lines(list(lines_queue.queue))
@@ -167,7 +177,7 @@ class DataGenerator:
         :param snippet_path:
         :return:
         '''
-        snippet_file_name = os.path.basename(snippet_path)
+        snippet_file_name = os.path.splitext(os.path.basename(snippet_path))[0]
         command = "pdflatex -interaction=batchmode -output-directory={} {}"
         pdf_path = os.path.join(self.image_dir, snippet_file_name + ".pdf")
         print("Generating: {}😎".format(pdf_path))
