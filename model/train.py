@@ -22,7 +22,7 @@ lstm_hidden = None
 # opt = parser.parse_args()
 # print(opt)
 
-latex_dataset_dir = "/Users/Kamoya/OCR/data/latex_snippets"
+# latex_dataset_dir = "/Users/Kamoya/OCR/data/latex_snippets"
 device = torch.cuda.is_available()
 # ngpu = int(args.ngpu)
 # nz = int(opt.nz)
@@ -101,11 +101,11 @@ if __name__ == '__main__':
     parser.add_argument('--vocab_path', type=str, default='./data/vocab.pkl',
                         help='path for vocabulary wrapper')
 
-    parser.add_argument('--image_dir', type=str, default='Users/Kamoya/OCR/data/img_snippets/images',
+    parser.add_argument('--image_dir', type=str, default='/Users/Kamoya/OCR/data/img_snippets/',
                         help='directory for processed images')
 
     parser.add_argument('--latex_dir', type=str,
-                        default='Users/Kamoya/OCR/data/latex_snippets',
+                        default='/Users/Kamoya/OCR/data/latex_snippets/',
                         help='path for latex snippets')
 
     parser.add_argument('--log_step', type=int, default=10,
@@ -132,7 +132,7 @@ if __name__ == '__main__':
 
     parser.add_argument('--num_epochs', type=int, default=5)
 
-    parser.add_argument('--batch_size', type=int, default=128)
+    parser.add_argument('--batch_size', type=int, default=10)
 
     parser.add_argument('--num_workers', type=int, default=2)
 

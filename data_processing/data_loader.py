@@ -20,10 +20,15 @@ class ImageSnippetDataset(Dataset):
     def __getitem__(self, index):
         """Returns one pair of  (image, snippet_vector) pair"""
         # Converts image to tensor
+        index = index + 1  # to prevent accessing index 0 which is .DS_STORE (macOS)
+
         img_filename = os.listdir(self.imgs_path)[index]
-        img_tensor = to_tensor(img_filename, self.imgs_path)
+        print(img_filename, index)
+        self.tensor = to_tensor(img_filename, self.imgs_path)
+        img_tensor = self.tensor
 
         latex_filename = os.listdir(self.latex_path)[index]
+        print(latex_filename, index)
         latex_file_path = self.latex_path + str(latex_filename)
 
         f = open(latex_file_path, "r")

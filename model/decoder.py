@@ -20,6 +20,7 @@ class AttentionModel(nn.Module):
         super(AttentionModel, self).__init__()
         self.hidden_size = hidden_size
         self.output_size = output_size
+        self.max_length = 1000  # length of longest latex snippet
         self.linear = nn.Linear(self.hidden_size + output_size, self.max_length)
 
     def forward(self, encoder_outputs, hidden):
