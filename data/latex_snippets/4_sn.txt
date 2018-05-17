@@ -1,0 +1,6 @@
+\documentstyle[12pt]{article}
+\usepackage{amsmath, amsthm, amssymb}
+\pagestyle{empty}
+\begin{document}
+on $ G $. \,Informally, it may be written as \begin{eqnarray} S ^ { W Z } ( g ) \ = \ { _ k \over ^ { 4 \pi i } } \int \limits _ \Sigma g ^ * \omega \end{eqnarray} where $ \omega $ is a 2-form on $ G $ such that $ d \omega = \chi $. $ \omega $ with the last property. If $ \Sigma $ has no boundary then
+\end{document}

@@ -1,5 +1,6 @@
 import torch
 from torch.utils.data import Dataset
+from torch.autograd import Variable
 from torchvision import datasets
 import os, os.path
 from PIL import Image
@@ -13,22 +14,21 @@ class ImageSnippetDataset(Dataset):
         self.imgs_path = imgs_path
         self.v = Vocabulary()
         self.length = 0
+        self.max_sequence_length = 1000
 
     def __len__(self):
-        return len([name for name in os.listdir(self.latex_path) if os.path.isfile(os.path.join(self.latex_path, name))])
+        return len([name for name in os.listdir(self.latex_path) if name.endswith(".txt")])
 
     def __getitem__(self, index):
         """Returns one pair of  (image, snippet_vector) pair"""
         # Converts image to tensor
-        index = index + 1  # to prevent accessing index 0 which is .DS_STORE (macOS)
 
-        img_filename = os.listdir(self.imgs_path)[index]
-        print(img_filename, index)
+
+        img_filename = str(index) + "_sn.jpg"
         self.tensor = to_tensor(img_filename, self.imgs_path)
         img_tensor = self.tensor
 
-        latex_filename = os.listdir(self.latex_path)[index]
-        print(latex_filename, index)
+        latex_filename = str(index) + "_sn.txt"
         latex_file_path = self.latex_path + str(latex_filename)
 
         f = open(latex_file_path, "r")
@@ -42,12 +42,15 @@ class ImageSnippetDataset(Dataset):
                 latex_index_vector.extend([self.v.add_word(w) for w in line])
                 latex_index_vector.append(self.v.add_word("<EOS>"))
 
+        padding = [0] * (self.max_sequence_length - len(latex_index_vector))
+        latex_index_vector.extend(padding)
         self.length = len(latex_index_vector)
-        target = torch.Tensor(latex_index_vector)
+
+        target = torch.LongTensor(latex_index_vector)
         if torch.cuda.is_available():
             target = target.cuda()
 
-        return img_tensor, target, self.length
+        return img_tensor, target
 
 
 def to_tensor(x, path):
@@ -55,7 +58,7 @@ def to_tensor(x, path):
     path_to_x = path + str(x)
     img = Image.open(path_to_x)
     img = ToTensor()(img).unsqueeze(0)
-
+    img = img.squeeze(1)
     if torch.cuda.is_available():
         img = img.cuda()
     return img
@@ -63,9 +66,9 @@ def to_tensor(x, path):
 
 class Vocabulary:
     def __init__(self):
-        self.word2idx = {"<SOS>":0, "<EOS>":1}
-        self.idx2word = {0: "<SOS>", 1: "<EOS>"}
-        self.idx = 2
+        self.word2idx = {"<SOS>": 1, "<EOS>": 2}
+        self.idx2word = {1: "<SOS>", 2: "<EOS>"}
+        self.idx = 3
 
     def add_word(self, word):
         if word not in self.word2idx:
@@ -92,7 +95,7 @@ if __name__ == '__main__':
 
     data = ImageSnippetDataset(latex_path, imgs_path)
     print("Getting size of directory...")
-    print(data.__len__())
+    print("Length", data.__len__())
 
     print("Getting a particular item...")
     print(data.__getitem__(10))

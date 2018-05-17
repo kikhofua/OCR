@@ -1,0 +1,6 @@
+\documentstyle[12pt]{article}
+\usepackage{amsmath, amsthm, amssymb}
+\pagestyle{empty}
+\begin{document}
+\begin{eqnarray} \omega _ \mu ( g ) \ = \ \hbox{tr}\,(\gamma^{-1} d \gamma ) \, { \rm e } ^ { 2 \pi i \mu } ( \gamma ^ { - 1 } d \gamma ) \, { \rm e } ^ { - 2 \pi i \mu } \end{eqnarray} on $ C _ \mu $ satisfies $ d \omega _ \mu = \chi | _ { C _ \mu } $. \,Let $ \, \Sigma ' = \Sigma \# ( \sqcup D _ n ) \, $ be the surface without boundary obtained from $ \Sigma $ by gluing discs $ D _ n $ to the boundary components $ S ^ 1 _ n $ of $ \Sigma $, see Fig.\,\,1.
+\end{document}

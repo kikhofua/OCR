@@ -1,0 +1,6 @@
+\documentstyle[12pt]{article}
+\usepackage{amsmath, amsthm, amssymb}
+\pagestyle{empty}
+\begin{document}
+on $ C _ \mu $ satisfies $ d \omega _ \mu = \chi | _ { C _ \mu } $. \,Let $ \, \Sigma ' = \Sigma \# ( \sqcup D _ n ) \, $ be the surface without boundary obtained from $ \Sigma $ by gluing discs $ D _ n $ to the boundary components $ S ^ 1 _ n $ of $ \Sigma $, see Fig.\,\,1. \noindent Each field $ g $ satisfying the boundary conditions ()
+\end{document}

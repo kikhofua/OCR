@@ -57,10 +57,11 @@ def train(args):
 
     # Train the Models
     total_step = len(data_loader)
+    print("total step", total_step)
     for epoch in range(args.num_epochs):
-        for i, (img_tensors, targets, lengths) in enumerate(data_loader):
-
-            targets = pack_padded_sequence(targets, lengths, batch_first=True)[0]
+        for i, (img_tensors, targets) in enumerate(data_loader):
+            print("i", i)
+            # targets = pack_padded_sequence(targets, batch_first=True)[0]
             decoder1.zero_grad()
             encoder.zero_grad()
             features = encoder(img_tensors)
@@ -123,25 +124,24 @@ if __name__ == '__main__':
     parser.add_argument('--output_size', type=int, default=256,
                         help='dimension of output size')
 
-    # HIDDEN SIZE ????
     parser.add_argument('--hidden_size', type=int, default=512,
                         help='dimension of lstm hidden states')
+    # HIDDEN SIZE ????
 
     parser.add_argument('--num_layers', type=int, default=2,
                         help='number of layers in lstm')
 
     parser.add_argument('--num_epochs', type=int, default=5)
 
-    parser.add_argument('--batch_size', type=int, default=10)
+    parser.add_argument('--batch_size', type=int, default=1)
 
-    parser.add_argument('--num_workers', type=int, default=2)
+    parser.add_argument('--num_workers', type=int, default=1)
 
     parser.add_argument('--learning_rate', type=float, default=0.001)
 
     parser.add_argument('--ngpu', type=int, default=2)
 
     args = parser.parse_args()
-
     train(args)
 
 

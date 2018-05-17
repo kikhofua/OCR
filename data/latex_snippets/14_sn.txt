@@ -1,0 +1,6 @@
+\documentstyle[12pt]{article}
+\usepackage{amsmath, amsthm, amssymb}
+\pagestyle{empty}
+\begin{document}
+conditions on fields $ g $. Let $ \partial \Sigma = \sqcup S ^ 1 _ n $ where inherited from $ \Sigma $. Let, for $ \, \mu \, $ in the Cartan subalgebra of $ \, { \bf g } $, $ \, C _ \mu $ denote the conjugacy class $ \, \{ \gamma \, { \rm e } ^ { 2 \pi i \mu } \gamma ^ { - 1 } \, | \, \gamma \in G \} $. \,We shall require that
+\end{document}

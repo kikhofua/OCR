@@ -3,6 +3,9 @@ import pickle
 import argparse
 from collections import Counter
 from pycocotools.coco import COCO
+import os
+
+LATEX_SNIPPET_DIR = "/Users/Kamoya/OCR/data/expanded_latex/"
 
 
 class Vocabulary(object):
@@ -57,8 +60,12 @@ def build_vocab(json, threshold):
 
 
 def main(args):
-    vocab = build_vocab(json=args.latex_snippets_path,
+    for subdir, dirs, files in os.walk(LATEX_SNIPPET_DIR):
+        for f_name in files:
+            f_path = os.path.join(LATEX_SNIPPET_DIR, f_name)
+            vocab = build_vocab(json=f_path,
                         threshold=args.threshold)
+
     vocab_path = args.vocab_path
     with open(vocab_path, 'wb') as f:
         pickle.dump(vocab, f)
@@ -70,7 +77,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
     parser.add_argument('--latex_snippets_path', type=str,
-                        default='/OCR/expanded_latex/',
+                        default="/Users/Kamoya/OCR/data/expanded_latex/",
                         help='path for expanded latex file')
 
     parser.add_argument('--vocab_path', type=str, default='data/generation/latex tokens',

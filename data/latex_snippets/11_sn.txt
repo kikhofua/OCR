@@ -1,0 +1,6 @@
+\documentstyle[12pt]{article}
+\usepackage{amsmath, amsthm, amssymb}
+\pagestyle{empty}
+\begin{document}
+of a local form $ \omega $. The variation $ \delta S ^ { W Z } ( g ) $ involves only the 3-form $ \chi $ so that the classical equations are conditions on fields $ g $. Let $ \partial \Sigma = \sqcup S ^ 1 _ n $ where inherited from $ \Sigma $. Let, for $ \, \mu \, $ in the Cartan
+\end{document}

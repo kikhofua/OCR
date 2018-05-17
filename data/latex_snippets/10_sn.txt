@@ -1,0 +1,6 @@
+\documentstyle[12pt]{article}
+\usepackage{amsmath, amsthm, amssymb}
+\pagestyle{empty}
+\begin{document}
+modulo $ 2 \pi i k $ so that the amplitudes $ \exp [ - S ^ { W Z } ( g ) ] $ are well of a local form $ \omega $. The variation $ \delta S ^ { W Z } ( g ) $ involves only the 3-form $ \chi $ so that the classical equations are conditions on fields $ g $. Let $ \partial \Sigma = \sqcup S ^ 1 _ n $ where
+\end{document}

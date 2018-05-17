@@ -1,0 +1,9 @@
+\documentstyle[12pt]{article}
+\usepackage{amsmath, amsthm, amssymb}
+\pagestyle{empty}
+\begin{document}
+\begin{abstract}
+\vskip 0.3cm
+\noindent
+\end{abstract} a subgroup $ H \subset G $. In the WZW model the simplest class of boundary labeled by weights of the Lie algebra $ { \bf g } $ of $ \, G $. Such boundary space of the CS theory on the time-line $ { { \bf R } } $ times a disc $ D $ with
+\end{document}

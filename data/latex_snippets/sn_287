@@ -1,9 +1,0 @@
-\documentstyle[12pt]{article}
-\usepackage{amsmath, amsthm, amssymb}
-\pagestyle{empty}
-\begin{document}
-$\bar\alpha^i_m$. Then the anomaly terms in the left sector are absent, and
-the commutator is proportional to $(L^N_{0, tr}-\bar
-L^W_{0, tr}+b)S^{ij}-(L^N_{0, tr}-\bar L^W_{0, tr}-b)\bar S^{ij}- 2S^{ij}$.
-It will be zero if one takes $b=\bar b=1$.
-\end{document}

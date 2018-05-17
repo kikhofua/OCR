@@ -4,6 +4,13 @@ import numpy as np
 from queue import Queue
 from pdf2image import convert_from_path
 
+from data.generation.utils import \
+    bad_latex_tokens_regex, begin_block, begin_latex_document, end_latex_document, \
+    entire_block, math_block_regex, inline_math_regex, valid_math_token, bibliography_regex
+
+
+# TODO: need to make sure to wrap ^ and _ in {}s
+# TODO: need to figure out how to predict which statements between $ are math and which ones are not....
 
 class DataGenerator:
     def __init__(self, source, snippet_dest, image_dest, snippet_size, image_resolutation=150, image_padding=10):
@@ -16,11 +23,11 @@ class DataGenerator:
         self.img_padding = image_padding
 
     def generate(self):
-        # self.snippet_counter = 0
-        # for latex_doc in os.listdir(self.doc_dir):
-        #     doc_name = os.fsdecode(latex_doc)
-        #     doc_path = os.path.join(self.doc_dir, doc_name)
-        #     self.extract_snippets_from_latex_document(doc_path)
+        self.snippet_counter = 0
+        for latex_doc in os.listdir(self.doc_dir):
+            doc_name = os.fsdecode(latex_doc)
+            doc_path = os.path.join(self.doc_dir, doc_name)
+            self.extract_snippets_from_latex_document(doc_path)
 
         max_rows = max_cols = 0
         largest_photo = None
@@ -41,47 +48,58 @@ class DataGenerator:
             image_path = os.path.join(self.image_dir, image_name)
             self.pad_image_for_consistent_top_left_start(image_path, max_rows, max_cols)
 
-    def _normalize_latex_string(self, string):
-        # TODO: actually implement normalization
-        return string
+    def _sparsify_inline_maths(self, line):
+        dollar_sign_indices = [0] + [i for i, c in enumerate(line) if c == "$"] + [len(line)]
+        sparsified_line = line[:dollar_sign_indices[1]]
+        for i in range(1, len(dollar_sign_indices) - 2):
+            start = dollar_sign_indices[i]
+            end = dollar_sign_indices[i+1]
+            if i % 2 == 1:
+                sparsified_line += self._sparsify_math_blocks(line[start:end+1])
+            else:
+                sparsified_line += line[start+1: end]
+        sparsified_line += line[dollar_sign_indices[-2]+1:]
+        return sparsified_line
 
-    def create_normalized_snippet_from_lines(self, lines):
+    def _sparsify_math_blocks(self, math_text):
+        tokens = re.findall(valid_math_token, math_text)
+        return " ".join(tokens)
+
+    def create_snippet_from_lines(self, lines):
         '''
         Creates a well-formed snippet from @lines.
-        Snippets are normalized via @self._normalize_latex_string method and are saved to
+        Snippets are normalized via @self._remove_bad_tokens method and are saved to
         @self.snippet_dir.
 
         :param lines: a list of strings that represents the content of the snippet
         :return:
         '''
-        snippet_path = os.path.join(self.snippet_dir, "sn_{}".format(self.snippet_counter))
+        concat_cont = self._sparsify_inline_maths(" ".join(lines))
+        snippet_path = os.path.join(self.snippet_dir, "sn_{}.txt".format(self.snippet_counter))
         with open(snippet_path, 'w+') as snippet:
             snippet.write("\\documentstyle[12pt]{article}\n")
             snippet.write("\\usepackage{amsmath, amsthm, amssymb}\n")
             snippet.write("\\pagestyle{empty}\n")
             snippet.write("\\begin{document}\n")
-            for l in lines:
-                snippet.write("{}\n".format(self._normalize_latex_string(l)))
+            snippet.write("{}\n".format(concat_cont))
             snippet.write("\\end{document}\n")
 
     def extract_snippets_from_latex_document(self, filepath):
         '''
         Creates snippets from the latex documents in @self.doc_dir by sliding a window
         through the lines of the @filepath document of @size self.snippet_size.
-        Snippets are normalized via @self._normalize_latex_string method and are saved to
+        Snippets are normalized via @self._remove_bad_tokens method and are saved to
         @self.snippet_dir.
 
         :param filepath: path to well formed latex document
         :return:
         '''
-        begin_latex_document = "\\begin{document}"
-        end_latex_document = "\\end{document}"
-        begin_block = re.compile(r'\\begin{(?P<block_name>[a-zA-Z0-9]+)}')
-        entire_block = re.compile(r'^\\begin{(?P<block>[a-zA-Z0-9]+)}.*\\end{(?P=block)}$', re.DOTALL)
+
         with open(filepath, 'r') as document:
             in_document_body = False
             lines_queue = Queue(maxsize=self.snippet_size)
             building_block = False
+            building_inline = False
             multi_line_builder = ""
             for line in document:
                 if not in_document_body:
@@ -89,27 +107,48 @@ class DataGenerator:
                         in_document_body = True
                 else:
                     line = line.strip()
+                    line = re.sub(bad_latex_tokens_regex, "", line)
                     if not line or line.startswith("%"):
                         continue
                     if end_latex_document in line:
                         break
                     if not building_block:
-                        if re.search(begin_block, line):
+                        matches_begin_block = re.search(begin_block, line)
+                        if matches_begin_block:
                             building_block = True
                         elif "\\" not in line or "$" not in line:  # skip the line if there's nothing interesting
                             continue
+                        elif line.count("$") % 2 == 1:
+                            building_inline = True
                     if building_block:
-                        match = re.search(entire_block, multi_line_builder)
+                        new_block = multi_line_builder + line
+                        match = re.search(entire_block, new_block)
                         if match:
-                            line = multi_line_builder
                             multi_line_builder = ""
                             building_block = False
+                            math_block = re.search(math_block_regex, new_block)
+                            bibliography = re.search(bibliography_regex, new_block)
+                            if bibliography:
+                                line = ""
+                            elif math_block:
+                                line = self._sparsify_math_blocks(new_block)
+                            else:
+                                line = new_block
                         else:
                             multi_line_builder += "{}\n".format(line)
                             continue
+                    elif building_inline:
+                        new_block = multi_line_builder + line
+                        if new_block.count("$") % 2 == 1:
+                            multi_line_builder += "{}\n".format(line)
+                            continue
+                        else:
+                            multi_line_builder = ""
+                            building_inline = False
+                            line = new_block
                     lines_queue.put(line)
                     if lines_queue.full():
-                        self.create_normalized_snippet_from_lines(list(lines_queue.queue))
+                        self.create_snippet_from_lines(list(lines_queue.queue))
                         self.snippet_counter += 1
                         lines_queue.get()
 
@@ -138,7 +177,7 @@ class DataGenerator:
         :param snippet_path:
         :return:
         '''
-        snippet_file_name = os.path.basename(snippet_path)
+        snippet_file_name = os.path.splitext(os.path.basename(snippet_path))[0]
         command = "pdflatex -interaction=batchmode -output-directory={} {}"
         pdf_path = os.path.join(self.image_dir, snippet_file_name + ".pdf")
         print("Generating: {}😎".format(pdf_path))
@@ -202,9 +241,9 @@ class DataGenerator:
         cv2.imwrite(image_path, padded_image)
 
 
-source = "data/example"
-snippet_destination = "data/snippets"
-image_destination = "data/images"
+source = "data\\example\\"
+snippet_destination = "data\\snippets\\"
+image_destination = "data\\images\\"
 snippet_size = 4
 padding = 10
 resolution = 150

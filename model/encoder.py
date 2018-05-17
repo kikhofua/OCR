@@ -1,5 +1,6 @@
 import torch
 import torch.nn as nn
+from torch.autograd import Variable
 
 
 class EncoderCNN(nn.Module):
@@ -47,7 +48,7 @@ class EncoderCNN(nn.Module):
             nn.Tanh(),
             nn.MaxPool2d((2, 2), (2, 2)),
 
-            nn.Conv2d(self.channels * 4, self.channels * 8, (3, 3), (1, 1)),
+            nn.Conv2d(self.channels * 8, self.channels * 8, (3, 3), (1, 1)),
             nn.Tanh(),
             nn.MaxPool2d((2, 2), (2, 2)),
 
@@ -56,10 +57,11 @@ class EncoderCNN(nn.Module):
             #     S_h and S_w are strides by which the pooling operation moves along the height and width of A.
             #     output dimensions after pooling will be: [H,W], H = H'/S_h, W = W'/S_w
 
-            nn.AvgPool3d(self.average_pool_kernel, self.average_pool_stride)
+            nn.AvgPool3d((self.channels * 8, 1, 1))
         )
 
     def forward(self, input):
+        input = Variable(input)
         if input.is_cuda and self.ngpu > 1:
             output = nn.parallel.data_parallel(self.main, input, range(self.gpu))
         else:
