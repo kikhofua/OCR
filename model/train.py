@@ -5,9 +5,7 @@ import torch.nn as nn
 from torch import optim
 import torch.utils.data
 from torch.utils.data import DataLoader
-import torchvision.datasets as dset
 import argparse
-from data_processing import data_loader as dl
 from model.encoder import *
 from model.decoder import *
 from torch.autograd import Variable
@@ -16,7 +14,7 @@ from PIL import Image
 from torchvision.transforms import ToTensor
 from data_processing.data_loader import *
 
-attention_hidden = None
+
 lstm_hidden = None
 
 # opt = parser.parse_args()
@@ -42,17 +40,18 @@ def train(args):
 
     # Build the models
     encoder = EncoderCNN(args.ngpu)
-    decoder1 = AttentionModel(args.hidden_size, args.output_size)
-    decoder2 = LSTMStack(args.input_size, args.hidden_size, args.num_layers)
+    attention_model = AttentionModel(args.hidden_size, args.output_depth, args.output_width, args.output_height)
+    attention_hidden = Variable(torch.zeros(1500))
+    lstm_stack = LSTMStack(args.input_size, args.hidden_size, args.num_layers)
 
     if torch.cuda.is_available():
         encoder.cuda()
-        decoder1.cuda()
-        decoder2.cuda()
+        attention_model.cuda()
+        lstm_stack.cuda()
 
     # Loss and Optimizer
     criterion = nn.CrossEntropyLoss()
-    params = list(decoder1.parameters()) + list(encoder.parameters()) + list(decoder2.parameters())
+    params = list(attention_model.parameters()) + list(encoder.parameters()) + list(lstm_stack.parameters())
     optimizer = torch.optim.Adam(params, lr=args.learning_rate)
 
     # Train the Models
@@ -62,13 +61,14 @@ def train(args):
         for i, (img_tensors, targets) in enumerate(data_loader):
             print("i", i)
             # targets = pack_padded_sequence(targets, batch_first=True)[0]
-            decoder1.zero_grad()
+            attention_model.zero_grad()
             encoder.zero_grad()
             features = encoder(img_tensors)
-            attention_outputs = decoder1(features, attention_hidden)
-            lstm_outputs = decoder2(attention_outputs, lstm_hidden, num_layers=2)
+            attention_outputs = attention_model(features, attention_hidden)
+            lstm_output, hidden_tuples = lstm_stack(attention_outputs, lstm_hidden, num_layers=2)
+            attention_hidden = hidden_tuples[0]
 
-            loss = criterion(lstm_outputs, targets)
+            loss = criterion(lstm_output, targets)
             loss.backward()
             optimizer.step()
 
@@ -84,13 +84,13 @@ def train(args):
                            os.path.join(args.model_path,
                                         'encoder-%d-%d.pkl' % (epoch + 1, i + 1)))
 
-                torch.save(decoder1.state_dict(),
+                torch.save(attention_model.state_dict(),
                            os.path.join(args.model_path,
-                                        'decoder1-%d-%d.pkl' % (epoch + 1, i + 1)))
+                                        'attention_model-%d-%d.pkl' % (epoch + 1, i + 1)))
 
-                torch.save(decoder2.state_dict(),
+                torch.save(lstm_stack.state_dict(),
                            os.path.join(args.model_path,
-                                        'decoder2-%d-%d.pkl' % (epoch + 1, i + 1)))
+                                        'lstm_stack-%d-%d.pkl' % (epoch + 1, i + 1)))
 
 
 if __name__ == '__main__':
@@ -121,10 +121,16 @@ if __name__ == '__main__':
     parser.add_argument('--input_size', type=int, default=256,
                         help='dimension of word embedding vectors')
 
-    parser.add_argument('--output_size', type=int, default=256,
+    parser.add_argument('--output_depth', type=int, default=512,
                         help='dimension of output size')
 
-    parser.add_argument('--hidden_size', type=int, default=512,
+    parser.add_argument('--output_width', type=int, default=33,
+                        help='dimension of output size')
+
+    parser.add_argument('--output_height', type=int, default=26,
+                        help='dimension of output size')
+
+    parser.add_argument('--hidden_size', type=int, default=1500,
                         help='dimension of lstm hidden states')
     # HIDDEN SIZE ????
 
