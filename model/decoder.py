@@ -49,7 +49,7 @@ class LSTMStack(nn.Module):
         super(LSTMStack, self).__init__()
         self.rnn = nn.LSTM(input_size, hidden_size, num_layers, batch_first=False)
 
-    def forward(self, x, h, c):
-        out = self.rnn(x, h, c)
+    def forward(self, attention_model_output, hidden, num_layers):
+        out = self.rnn(attention_model_output, hidden)
         return out
 

@@ -65,7 +65,7 @@ def train(args):
             encoder.zero_grad()
             features = encoder(img_tensors)
             attention_outputs = attention_model(features, attention_hidden)
-            lstm_output, hidden_tuples = lstm_stack(attention_outputs, lstm_hidden, num_layers=2)
+            lstm_output, hidden_tuples = lstm_stack(attention_outputs, lstm_hidden, 2)
             attention_hidden = hidden_tuples[0]
 
             loss = criterion(lstm_output, targets)
