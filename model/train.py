@@ -8,6 +8,7 @@ from torch.utils.data import DataLoader
 import argparse
 from model.encoder import *
 from model.decoder import *
+from model.deep_output import TokenEmbedder
 from torch.autograd import Variable
 from torch.nn.utils.rnn import pack_padded_sequence
 from PIL import Image
@@ -41,8 +42,9 @@ def train(args):
     # Build the models
     encoder = EncoderCNN(args.ngpu)
     attention_model = AttentionModel(args.hidden_size, args.output_depth, args.output_width, args.output_height)
-    attention_hidden = Variable(torch.zeros(1500))
+    attention_hidden = Variable(torch.zeros(1500), volatile=True)
     lstm_stack = LSTMStack(args.input_size, args.hidden_size, args.num_layers)
+    # deep_output = Deep
 
     if torch.cuda.is_available():
         encoder.cuda()
@@ -58,6 +60,7 @@ def train(args):
     total_step = len(data_loader)
     print("total step", total_step)
     for epoch in range(args.num_epochs):
+            attention_hidden = hidden_tuples[0]
         for i, (img_tensors, targets) in enumerate(data_loader):
             print("i", i)
             # targets = pack_padded_sequence(targets, batch_first=True)[0]
@@ -65,10 +68,9 @@ def train(args):
             encoder.zero_grad()
             features = encoder(img_tensors)
             attention_outputs = attention_model(features, attention_hidden)
-            lstm_output, hidden_tuples = lstm_stack(attention_outputs, lstm_hidden, 2)
-            attention_hidden = hidden_tuples[0]
-
-            loss = criterion(lstm_output, targets)
+            lstm_output, hidden_tuples = lstm_stack(attention_outputs, lstm_hidden)
+            # TODO:
+            loss = criterion(lstm_output, Variable(targets, volatile=True))
             loss.backward()
             optimizer.step()
 
@@ -118,7 +120,7 @@ if __name__ == '__main__':
     # Model parameters
 
     # INPUT SIZE ????
-    parser.add_argument('--input_size', type=int, default=256,
+    parser.add_argument('--input_size', type=int, default=858,
                         help='dimension of word embedding vectors')
 
     parser.add_argument('--output_depth', type=int, default=512,
