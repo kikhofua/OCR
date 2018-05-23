@@ -17,7 +17,6 @@
 \enlargethispage						      \enlargethispage{0.3cm} the electromagnetic sector) and deepened our 
 \thispagestyle						\thispagestyle{empty}
 \tableofcontents						%\tableofcontents \end{small}
-\cite						the general method of \cite{ikap1,ikap2}. However it gives
 \mathbb						which in $\mathbb R^{3,1}$ is possible only in the collinear limit.
 \ref						\] is satisfied, cf.~Fig.(\ref{F5}). \bookfig{pent}{F5}{F5}{The
 \ding						\hfill\ding{113}
@@ -1435,7 +1434,6 @@
 \Xp						We have, for instance, $\Xp{1/2}{r}=\Xt{r}{1/2}=\lambda^{1/2}\Xts{r}$.
 \du						$$ \det(K\du{i}{j})=1 \eqno(A.13)$$ 
 \definition						N' \definition \delta_{\alpha}^{\beta}\Box\delta^{4}(x-x') , 
-\citen						in~Ref.~\citen{rf:FUJI}. We first note the definition of the
 \JPSJ						%      \PTP : Prog. Theor. Phys.       \JPSJ: J. Phys. Soc. Jpn.
 \NC						\newcommand{\NC}[1]{Nuovo Cimento {\bf #1}}
 \IP						a three-cycle built of a family of $\IP^1$s over a one-cycle in the torus. 
@@ -2029,7 +2027,6 @@
 \AdS						%\text{D3-brane} & \AdS_3\times S^1 & H_I=\bar H_I,\ I=1,...,5 & 
 \subjclass						%\subjclass{Primary 15A66, 53A50; 
 \keywords						%\newcommand{\keywords}[1]{} \newcommand{\kw}[1]{}
-\citer						the $q$-algebra by different ranges of $q$ values \citer{Zachos,Solomon}.
 \Universit						\begin{flushright} { THEP 99/3\\Universit\"at Freiburg\\April 1999\\
 \dle						\dle{B1}
 \dr						\newcommand{\dr}{\raise.3ex\hbox{$\stackrel{\leftarrow}{\partial }$}{}}
@@ -3622,8 +3619,6 @@
 \myparbox						    \myparbox[b]{Supercharges}{Preserved Supercharges}
 \nstrue						where $B$ is the {\ifns{NS-NS}\else{Neveu-Schwarz (NS-NS)}\fi\global\nstrue}\ two-form and ${^{(3)}}A$ is the {\ifrr{RR}\else{Ramond-Ramond (RR)}\fi\global\rrtrue}\ three-form
 \phepth						\phepth{9609086}.
-\citeprd						\citeprd{65}{2002}{126004};
-\citeprl						\citeprl{80}{1998}{4855--4858};
 \mon						%  note that expression~\mon\ for $A_i^a$ has an extra minus sign compared
 \arstretch						  \arstretch{1.5}
 \medbreak						\medbreak

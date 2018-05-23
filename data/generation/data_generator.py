@@ -5,12 +5,11 @@ from queue import Queue
 from pdf2image import convert_from_path
 
 from data.generation.utils import \
-    bad_latex_tokens_regex, begin_block, begin_latex_document, end_latex_document, \
-    entire_block, math_block_regex, inline_math_regex, valid_math_token, bibliography_regex
+    bad_latex_tokens_1, bad_latex_tokens_2, bad_latex_tokens_3, begin_block, begin_latex_document, end_latex_document, \
+    entire_block, math_block_regex, valid_math_token, bibliography_regex, extraneous_closures
 
 
-# TODO: need to make sure to wrap ^ and _ in {}s
-# TODO: need to figure out how to predict which statements between $ are math and which ones are not....
+# TODO: need to figure out a way to remove eniter bad tokens including extraneous }'s
 
 class DataGenerator:
     def __init__(self, source, snippet_dest, image_dest, snippet_size, image_resolutation=150, image_padding=10):
@@ -49,23 +48,24 @@ class DataGenerator:
             self.pad_image_for_consistent_top_left_start(image_path, max_rows, max_cols)
 
     def _sparsify_inline_maths(self, line):
-        dollar_sign_indices = [0] + [i for i, c in enumerate(line) if c == "$"] + [len(line)]
-        sparsified_line = line[:dollar_sign_indices[1]]
-        for i in range(1, len(dollar_sign_indices) - 2):
+        if "$" not in line: return line
+        dollar_sign_indices = [i for i, c in enumerate(line) if c == "$"]
+        sparsified_line = line[:dollar_sign_indices[0]]
+        for i in range(0, len(dollar_sign_indices) - 1):
             start = dollar_sign_indices[i]
             end = dollar_sign_indices[i+1]
-            if i % 2 == 1:
-                sparsified_line += self._sparsify_math_blocks(line[start:end+1])
+            if i % 2 == 0:
+                sparsified_line += self._sparsify_math_blocks(line[start:end+1])  # +1 to include the closing "$"
             else:
                 sparsified_line += line[start+1: end]
-        sparsified_line += line[dollar_sign_indices[-2]+1:]
+        sparsified_line += line[dollar_sign_indices[-1]+1:]
         return sparsified_line
 
     def _sparsify_math_blocks(self, math_text):
         tokens = re.findall(valid_math_token, math_text)
         return " ".join(tokens)
 
-    def create_snippet_from_lines(self, lines):
+    def create_snippet_from_lines(self, lines, last_line):
         '''
         Creates a well-formed snippet from @lines.
         Snippets are normalized via @self._remove_bad_tokens method and are saved to
@@ -80,6 +80,7 @@ class DataGenerator:
             snippet.write("\\documentstyle[12pt]{article}\n")
             snippet.write("\\usepackage{amsmath, amsthm, amssymb}\n")
             snippet.write("\\pagestyle{empty}\n")
+            snippet.write("% Last Line: {}\n".format(last_line))
             snippet.write("\\begin{document}\n")
             snippet.write("{}\n".format(concat_cont))
             snippet.write("\\end{document}\n")
@@ -101,13 +102,17 @@ class DataGenerator:
             building_block = False
             building_inline = False
             multi_line_builder = ""
-            for line in document:
+            for i, line in enumerate(document):
                 if not in_document_body:
                     if begin_latex_document in line:
                         in_document_body = True
                 else:
                     line = line.strip()
-                    line = re.sub(bad_latex_tokens_regex, "", line)
+                    cleaned_line_1 = bad_latex_tokens_1.sub(r"dummytext{\g<token_end_one>", line)
+                    cleaned_line_2 = bad_latex_tokens_2.sub(r"dummytext[\g<token_end_two>", cleaned_line_1)
+                    cleaned_line_3 = bad_latex_tokens_3.sub(r"\g<token_end_three>", cleaned_line_2)
+                    done = extraneous_closures.sub("", cleaned_line_3)
+                    line = done
                     if not line or line.startswith("%"):
                         continue
                     if end_latex_document in line:
@@ -148,7 +153,7 @@ class DataGenerator:
                             line = new_block
                     lines_queue.put(line)
                     if lines_queue.full():
-                        self.create_snippet_from_lines(list(lines_queue.queue))
+                        self.create_snippet_from_lines(list(lines_queue.queue), i)
                         self.snippet_counter += 1
                         lines_queue.get()
 

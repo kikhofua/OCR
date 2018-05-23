@@ -1,0 +1,3216 @@
+\title						\title{Quadratic Effective
+\end						\end{eqnarray}
+\Scr						plet moduli space ${\Scr M}_H$ is that it is
+\begin						\begin{abstract} We discus
+\ref						(\ref{sgau}) can be found
+\footnote						$\xi$ is a constant~\footnote{This $\delta$-like
+\mathbb						which in $\mathbb R^{3,1}$ is possibl
+\cite						een evaluated to be~\cite{MHV}
+\mathrm						^2  = |\bk{E}{\psi^{\mathrm{out}}}|^2$.
+\rtimes						A} := C^\infty_0(F) \rtimes \Onda\Gamma$ acts
+\mathsf						m, while retaining $\mathsf{N}=(0,2)$
+\ff						\newcommand{\ff}[1]{\raisebox{1pt}{
+\mho						given by $\mho$. The 24 elements o
+\text						${\cal E}_{\text{C (p.c.)}} \, a^2/(
+\centerline						\centerline{$^b${\it Bogoliubov
+\epsfxsize						ture}(100,150)(0,0) \epsfxsize 10.0cm \epsfysize 1
+\epsfbox						0.0cm \put(80,-42){ \epsfbox{FIG2.EPS} } \end{pi
+\HS						Hirzebruch surface $\HS n$ and $C_0$ to be
+\rule						 ${\rm 1\kern-.12em \rule{0.3pt}{1.5ex}\raise
+\mbox						e explicit form for \mbox{${\bar K}_{\alpha \
+\hspace						=2.5cm]{fig21.eps}} \hspace{1cm} \subfigure[]{\
+\Fbox						\begin{equation}  \Fbox{ B_{\vec\mu}^* = \m
+\mathfrak						space $i\mathfrak{b}_0$, means that
+\phantom						${\phantom{\pi}}$
+\raisebox						 \rule{0.3pt}{1.5ex}\raisebox{0.0ex}{\rule{0.1em}
+\N						For the $\N=2$ SUSY Yang-Mills
+\NN						small $1/\NN$ corrections that a
+\rca						\lambda\mu{\,\nu}\, \rca a\nu\Omega \end{equ
+\tNN						it verification of $\tNN\lambda\mu\nu\,{=}\,
+\rc						ction coefficients $\rc A\lambda\Omega$ for
+\erf						Relation \erf{prop1} ensures that
+\hepv						x{$\mathfrak  A$}$, \hepv{then }the situation
+\ft						$L_\pm=\ft12\left(L_0\!\pm\!L_
+\mit						and $\, {\mit{\Gamma}}_{\alpha_{a
+\vek						$\vek{x} \to (r,\vartheta
+\vspace						imes S_{3} \) case: \vspace{0.3cm} {\centering
+\dal						tion of $\{\bnbl^{f \dal},\bnbl^{p}_{\dal}\}
+\al						skip-3mm =e^{(i\rvec\al+\rvec\be)\rvec\si}\
+\renewcommand						\begin{center} {\renewcommand{\thefootnote}{\fnsy
+\thefootnote						ter} {\renewcommand{\thefootnote}{\fnsymbol{footnote
+\fnsymbol						mmand{\thefootnote}{\fnsymbol{footnote}} {\large\
+\font						\begin{center} \font\titlerm=cmr10 scale
+\magstep						titlerm=cmr10 scaled\magstep4 \font\titlei=cmmi1
+\baselineskip						ze} \vspace{0.1in} {\baselineskip=14pt \it Department
+\vbox						bigskip \hskip 3.7in\vbox{\baselineskip12pt \
+\abstract						enter} \vspace{2cm} \abstract{We discuss the use
+\thanks						Schaposnik$^b$\thanks{Investigador CICBA,
+\foot						 and $b= 1,..., P$).\foot{
+\td						at the Todd class, $\td\TM$ is equal to $1$
+\rf						\rf{realparam}, $F^{a}(
+\na						$\com{\na{\mu}}{\na{\nu}} Q_A
+\ci						\N=4$   SYM analog  \ci{FT} of the
+\vfill						84 \end{flushright} \vfill \begin{center} { {\
+\vskip						5}\otimes S_{5} \). \vskip 0.3cm {\large {\sl
+\classflowtwo						d the spectral flow \classflowtwo\ with $w = w_R = w_
+\timelikegeodesic						hen $V = U^{-1}$ in \timelikegeodesic , without loss of g
+\rangenew						lower bound in \rangenew\ for any $w$. Indee
+\rangeh						 Outside this range \rangeh , it is not possibl
+\pole						such a condition in \pole . It is interesting
+\rangej						 the upper bound of \rangej , we find that ther
+\basis						an expression like \basis with $L_{-n} \to \t
+\zeroen						 and $h'=0$ we find \zeroen  and states with po
+\massshell						that \massshell\ would not be obeye
+\Box						where $\Box=\eta^{MN}\partial_M
+\hskip						htarrow$ N=1 PBGS.} \hskip 1em
+\cN						appear only in the $\cN=2$ case and
+\parallel						where $x_{\parallel}^i$ ($i=1,\cdots,5$
+\parbox						\begin{flushright} \parbox{12em} {\begin{cente
+\mathcal						 the knowledge of ${\mathcal Z}[j;{\bar\eta},\et
+\mathchoice						$0 < \mathop{\mathchoice{\copy\ncintdbox}{\c
+\func						 all $\phi,\psi \in \func{{\cal N}_1}$.  This
+\Vect						$\Vect{\mathcal M}$ that v
+\p						heta=0$, the action \p{n88} takes the very
+\d						Tr} (\l_\a \l_\b) = \d_{\a \b}/2$.
+\pb						ere $\omega^{AB}(z)=\pb{z^A}{z^B}$.  This a
+\gh						ghosts $c^\alpha,\,\gh{c^\alpha}=1$, and a
+\cP						Note that $\cP_0 =  \cH_T - \parti
+\eqref						Note that the value \eqref{b1} is ${1\over N}$
+\bref						$k$'s in \bref{kmaxbi} are giving
+\ab						 metric appears in $\ab{R}^4 - \{0\}$. On t
+\Z						e $\bZ_6^\prime$ or \Z{12} orientifolds, w
+\pagebreak						 the zero-mass case.\pagebreak[3]
+\ddr						where $\ddr{}{\theta^i}$ is the
+\ddl						n $G$ and $L_i=L_i^A\ddl{}{x^A}$ a basis of
+\diff						bigl(\partial^3\circ\diff{M}\bigr) \biggl(\fr
+\mathop						 A}=C_c^\infty(F^+) \mathop{>\!\!\!\trianglelef
+\mathscr						{Xi-current}.  Let~$\mathscr{X}_\xi$
+\nolimits						x}{\copy\ncinttbox}}\nolimits |D|^{-n} < \infty$,
+\half						a)}$ by its value $-\half k^{(a)}$ (in units
+\v						 orbifold, due to Ho\v rava and
+\th						\bigl(e^{-s} \psi''(\th)/\psi'(\th) \bigr)
+\a						c{1}{2} \,{\hat F}_{\a \b}\, d\xi^{\a} \we
+\b						}{2} \,{\hat F}_{\a \b}\, d\xi^{\a} \wedge
+\g						tion with poles at $\g_s$ and zeros at $\g
+\eqn						}$,  the expression \eqn{zstring} factorizes
+\cL						$\cL_i\ra \ \overline{\c
+\eff						Here $p_* = [-m\eff2^2]^{1/2}\Theta(-m\
+\mathbf						mkt{E, b}=\mkt{\hat{\mathbf{p}}, j_3; (s,j)}$
+\hfill						field-theoretical \hfill \\ standpoints${}^{
+\par						\par\end{minipage}}\end{
+\baselinestretch						.2in} \renewcommand{\baselinestretch}{1} \small \normals
+\footnotemark						ze\bf V.D. Ivashchuk\footnotemark[1]\footnotetext[1]{
+\footnotetext						chuk\footnotemark[1]\footnotetext[1]{ivas@rgs.phys.ms
+\raise						$\Psi_{\raise-2pt\hbox{$\scriptst
+\sqr						for $(\mathchoice\sqr56\sqr56\sqr{2.7}4\s
+\cp						se ${\cal H}_B$ is $\cp{2}$, as pointed out
+\sm						lde{m^2}=m^2-2\hbox{\sm G}\, \widehat l\,A^
+\resection						\resection{Some ${\bf\Gamma}$-
+\ensuremath						le representations $\ensuremath{\mathcal{H}}(s,j)$
+\epsfig						}[h] \begin{center} \epsfig{ file=fig8.eps, wid
+\mbb						demand $\mbb^2 =\maa^2$ and inqu
+\ka						otopy operator $\ti{\ka}_0$ to successively
+\alf						e fusion graphs of $\alf p$. The
+\be						$P_{jk} = \sum_{\a, \be = 1}^2 {e_j}_\a^\be
+\dst						 infinite constant $\dst\sum_{k = -\infty}^{
+\qq						pt \epsfbox{d9.eps}}\qq {\epsfxsize=90pt  \
+\dec						$$dV=-\dec_{\ga_0}\, d{\bf A}~
+\tht						re proportional to $\tht^{1}(\tht^{2})$,
+\si						and $\si_j=(\bl1_2,-\rvec\si
+\eps						where $h_i^{\pm}=\eps_i\xi_{0,\pm}^{i}$,
+\nf						sation in the $SU(4-\nf)$ YM theory left un
+\erm						 $a\leq s<1/\ka^2~.$\erm
+\eeq						n\wedge \delta x_n. \eeq \end{lem}
+\square						$-\square\to D_-^{\ {\dt{\alp
+\stackrel						s $\partial^\mu D A \stackrel{\leftrightarrow}{\p
+\albar						 product $e^2d\equiv\albar\,$
+\relax						ordinate $X^0$ of ${\relax{\rm I\kern-.18em E}
+\else						msss Z\kern-.4em Z}}\else{\cmss Z\kern-.4em Z
+\fi						\cmss Z\kern-.4em Z}\fi$. We have seen that
+\beq						ymplectic structure \beq\label{h11} \omega=\
+\textwidth						egin{minipage}[b]{.8\textwidth} \epsfxsize=\textwi
+\S						n greater detail in \S 3 and \S 5.}. Let $
+\dag						${\ }^{\dag}$
+\c						S^2$  is given by ${\cal P}_{\pm}= \frac{1
+\ket						the boundary state $\ket{B}$ with an externa
+\put						m \epsfysize 10.0cm \put(80,-42){ \epsfbox{F
+\Bar						rving conjugation, $\Bar{V^{++}}^{\,*}=V^{++
+\center						ic2.eps, width=8cm} \center{Non-linear contribu
+\sp						$ BB^{\sp\dagger}=1$ and $B^T
+\tenrm						 \\ } \vglue 1.0cm {\tenrm A. STARUSZKIEWICZ \
+\bb						ers $\{a_{mn} \in  {\bb C}~| ~ (m,n) \in {\
+\epsfysize						) \epsfxsize 10.0cm \epsfysize 10.0cm \put(80,-42)
+\goal						aphs" in the limit $\goal$,
+\e						where $\e$ denotes a constant
+\gym						ov T^2} ={  n_0 \ov \gym^2}$  (see  \rf{comp
+\reff						\reff{RDHA}, in which the
+\protect						$\protect\vphantom{a}$\hfill
+\un						$\CW({{\bf C}} P^1,\un{\xi},\un{R})$ with
+\Tilde						$\Tilde{{\cal M}}_2$ can th
+\Dot						 \,  , \, {\Bar D}_{\Dot \alpha} ] J) |$.
+\Hat						 that the quantity $\Hat \Delta$ here takes
+\vphantom						$u_1^{\vphantom{\dagger}} u_1^\dagg
+\str						$\str$-part of ${\cal L}_
+\textfont						j}{1-\frac{k_{\hbox{\textfont2=\fivesy$\|$}}^2}{\
+\fivesy						k_{\hbox{\textfont2=\fivesy$\|$}}^2}{\Lambda_j^
+\ul						$\inprod{\ul{A}_{\rm vor}(x)}{\m
+\Bbb						r n_k\;(n_k\in\mbox{\Bbb Z})$. Hence, the so
+\def						\def\IG{\relax\,\hbox{$\
+\gaq						\def\gaq{\raise 0.4ex\hbox{$
+\hglue						ure}[ht] \vglue-45mm\hglue-45mm \centering\mbo
+\SUSY						hypermultiplet in $\SUSY{4}$ SYM) by studyin
+\MT						tem of surfaces in $\MT{8}$ and its U-dual
+\MS						metry twists along $\MS{1}$ (as in \cite{KK
+\rep						decomposes as $\rep{2}+\rep{1}+\rep{1}$
+\CP						inside some $\CP{k}$ (for large enou
+\bpartial						$\Gamma^j_{kl}\bpartial_\bz\phi^l$.
+\bz						$\sigma_{0,\pi r}(z,\bz)$ in the bulk \cite
+\px						(i.e. $A_i(\phi)\px{{\mu}}\phi^i = 0$).
+\wOmega						that $\wOmega(z,\bz)^{-1} s$ shou
+\bl						and $\si_j=(\bl1_2,-\rvec\si)=\d\si
+\bk						$\bk{\psi^-}{z_R{}^-}$ a
+\msc						tau = \frac{\theta_{\msc{IIB}}}{2\pi}+ i \fr
+\Th						$\hat{\Th}^{\underline{\mu}1}
+\ch						y multiplier field $\ch{\phi}$ has to trans
+\tch						ke $\tcg=\cg_-\oplus\tch$ where
+\varnothing						athcal {U}}_\beta\ne\varnothing$.
+\mathord						i_- + i \bar\theta_+\mathord{\not\mathrel{p}}$ i
+\usebox						g with $\mathord{\!{\usebox{\zzzbar}}}_2 \times
+\zzzbar						\mathord{\!{\usebox{\zzzbar}}}_2 \times \mathor
+\Cbar						D3 branes at a $\Cbar^2/\mathord{\!{\useb
+\eq						In fact, from \eq{xf} we see that $f$
+\braket						$\braket{B}{C_{p+1}}$, as we
+\dket						completeness of $\{ \dket{Y} \}$ in the
+\dbra						$\tau_{Y/Y'}(x)=\dbra{Y} \exp( \sum_{\ell
+\vglue						99 \end{flushright} \vglue 2.5 true cm \begin{
+\ss						y periodic Weierstra\ss\ function $\wp$ and
+\author						\author{C.~D.\ Fosco$^a$\th
+\date						\date {$~$}
+\maketitle						ielli} \date{} \par \maketitle {\small {\it Depart
+\thispagestyle						ion. \end{abstract} \thispagestyle{empty} \setcounter{
+\epsffile						cm \epsfysize 6.5cm \epsffile{FIG1.EPS}} \caption
+\ee						mu\nu}= Z_{\mu\nu}\,\ee ^{-2 \pi i \epsilon
+\Tr						for which $\Tr\left(\Phi^i\Phi^j\P
+\tr						f the form $O_k^{I}=\tr (\phi^{(i_1}\cdots\
+\wQ						and $\wQ^{67} = N$. We also
+\wR						radii $\wR_1,R_2,\dots,R_5,\wR
+\sxn						\sxn{Supersymmetry condi
+\kn						with level $\kn$ induces the Viraso
+\var						 suitable coupling $\var{\psi}(t_2,w)$) name
+\fabc						$\kappa_{ab}$ and $\fabc$ are the Cartan-Kil
+\D						ed to be invariant $\D^{a} S[\varphi] $\ve
+\hn						Miwa parameter $\hn\equiv n_i$ as
+\pa						\pa\mathcal F/\pa t\},\
+\vpp						ven or odd) roots. $\vpp$ is immediately see
+\cpp						where $\cpp$ is the submatrix o
+\ba						then $F\lf(\ba{cc} T&0\\ 0&U \ea \
+\ga						 $\Om_{{\al}{\beta}{\ga}}$
+\mathtt						*$ is denotes the ${\mathtt k}$\!--dual.
+\binom						 &\sum_{i=0}^\infty \binom{p}{i}[[A(x),B(y)],C
+\varOmega						$\wh{{\varOmega}}^1_{\mathcal{G}_R}
+\wt						$\wt_\pm(ge,gf)=g(\wt_\p
+\wb						\newcommand\wb{\,\linebreak[0]} \d
+\mathit						with $\mathit{l}_{p}$ being the P
+\underset						\L:=&\underset{q}{\oplus}\L^q\quad
+\underbrace						al_{\mu}^{x}\big(:\!\underbrace{u^{\mu}h}_{x}\under
+\wh						projections $\wh\gamma_s$ of the poi
+\af						\vspace{-1ex} \af_i\in \{\af_j\}\end{
+\halign						page} \hfill \vbox{ \halign{#\hfil         \cr
+\hfil						cal R$ (Mon($r$))}% \hfil\break
+\sph						$\M$ to be \sph\hspace{-0.3em}, so
+\vY						begin{array}{c} uX'\\vY'\\vZ' \end{array}\r
+\V						\U(\s)=-1/4\gamma^2=\V({\tt t}) \subsectio
+\M						sional phase space $\M_1^{\rm odd}$ define
+\R						ver 4} s\cosh\phi\,}\R{{sech}}^2\phi\, d\p
+\RR						he continuous $SL(2,\RR)$
+\A						quiv (l_0(r{\rm cos}\A),l_0(r{\rm sin}\A))
+\Fei						electric form $\Fei$ carries the coordi
+\Fmi						A magnetic form $\Fmi$ is built as a form
+\setminus						star \equiv {\bf C} \setminus 0$,
+\Mph						(\ref{st2}) in $\Mph$ will be written in
+\m						tensor fields $B^r_{\m\n}$ are valued in t
+\umx						$u\to\umx$ as compared with t
+\uc						\def\uc{\lower 1.0ex\hbox{$
+\Som						$\Som$ consisting of a si
+\hq						ng function $ F=g h(\hq{}{})\hp{}{}$.
+\eqos						where $\eqos$ means ``equal for
+\mn						ma_k i\tilde F^{(0)}\mn)$ and $c_3=1/8\pi^2
+\Fs						\begin{equation}  \Fs ijk\ell pq=1  \end{
+\MN						ere $\DAL[\og] = \og\MN \nabla_\mu \nabla_\
+\vZ						{array}{c} uX'\\vY'\\vZ' \end{array}\right)
+\da						that the boundary $\da\Sigma$ is divided i
+\DAL						where $\DAL[\og] = \og\MN \nabl
+\mN						tein equations $\ocR\mN - {\textstyle\frac{
+\dg						ac{\l^2}{4\r^3(\s)}x\dg{\displaystyle{\sum_
+\dx						${\cal S}_{0} \int \dx c^{a'}_{A} \gamma^{
+\medskip						versity of Tokyo \\ \medskip Tokyo 113-0033, Jap
+\rvac						\def\rvac{\hbox{$\vert 0\rang
+\cqfd						\def\cqfd{ {\hfill{$\Box$}} }
+\setcounter						 no.\ D/97/20386.}} \setcounter{footnote}{0}} \vski
+\app						\app{$SU(3)\subset G_2$}
+\refb						r of $2\pi^2$ in eq.\refb{e2}
+\KIAS						right}APCTP-1999012\\KIAS-P99055\end{flushrig
+\hss						mm} \hbox to\hsize{%\hss \epsfig{file=w.eps,
+\vev						$\vev{A_1(y)}=\frac{2k\om
+\haf						tion $S[x]=\int dt (\haf m \dot x_i \dot x^i
+\hline						n{tabular}{|c|c|c|} \hline & I& II\\ \hline \h
+\hf						$h_{\al \bal} = \hf$, ($\al = 1,\cdots,
+\fl						e{c}_{2m+4pm},\,p\in\fl{Z}$,
+\Rbar						constant $Sp(2(n+1),\Rbar)$  matrix. (These t
+\There						ry for $P^{(R)}$:} \\There are three possibili
+\titolo						\begin{center} \titolo{from counting micro
+\tscorsp						\begin{center} {\tscorsp viale Merello 92, 0
+\eref						the action $S_0$ in \eref{Sn}
+\H						on~$\H$ and is generated b
+\xh						_{x}$ generated by $\xh_{\mu}$, $\mu=1,2,3$
+\yh						t $\xh_1=\xh, \xh_2=\yh$.
+\zh						ihilation operator $\zh$
+\zbh						when $(\th\zbh\zh/2)$ is integer i
+\delh						ting on functions, $\delh_i\sim\th^{-1}_{ij}\
+\SHO						ve operator on $\H_{\SHO}$, i.e., $pp=p$.
+\ra						\cM}_{g,n}(V,\beta) \ra V^n$ be the evaluat
+\nh						phi^{}_b = \sumph c \nh abc\,{}^{\scriptscr
+\GNS						 properties on $\H_{\GNS}$.
+\del						e derivative $\frac{\del}{\del b}$
+\fh						Thus $\fh$ is a function of $
+\Eps						$\Eps(-\dn Y_\mu+b_3\dm A
+\C						For $D=9+1$ $\C N=1$ SYM compactifi
+\arrowvert						{2\phi(r)}\right)^\p\arrowvert_{r=r_+} =4\pi\,T_H$
+\subsect						\subsect{$D(2|n)$}
+\mathopen						$V^a = \mathopen:LW^a\mathclose: - 3
+\mathclose						V^a = \mathopen:LW^a\mathclose: - 3/14\, \partial^
+\vrule						equired here.\hfill{\vrule height6pt width6pt
+\hrulefill						\vrule height 7.4pt \hrulefill \kern-3pt \raise 3.
+\resizebox						ure} \begin{center} \resizebox{8cm}{!}{ \includegr
+\r						\eta, \rho)$ has the same fo
+\equ						supersymmetry. Eqs. \equ{tt2}
+\psfig						figure} \centerline{\psfig{file=global2.eps,wi
+\bblarge						\section{$SL(2,\bblarge{R})/U(1)$ Kazama-Su
+\bbsub						$Sl(2,\bbsub{Z})$ will always mi
+\bbsmall						hoices of $\nu_j\in \bbsmall{Z}_2$ represent ind
+\bbslightlylarge						the $SL(2,\bbslightlylarge{R})$ WZW model}
+\f						is to show that $e^{\f_n}$ has only two po
+\subfigure						{figure} \centering \subfigure[]{\label{fig:2.1}\i
+\De						e degenerated when $\De(z,w) = 0$ and
+\de						iagrlrud {\ro l^A} {\de^A_{\dot A}\ro r^{\d
+\etc						$, $n=60$ for $E_8$ \etc).
+\E						924  Moscow, Russia\\E-mail: batalin@td.lp
+\varkappa						that such  $W^{d+1,(\varkappa)}_\nu$ can be
+\G						reimages of $x$ on $\G$
+\P						iversity of Utrecht\\P.O. Box 80 195\\ 350
+\ep						A\vep^{a} $, where $\ep(\D^{a})= \ep(\vep^{
+\ud						2\bar{D}_{ij}D^{kl}L\ud{ij}{kl}~.\eqno(B.22
+\F						the eigenfunctions $\F_k,\ k\in{\ibb C}$ f
+\greekb						e paremeter ${\mbox{\greekb \char 18}}$. $G_{T}
+\char						t \raise 3.7pt\hbox{\char'40}}$,
+\frak						\ Q^{(4)}_{\mu} \in \frak{so}(2), \ \ P^{(4)}
+\qcommut						$s W_\mu +\qcommut{h}{W_\mu}=0$. This
+\dl						$q=q^i\dl{x^i}$ on $\Sigma$.
+\CS						CPT-violating \CS-like terms for the
+\reef						 $Q$ defined in eq.~\reef{extra6}, which in
+\HH						h automorphisms of $\HH$ and isometries of
+\mysection						\mysection{The $Z$ Mass and th
+\II						The $\II$-transformation cha
+\CC						$\CC_{\lambda_r}$ and $\
+\dual						re $(n\partial)^{-1}\dual{(n\wedge j^m)}$ cor
+\acom						(x)\cr \hbox{with } \acom{ \ro b^\times}{\ro
+\Atil						$\Atil_{-n}$ contains
+\Stil						metry is hidden in $\Stil_0$, awaiting to be
+\Btil						of $(\Mtil,\gtil,\Btil)$ and vice versa.
+\vslash						n \theta_\alpha = i(\vslash \epsilon)_\alpha$.
+\thdot						ns a product of 16 $\thdot$'s for each
+\Gatil						$\Gatil^\mu = T\Ga^\mu T^{-
+\Wtil						$\delta \Wtil/\delta \Btil_{m,i}$
+\yhat						$\yhat_m$ and $\psihat_\al
+\Yhat						g) (B_m +\yhat_m) + \Yhat_m$, where $B_m$ and
+\matrix						isplaystyle{h=\left(\matrix{\phi^+\cr\phi^0+\mu
+\bra						operators $\ket{X}\bra{Y}$. This simply me
+\abs						d by the condition $\abs{a}^2+\abs{b}^2=1$.
+\vs						all hep-th/9909098} \vskip -.75em\rightline
+\U						$\U(1)$-invariant actio
+\T						or on a flat torus $\T^n$. Consider a
+\CR						e character ring $\m\CR_{_G}$. More exactly
+\CT						$\CT$ is fine enough the
+\h						y $K_{a',b'}^3(\phi,\h{\phi})$ could
+\hN						d equality we used $\hN\eN=-\eN\hN=\eN$. Th
+\hM						h$ and $\G_{\hN}^{~~\hM'}$ are some set of
+\CZ						$\CZ_{_{A_q}}$, one obta
+\CG						ons $\CF(q,p)$ and $\CG(q,p)$
+\CL						\over p_-}{\partial \CL_{eff}\over \partial
+\B						${\rm KO}(Y\times\B^1,Y\times\S^0)$.
+\s						at $D$ and $D^{\s}$ because $f(Q)$ ha
+\ex						$\ex^{-\frac{\pi}{m} \fr
+\node						\begin{diagram} \node{(\6B,\beta,\eta)} \
+\arrow						e{(\6B,\beta,\eta)} \arrow{e,t}{\8{sclim}}\arr
+\mod						 G \in \C G} e^{-\mu\mod {\R G}}w_{\R G}\lab
+\Pf						-form $u_{(k|l)}\in \Pf(B;E)$
+\defn						\defn{deriva}{Let $\L$ be
+\dt						$k^{\alpha{\dt{\alpha}}}=\lambda^\
+\VEV						 expectaion value, $\VEV{\Phi}=v$, of the Hi
+\sbar						he notation $q^+_a=(\sbar{q}{}^+,q^+)$,
+\makebox						{figure} \vglue.1in \makebox{ \epsfxsize=4in \ep
+\bbbc						\def\bbbc{{\mathchoice {\setb
+\setbox						{\setbox0=\hbox{$\scriptscri
+\bbbq						\def\bbbq{{\mathchoice {\setb
+\bbbt						\def\bbbt{{\mathchoice {\setb
+\wd						\hbox to0pt{\kern0.3\wd0\vrule height0.9\ht
+\ht						m S$}\hbox{\raise0.5\ht0\hbox
+\bbbz						\def\bbbz{{\mathchoice {\hbox
+\sans						{\hbox{$\sans\scriptscriptstyle Z
+\bbbr						ll $\{\zeta_r\} \in \bbbr_{k-1}$.
+\tfrac						ula $D^2 = \Delta + \tfrac{1}{4} s$ says that
+\u						nterline{Bucharest-M\u agurele, P. O. Box
+\field						 the $\textrm{Spin}^\field{C}$-bundle in the q
+\dfrac						the eigenvalue is $-\dfrac{\sinh(\lambda+\gamm
+\centereps						\begin{figure} \centereps{10cm}{5cm}{b4.eps}
+\Erf						ltiply the relation \Erf29 with ${\hat\varph
+\futnote						\futnote{The function $F$ th
+\Abs						to $\Abs{\mu}\geq m$, since
+\Frac						\hat\psi}_\sigma]'}(\Frac{{\rm i} t}2) \,,  \
+\wB						,\linebreak[0]} \def\wB {$\,$\wb}
+\Bi						\Bi{sawi2} {S.\ Sawin,
+\rlap						\def\vTimes{\rlap{\kern-3.6pt\lower2.
+\bsymb						$\sqrt{2}\hat{\bsymb{\psi}}$
+\stringy						at most of order $L_\stringy<\sqrt{\hbar c /(2\a
+\graviton						ant parameter is $L_\graviton = \sqrt{6/|\Lambda_
+\RNdS						zing $F(r)$ to the {\RNdS} form.
+\mathrel						theta_+\mathord{\not\mathrel{p}}$ is the only li
+\tableofcontents						}{2} {\footnotesize \tableofcontents} \end{multicols} }
+\vb						a=T_i^{-}X_i^{-}$, $\vb=T_k X_i^{-}$, $\vc=
+\mscr						$C^2$-coupling $g_{\mscr{grav}}$ which is ve
+\xpv						single correlator $\xpv{\cO_{11}\cO_{22}\ba
+\fontone						f G} with  $  {\bf{{\fontone G}} \ {\bf \eta} \
+\fontr						 surfaces in $\mbox{\fontr R}^3$
+\cM						$\cM_{g,n}$, and  they a
+\fam						n: \mathcal{H} \to {\fam\bbfam C}$ is define
+\msbmfam						}$. $SL(2,\hbox{\fam\msbmfam\tenmsbm C})$ $(s_1,
+\sevenmsbm						_{\hbox{\fam\msbmfam\sevenmsbm R}} \cS = n_V + n_T
+\cS						tive of the action $\cS$ and use the Schwin
+\cQ						cD)}$ and $\Delta_{(\cQ)}$
+\cD						$\cD\!\!\!\!\slash$
+\cV						 the gauge group, $[\cV^{++}, M] =0$.
+\he						$\he(\tau ) \to -\infty
+\cA						superscript `$\cA$', and transforming
+\dalem						eliminate $\dalem \xtil$ and by impos
+\Mtil						on $\Mtil$ and vice-versa. If
+\gtil						$\gtil_{\mu\nu}$ discussed
+\xtil						x:\Sigma\to M$ and $\xtil:\Sigma\to\Mtil$ are
+\SOrth						$T:V\to\SOrth(n)$ such that $\til
+\Htil						 $3$-forms $H$ and $\Htil$ vanish we saw that
+\hodge						\thetatil^{\beta} = \hodge\theta^{\beta}$ and
+\rtil						$(\rtil(2\sigma),\thetatil(
+\SL						ake a group. % on $(\SL_\RE)$.
+\bbR						d at the origin of $\bbR^4$ projects to a
+\ktil						curvatures $k$ and $\ktil$.  We would like to
+\dplus						ability conditions $\dplus(\dminus\xtil^{i}) =
+\dminus						 conditions $\dplus(\dminus\xtil^{i}) = \dminus
+\Tij						$\omegatil^{i}=\Tij\omega^{j}$.  When o
+\Rtil						for $\Rtil$ we find
+\ad						tisfying ${\bar{D}}_\ad\phi=0$ ($D^\alpha\b
+\Gtil						$\Gtil = -  \partial  _\ta
+\sigtil						$\sigtil$ to be given by
+\Qtil						d that the form of $\Qtil$ which allows one t
+\so						joint $\bf{28}$ of $\so{8}_F$,
+\Ad						\Ad M^0\circ q_+(M^0)\r
+\Ttil						 the above we have $\Ttil_{a}=T_{a}$ and $\Tt
+\arabic						\list{$[$\arabic{enumi}$]$}{\settowi
+\figur						\figur{fig2}{An unstable D
+\cu						g gauge-parameters $\cu{2k+1}\alpha_{(q)}=\
+\dd						\newcommand{\dd}[1]{\raisebox{1pt}{
+\bbs						e related via $SL(2,\bbs{Z})$
+\df						(n)}$ and ${\cal V} \df{F}_{(n)}$ represent
+\nopagebreak						\vskip 2cm \bigskip \nopagebreak \begin{abstract} \n
+\blacksquare						$\blacksquare$
+\car						cal F}_{t\hat A} = t\car{\varepsilon}{\hat A
+\bma						sigma\sigma'}=\left(\bma{rr}1&0\\0&-1\end{ar
+\normal						he normal ordering $\normal{\cdots}$ is with re
+\Universidade						'{\i}sica Te\'orica\\Universidade Estadual Paulista\\
+\hs						$\epsilon^{ijkl} \hs{1}{\rm Tr}\hs{1} \h
+\sr						ere exists $p\in\,${\sr Z}$_+$, $p\leq d$,
+\thinlines						60,25){\circle{30}} \thinlines \put(31,5){\line(0,
+\smash						$\smash{\protect\widehat{D}
+\SetFigFont						ebox(0,0)[b]{\smash{\SetFigFont{14}{16.8}{bf}1}}} \
+\Bb						\ifmmode\expandafter\Bb\else\typeout{You ca
+\typeout						\expandafter\Bb\else\typeout{You cann't use Bbb
+\roman						\begin{list}{(\roman{enumi})}{\usecounte
+\usecounter						t}{(\roman{enumi})}{\usecounter{enumi}} \item The D
+\re						q 2\pi e^2 r $ that \re{bps} have solutions
+\bm						a|B(t)|=2J$ ($J \in \bm{Z}/2$),
+\go						two-body potential $\go^2 x^2 +\nu (\nu -1)
+\bg						$\bg_{\m\n}$ follows dir
+\ca						$V(\ca F)$ is its volume.
+\x						xtreme UV limit,  $|\x-{\bf y}|r_0/\sqrt{Q
+\fill						           \hspace*{\fill} hep-th/9912169   \
+\set						$\set{fU_\psi^\dagger : f
+\norm						$\norm\Lambda$.  I would l
+\kill						isie: bl \=         \kill Promotor: \> Prof.\
+\break						requirement.) \hfill\break\noindent $\bullet$
+\Pb						_1^\a$, $s\P_1^\a $s\Pb_1^\a = \l^\a _1$ an
+\Bbc						points $(p,q)$  in $\Bbc{R}^{2n}$. When it i
+\Exp						 expectation value $\Exp{ {\vec p} (t)}$ is
+\Dp						gher distributions $\Dp1$, $\Dp2$ and $\S3$
+\Dctwoh						$\left(\Dctwoh{a}{x^{\mu}}{x^{\nu}
+\mskip						matrix $\hbox{\rm 1}\mskip-4.4mu\hbox{\rm l}$.
+\mathpalette						th masses $\mathrel{\mathpalette\fun >}\Lambda$
+\fun						mathrel{\mathpalette\fun >}\Lambda$
+\RP						ivial value on the $\RP^2$
+\Bket						and Klein bottle $\Bket{g}{f^{KB}}$ as foll
+\Ckets						he cross-cap state $\Ckets{g}{f}$ which satisf
+\PB						ldmath$v$}_0^\dagger\PB{M_0-\lambda_0\hbox
+\Xp						}\dot{X}^j + b_{ij} \Xp{j} \right)$ and the
+\du						$$ \det(K\du{i}{j})=1 \eqno(A.13
+\definition						\theta', \varphi' ) \definition ( h^{\varepsilon},
+\IP						$\IP^2$,
+\ti						i}=-i\del_{i}$ and $\ti=i$, where
+\dwrt						he operators $[L^j, \dwrt{u_i}]$ and $[L^i, L
+\Vir						 Virasoro algebra, $\Vir_\sL$, with central
+\defa						}}{d \over ds }$ in \defa\ and similarly in \
+\defb						a\ and similarly in \defb .
+\cenliou						$b$ given in \cenliou\ and note that the
+\balpha						\newcommand\balpha{\mbox{\boldmath $\a
+\bbeta						\newcommand\bbeta{\mbox{\boldmath $\b
+\bgamma						\newcommand\bgamma{\mbox{\boldmath $\g
+\blambda						\newcommand\blambda{\mbox{\boldmath $\l
+\bmu						\newcommand\bmu{\mbox{\boldmath $\m
+\bphi						\newcommand\bphi{\mbox{\boldmath $\p
+\bzeta						\newcommand\bzeta{\mbox{\boldmath $\z
+\bsigma						\newcommand\bsigma{\mbox{\boldmath $\s
+\bepsilon						\newcommand\bepsilon{\mbox{\boldmath $\e
+\etensor						\etensor{)},\end{array} &\di
+\vg						ambda)$, $\Lambda\in\vg$.
+\vgp						$I^t_{\gamma_0}(\vg,\vgp)$ is just given by
+\vhp						\gamma_0}(\vg,\vgp^{\vhp})$, so the
+\vu						gamma_0} }(\vg,\vg^{\vu}) $
+\vh						^t_{{\gamma_0},\vg}(\vh^{\vec{u}})$. As see
+\Sla						${\Sla D} $ or ${\Sla D}^E
+\Dc						{cc} \Ac&\Bc\\  \Cc&\Dc \ea \ri) \in Sp(2g,
+\k						rane. To gauge fix $\k$-symmetry
+\IIB						Next, consider Type \IIB string theory on Ad
+\Bold						omalous dimensions $\Bold{\eta}={\rm diag}(\e
+\n						nsor fields $B^r_{\m\n}$ are valued in the
+\ve						ha$ converges %for $\ve$
+\mb						s non-trivial when $\mb{\gamma}_X(s)=\mb{\g
+\pd						$$    \pd{g^{-1}hg}=g^T\pd{h}
+\bull						\item[\bull] $R^{ij}{_{\m\n}}=\
+\wtilde						in $\wtilde P_\b$.
+\bG						$H^2(\bG,U(1))=U(1)$. It is
+\t						and $\t^\mu_3$ and $\t^\mu_
+\cJ						that $(D^{++})^2 \cJ =0$, since ${\bf D}
+\cO						$\cO^{(2)}_{\cI_2}$ and
+\vphi						_{\th=0} = \mbox{Tr}\vphi_i\vphi_j$ ($\vphi_i
+\fr						$E(L)=\fr{La^2\rho_0^2}{8\pi}
+\cH						where $H^{(+4)} = \cH^{(+4)}$, $\Lambda^{
+\bcL						$\cL_G=\bcL_G(T^i{_{\bk\bm}},R^
+\hp						ion $ F=g h(\hq{}{})\hp{}{}$.
+\bcH						tcH^{ij}{}_{\a\b}\to\bcH^{ij}{}_{\a\b}$,  \\
+\what						$\what{p}{}_a^\mu$ and $\w
+\bT						and $\bT(\bar z)  = \frac12\
+\bi						he space $V_{\mu_1}(\bi{\char'20})$, where
+\bu						\bu{ $A(\dl)/\z_\l$ for
+\bchi						ponents $\chi_{(0)},\bchi_{(0)},\rho^{(0)}, \
+\z						(x,t)=v_n(x,t)\left[\zeta(x_{n+1}^{i}-x)+\
+\psfrag						[ht] \begin{center} \psfrag{a}{Strong coupling}
+\Institut						mm] G\"unter Scharf\\Institut f\"ur Theoretische
+\Winterthurerstr						versit\"at Z\"urich\\Winterthurerstr.~190 CH--8057 Z\"ur
+\ZZ						(S^1\times S^{s-1})/\ZZ_2$
+\gtrsim						\Delta x\, \Delta y \gtrsim \k$). This suggests
+\SS						ation of symmetry, $\SS_J Z[J,\g]=0$, trans
+\daleth						and $\daleth_{\sigma_2}$ do not
+\EuFrak						The metric $\EuFrak{g}$ coincides, up t
+\tgr						For \tgr\ this is verified b
+\tcH						$\tcH^{ij}{}_{\a\b}\to\bc
+\subsub						\subsub{$H_+\times H_-$ gau
+\nc						ng QCD in the large \nc limit
+\rr						 field background, $\rr$ is a scale of a
+\hh						in{theo} \lab{thm2} \hh{1em} \\[-2.5ex]  \b
+\IC						\def\IC{\relax\,\hbox{$\inb
+\IQ						\def\IQ{\relax\,\hbox{$\inb
+\IG						\def\IG{\relax\,\hbox{$\inb
+\dex						\def\dex#1{$d\!=\!#1$}
+\cex						\def\cex#1{$c\!=\!#1$}
+\twot						\def\twot{$(2,2)$}
+\vline						says $W \vline _{\phantom{.} \th_2
+\cline						^{i}\psi_{-}^{j})}\\\cline{2-6} &\ensuremath{\
+\su						ace $\mathfrak{g}^*=\su(2)^*$ is 3-dimensio
+\tableau						& SU(2)\\ \hline q &\tableau{1}& 1 & -1 &  {\bf
+\eqs						F$ corresponding to \eqs{r111}{r331}. The eq
+\sss						$\tilde{I}^{\sss (+)}(p_0)_{i}$, $i=
+\blacktriangleright						s case ${\Bbb C}[x]{\blacktriangleright\!\!\!\triangleleft}
+\and						ography, Cosmology \\and the\\ Second Law of
+\pet						} are both ${\cal C}\pet$- and $\la\zeta$-or
+\viale						ollegato di Parma, \\viale delle Scienze, 4310
+\strut						& {\rm R-sector}\,,\strut{0ex}{4ex}\end{array
+\affiliation						\affiliation{$^1$ Theoretical Ph
+\PSbox						ure} \begin{center} \PSbox{AdSnewfig.eps hscal
+\AD						D$9$-\AD$9$ system \cite{Wit
+\alp						where $\alp=e,\mu,\nu$ and $\be
+\bd						wever,  the use of $\bd\bullet$  better con
+\bet						, i}_{(\alp, a, j | \bet,b)} = Y^{Qd, i}_{(\
+\gam						also ${{  \Gamma}}_{\gam_{\mu}^{a_{\scriptsc
+\cF						$\cF (\Phi) = - \frac{1}
+\cT						nalytic superfield $\cT^{(+4)} = \delta S /
+\hxmu						in the form $\hxmu=i\dermu\otimes{\bf
+\nbnb						tes of D-branes as $\nbnb$
+\goes						us of the limit $g_s\goes 0$ in \cite{DVV}.}.
+\nbns						!\!\!R^d)}\otimes M_\nbns$
+\dermu						in the form $\hxmu=i\dermu\otimes{\bf 1}_n + \
+\KUCPlogo						\newcommand{\KUCPlogo}{\hbox{\lower 1.4ex
+\bt						ains through $T_{\al\bt}\^M$ the components
+\BC						manifold with base $\BC\BP^1$ (and coordina
+\BP						ifold with base $\BC\BP^1$ (and coordinate
+\BZ						ase. This maps the $\BZ_2$ transformation $
+\bp						when  $H\equiv \bp/\sqrt 3=\la_s^{-1}$
+\cev						$\cev{\phi_I}\phi_J(1)\ph
+\hoch						pace{20pt} M.J. Duff\hoch{1} and James T. Liu
+\fft						$G_{ij}=-\ft12V^{\fft23}{\partial\over\pa
+\Ibb						that for $igl(1,{\Ibb R})$ Lie algebra (L
+\exx						t U}_\eta\ket{\xi}= \exx{-|\zeta|^2/2-|\xi|^
+\bvec						nu)}=\int |\hat\psi(\bvec{k})|^2 k^{\nu-1}dk.
+\bn						$[J^i_{\bn}, \bj^j_{\bm}]_{\rm
+\rvec						gin{eq}{l} \Phi(x_0,\rvec x)\stackrel{\ty T}\
+\dvec						\dvec{D}{}^{++}\phi^+ + {
+\nbraket						ket{\phi}$ is $\abs{\nbraket{\phi}{\psi}}^2$.
+\bbra						$\bbra{\psi}\equiv\bra{\ps
+\bbraket						itself $\bbraket{\psi}{\psi}$ as a n
+\eth						where $\eth_{1,1,a,b} = \eth_{1
+\duebox						etrics on $ \, \copy\duebox \, $ which is forma
+\unobox						 $ \, S \times \copy\unobox $ with the product
+\cW						$\cW = \{W_\alpha \, ,\,
+\cZ						n be used to bring $\cZ (x)$ to its flat
+\cX						ative commutant of $\cX$ in $\cM$, and {\sl
+\cY						If we freeze the $\cY$--multiplet, by spe
+\MR						cite{GanXi} for an $\MR{2}$ fibration over
+\MC						be unit vectors in $\MC{n}$.
+\bdot						esgourges:2000} or $\bdot=0$
+\adot						 is $\dot{\phi}_0^2<\adot_0^2/a_0^2$ by a
+\xhat						coordinates $\xhat^{\ihat}$, only on t
+\Ahat						A-roof genus $\Ahat(X)$ and has an expa
+\that						, only on the time $\that$ and, in the
+\addot						0^2}{a_0^2} - \frac{\addot_0}{a_0} = \textrm{c
+\fbox						$$ $$ \fbox{\parbox{4.6cm}{spec
+\height						\fbox{\parbox[c][2\height]{12cm}{\hspace{1cm}
+\mathversion						\begin{center} \mathversion{bold} {\bf\Large Li
+\xspace						$\ensuremath{E_{10}}\xspace$, we are evidently
+\Gtwo						(8)}$, \4[(4)], and \Gtwo[(2)], for which a
+\ds						of $\ds{m_1,\alpha_1}$ or u
+\thicklines						hortstack{T\\S\\T}} \thicklines \put(25,120){\vecto
+\Pp						L$, independent of $\Pp$.
+\vv						up are of the form $\vv = \vr_{-1} + (\frc1
+\drawsquare						& \raisebox{-3.5pt}{\drawsquare{6.5}{0.4}}\hskip-6.
+\mib						mbda \left\langle  {\mib\phi ^2}\right\rangl
+\bbb						 when $V$ is $\mbox{\bbb Z}$ graded, $V=\sum
+\Eq						\Eq{Eperp1} presents a
+\vfil						41 \end{flushright} \vfil \begin{center} {\la
+\K						e monodromy matrix $\K{p}{q}$ associated t
+\brane						$D_a[(\L_\brane)'_i]=0$, appropriat
+\effective						$\Lambda_\effective$ is now a lot trick
+\anomalous						---(2) $G_\anomalous$ is generally nonze
+\bulk						$V_E$, $\L_\bulk$, and $\L_\brane$.
+\dif						$\dif s^2=|\dif\sigma^{\s
+\rt						uently, $\Phi^{\lf(0\rt)}(\xi,\eta)=\Xi^{\l
+\vf						 the cross product $\vf v\times\vf w$.}  Ho
+\rtm						$\rtm(\Lambda)=s(\du(\rtm
+\rtc						 potential wall at $\rtc \Lambda$ (cf. Eq. \
+\duL						slowly, $\duL\sim \rt^{|a|}$ for
+\mathbbm						al topology is not $\mathbbm{R}^n$.
+\mkern						p{\mathrel=\mathrel{\mkern-3mu}=\mathrel{\mker
+\blackboard						 ${\pi}_{1} = \mbox{\blackboard\symbol{"5A}}$ in th
+\symbol						$C_{\mbox{\DamirFont\symbol{'005}}}$ and $C_{\m
+\fo						- \fo{\Phi}^{(0)}\fc + \f
+\fc						- \fo{\Phi}^{(0)}\fc + \frac{1}{2}\right
+\alph						mmand{\thefootnote}{\alph{footnote}} Ken-Ichi
+\mtxt						$n_i \simeq n_i {\; \mtxt{mod} \; } 3$.  The
+\myref						$z_2$. Then \myref{step1} can be writt
+\mysubsection						\mysubsection{$\sum_a j_a = 0$}
+\Td						h({\cal O}(D))\cdot \Td(X))_{top},$$
+\rk						If $\rk G = \rk H$, then $H
+\eqr						for the spin system \eqr{HM}.
+\Indian						hysics Department, \\Indian Institute of Techno
+\ct						 the superpotential.\ct{witten81,ch85}.
+\msb						}\simeq  sl(2,\mbox{\msb C}  )$, one can eas
+\rcurl						$\lcurl x^n D^n \rcurl_{n=0}^\infty$ (cf.
+\sbr						utativity of flows $\sbr{\partial_x}{\partde
+\Sbr						gma {\mathcal E} + i\Sbr{A_1}{{\mathcal E}}
+\stta						partial/\partial\!\!\stta{k}{n}=\delta^{(n)}_
+\st						$|k \st|^2    \simeq  |k \l
+\euffam						theories ${\fam\euffam\twelveeuf C}\left[{
+\twelveeuf						eories ${\fam\euffam\twelveeuf C}\left[{r\phantom{
+\mathbin						where $\mathbin{\lrcorner}$ denotes
+\mathchar						\raise 2.0pt\hbox{$\mathchar"13E$}}}
+\nobreak						tension'' of the $N=\nobreak1$~supersymmetry alg
+\sdet						2}2\str\Lambda^2} \,\sdet^N(\Lambda-i\,\hat{\
+\settowidth						$\arabic{enumi}$]$}{\settowidth\labelwidth{[#1]}
+\ubar						$H_{\ubar\mu \ubar i} = H_{\u
+\Dslash						-\frac{\beta}{\hbar}\Dslash \Dslash))$ for $\be
+\Slash						$$S^+\stackrel{\Slash D}\longrightarrow S
+\hslash						\pm_0(x)=e^{\pm ipx/\hslash}\in{\mathcal{S}(\ma
+\anticom						$\anticom{\hat{b}^+}{\hat{b}^
+\varPsi						$\varPsi$ is identically equ
+\kakko						$\kakko{\theta^1_k,\cdots,\
+\shortstack						,5){8.6}} \put(2,7){\shortstack{1}} \put(14,24){\sh
+\goth						$g = \goth{g}_1^a \goth{g}_2^b
+\SO						proximation to the $\SO(3)$-symmetry is the
+\bbfam						mathcal{H} \to {\fam\bbfam C}$ is defined by
+\enskip						f faster than $G_{a \enskip i\nu}$ for large $r
+\hrule						                    \hrule height 0.4pt\hbox{\
+\hi						notation $\hi_\Phi$ denotes the i
+\prt						 \sqrt{\l}\Phi^i,$ $\prt_{x^{i}} \rightarrow
+\PY						m $\sim \la^2\cos{(2\PY)}$. For the paramet
+\bPY						al/\partial Y$ and $\bPY= \partial/\partial\
+\MHT						 cycle on the dual $\MHT{3}$ that
+\AdS						$\AdS_5$ should be dual t
+\setlength						\begin{figure} \setlength{\unitlength}{10pt}
+\citer						hanics are explored \citer{Schwenk,Cerchiai},
+\cmsss						e {\lower1.2pt\hbox{\cmsss Z\kern-.4em Z}}\els
+\cmss						e {\lower1.2pt\hbox{\cmsss Z\kern-.4em Z}}\el
+\dr						^{-2\rho + \varphi}i\dr$.  This quantity sa
+\dc						playmath} \Psi_{p,r}\dc{\alpha}{\beta}(\xi,
+\Purple						uld be $-\frac{1}{2 \Purple{R}^2}\Blue{M_{\mu\n
+\Blue						$\OliveGreen{W}(\Blue{z})$ can be introdu
+\BR						rmions in the $SL(2,\BR)$ current algebra.
+\pr						\def\pr{Phys. Rev. D$\,$}
+\hlf						For $\alp=\hlf$, $f(x,\hlf)$
+\J						$Z\euc[\J^\Phi|\J^\Psi]$ beco
+\framebox						or ${\mathrm{Det}}[-\framebox(7,7){}_{_{E}}]^{-1}
+\special						,140) \put(170,135){\special{em:graph fig3.bmp}}
+\sta						e of the $F_{\mu\nu}\sta{F}^{\mu\nu}$ term i
+\case						q^{\; \displaystyle \case{1}{2} \sum_{a,b=1}^
+\frfam						\times \Pi {\fam\frfam g}^*_r$. We now tak
+\MG						ot contractible in $\MG / \MZ( \MG )$, if
+\MH						$\MH \cong U(1)^r$,
+\CH						where $\CH_{eff}$ is the effec
+\CF						where $n_\CF$ is the fermion num
+\MW						$w \in \MW$. It is well known
+\mag						Integration of $F_\mag$ over an infinitesi
+\CK						 homomorphism from $\CK^s_{af}$ to the
+\MK						ose a matrix $g \in \MK \subset \MC_{\rho}
+\CD						$. where $\CT$ and $\CD$ are functions on $
+\ag						on $\ag$. Thus the equivari
+\cg						f the lemma for $k>-\cg$. The case $k<-\cg$
+\MZ						tractible in $\MG / \MZ( \MG )$, if
+\Stony						and Astronomy, SUNY\\Stony Brook,
+\Vec						symbol\Phi}^\Delta (\Vec{\boldsymbol\gamma})
+\blacklozenge						the $(-1)^{r-1}({I_{\blacklozenge}})^t_{a,b}$ coincid
+\X						7-brane $\X{3}{1}$. The BPS sta
+\nxt						\nxt As an algebra over
+\pso						field is therefore $\pso\mu abA$.
+\appendix						\appendix\section{Appendix: T
+\bbd						_{3}\hbox{\bbd Z}$ is the correspo
+\Diamond						{\ $\Diamond$}
+\dcrwsub						$\Xi^{-1}(\dcrwsub{x,{\varepsilon}})$
+\then						)\end{array}\right\}\then \UL(2)\cong{{\bf U}
+\hyp						e of the mass when $\hyp$ is
+\cU						a subalgebra $\cU \subset \cW$. Furth
+\ce						i} q^{\frac{-2\nu_0+\ce{i}+2j}{4}} \tilde{f
+\cKS						$\cKS$, or an exterior em
+\mycal						[R_0,\infty)\times {\mycal O}_i$ satisfying \e
+\rd						/\partial z^I$ and $\rd{I}=\partial_r/\part
+\znabla						$$X^a=O(r)\;, \znabla_a X^b =O(r)\;,$$
+\hhyp						$$m(\hyp,g,b,X)=m(\hhyp,g,\hat{b},\hat{X})\
+\Kbasis						iv m\left(\hyp,g,b,{\Kbasis}_{(\mu)}\right)\;;$
+\refeq						ightarrow\infty$ in \refeq{psi},
+\w						$ decomposition of $\w_2$.  The eigencurre
+\xxi						\newcommand{\xxi}[2]{\raisebox{1pt}{
+\bder						\newcommand{\bder}{\mbox{\bm $\der$}}
+\der						$p_a^\mu:=\der L/\der y^a_\mu$,
+\bI						\newcommand{\bI}{\mbox{\bm $I$}}
+\bx						eta_y$ and $z\sim z+\bx$. In the special
+\BH						amiltonian $||\what{\BH}||$ is transformed
+\BPsi						ve to require that $\BPsi_S$ is invariant
+\bq						 $\Rcp{1}{s}$ that $\bq{1}{1}=N+M$ and henc
+\we						L^{\hat{a}}\we\bar{L}\Gamma^{\hat{
+\BS						ing of $\gv$ in the \BS-'t Hooft equation w
+\dddot						g (\ref{Mateq}) by $\dddot{{\vec x}}$ yields
+\sota						where $\sota{restr}$ stands for
+\mathstrut						ij}\dot{\bar\theta }\mathstrut^{\dot\alpha }_j,}$$
+\enspace						\enspace and  Anatoly Konech
+\ua						g $\pm$ instead of $\ua\da$.}
+\ub						 Vanishing of the $ \ub_1 \ks_3 u_4\  k\cdo
+\Cl						= \mbox{\large(} \Cl\lambda_{\psi',\psi}
+\Gl						$P_{++}^{(n)}=\{\GL=\Gl_1 \GL_1+\Gl_2 \GL_2
+\tenn						mensional two-form $\tenn{B}$ takes a backgro
+\pol						}=- 2 \kappa_{6} \, \pol_1^{\mu\nu} \, p^2_{
+\req						}\  \sigma > -1$ in \req{defAn}
+\prB						B}$-valued product $\prB{\ ,}$, and it is
+\ha						latter is ${\cal R}=\ha \partial_\mu \Phi \
+\hep						hleft} NBI-HE-99-46\\hep-th/9911092 \end{flu
+\Via						, Sezione di Genova\\Via Dodecaneso 33, 1614
+\build						\, {\fam\bbfam R}^n \build \longrightarrow_{}^
+\hadg						$\Lambda = {\alpha}(\hadg{1})^2 + \bar{{\alph
+\cG						\overline N,N)$ of $\cG$.
+\msbm						).} ${\cal M}=\hbox{\msbm R}^3\times \hbox{\m
+\parsep						p}{0mm}% \setlength{\parsep}{0mm}} \item[1.] E.
+\Batalin						BF theories in the \\Batalin-Vilkovisky formalis
+\fdq						nt\!\!{\rm d}^6z\, A\fdq{}{A}+\int\!\!{\rm d
+\pdq						mu \bar \varepsilon \pdq{Z}{\omega^\mu} =0 \
+\dnx						rating over space, $\dnx{3}{y}$, and time in
+\arraycolsep						scale is {\setlength\arraycolsep{2pt}
+\sapp						\sapp{$V^{SU(N)}\rightarr
+\bc						$A(c,\bc)$. These tachyonic
+\nH						$P_b^R$, $P_b^L$ on \nH 1. Of particular in
+\ph						ial _x [ \partial _x\ph\partial _0\ph- \2\5
+\ps						s a zero locus of ${\ps}$,
+\bph						once $\bph \neq 0$. From (2.34
+\bch						$\bch abaii1\!{=}1$ if $a
+\Field						inite algebra $sl(2,\Field{R})$.
+\ea						f(\ba{cc} T&0\\ 0&U \ea \ri)$ can be repres
+\addtolength						cm] {\parbox{14cm}{ \addtolength{\baselineskip}{.8mm
+\abovedisplayskip						ymath} \addtolength{\abovedisplayskip}{\extraspaces} \add
+\extraspaces						{\abovedisplayskip}{\extraspaces} \addtolength{\belo
+\belowdisplayskip						paces} \addtolength{\belowdisplayskip}{\extraspaces} \add
+\abovedisplayshortskip						paces} \addtolength{\abovedisplayshortskip}{\extraspace} \addt
+\extraspace						{\abovedisplayskip}{\extraspaces} \addtolength{\bel
+\belowdisplayshortskip						space} \addtolength{\belowdisplayshortskip}{\extraspace} \Lamb
+\CO						sign the open sets $\CO_{\lambda_r}$,
+\CM						a conformal net on $\CM$
+\CA						nt (\ref{const1}), $\CA_{ab}$ read
+\CN						)$ superconformal ${\CN}=2$ gauge theories
+\tag						u}-1). \end{aligned}\tag{2.16} \end{equation
+\kket						Here, $\kket{\lambda \mu}$ is th
+\mA						(\Delta^{\text{YM}}[\mA^{\text{S}}])^{-1}$
+\mW						the $C$, $\mF$ and $\mW$ fields
+\mX						so that $\delta(\mX)\to \int {\cal D}\m
+\mF						tion over the $C$, $\mF$ and $\mW$ fields
+\mQ						Here, $\widetilde{\mQ}$ is defined via pa
+\hphantom						& &\!\! \hphantom{+ \; \sum_{\alpha,\
+\flat						ciated one form~$V^{\flat}$~ via the symplect
+\parskip						\begin{flushright} \parskip 4pt DTP 95-75 April
+\hSL						example of the $\hSL2$ algebra, the cons
+\hSSL						ffine superalgebra~$\hSSL21$~\cite{[BFST]}.
+\vB						where $\vB_i, i=1,2$ denotes t
+\nab						implies $\nab^2\phi=0$ and so we
+\STr						indicated by $\STr(\cdots)$ is a symme
+\hR						 the SO$_{q^2}$(5) $\hR$--matrix [7],
+\tF						background $\tF_{12}=\tF_{34} = q $
+\tB						where indices $\tA,\tB,...$ are those of n
+\dtF						that $\tF_{ij}\dtF^{ij}$ be independen
+\tG						where $\tG^{ij}_{\l}=iN^{ij}/s
+\W						corresponding to $\W{A{\hat \Phi}}{\Lamb
+\um						at{C}=(\hat{L}_0)^2-\um(\hat{L}_+\hat{L}_-+
+\rq						\lq \lq holographic \rq \rq in that the inf
+\Ttilde						ized as ${1 \over q}\Ttilde$.
+\clE						dure of going from $\clE(nH)$ to $\clE((n+1)
+\ptsA						ates of the points $\ptsA$ in
+\Journal						rent commutators'', \Journal{Phys. Rev.}{163}{16
+\Bt						kgrounds $\Gt$ and $\Bt$, when
+\Fh						Consider the case $\Fh=\Bt$ given by (\ref
+\ro						with }& \Diagrlrud {\ro l^A} {\de^A_{\dot A
+\cl						m$}\mkern-13.5mu A_{\cl}^\dagger}
+\UL						\begin{eq}{l} \UL(2)/{\bf U}(1):~~\le
+\fref						+\epsilon(a)}$, see \fref{f5}.
+\Spin						$\nabla^-$ has $\Spin(7)$ holonomy.
+\ev						tor representation $\ev$ of
+\flushright						lepage} \topskip1cm \flushright{TUW-93-22}\\[3cm] \
+\Aut						$\beta \in \Aut{\mathfrak A}$. Henc
+\mtiny						athbf P}^1$ are $q_{\mtiny{0}} =[0,1] \in {\ma
+\Ext						fixed part of $\Ext_C^1(\Omega_C(x),{\c
+\mscript						ension $\mbox{dim}_{\mscript{{\relax\hbox{$\,\vr
+\smf						symbols:$(ij)\equiv\smf12 (ij+ji)~,~[ij]\eq
+\shead						\shead{Scheme for $t_i(\th
+\mf						e gauge algebra is $\mf{e}_8$
+\TR						\def\TR{$\displaystyle{{}##
+\tp						} f(J-L) \ e^{\frac{\tp N r(j-J)}{\l}} \ e^
+\Del						$\Del_{SI}^{\bullet}(\tau
+\berr						\begin{lemma} \berr a_{1} \star (a_2\st
+\err						 \label{aP-a_braid} \err \label{twist_qa_lem
+\reals						\newcommand{\reals}{\mbox{${\rm I\!R }
+\accent						_2$-triple and a Ho{\accent20r}ava--Witten styl
+\mip						oordinates, the O$^{\mip}$ planes are at
+\bD						derivatives $(\bD^{+j},\D^{\oplus }_i
+\kett						because $K_{-}\kett{K}{0}={\bf 0}$. Nam
+\DB						The operators $\DB{n}$ are the wave op
+\DF						e $s=3/2$ operator $\DF{3/2}$ with
+\mapright						) & \cong & SL(4) & \mapright{\rm susy} & SL(4|N)
+\twoheadrightarrow						\twoheadrightarrow \ldots$$
+\qed						$-spectrum $\Spec$. \qed
+\preprint						lepage} \newcommand{\preprint}[1]{\begin{table}[t
+\rotatebox						line{\scalebox{1.2}{\rotatebox{0} {\includegraphic
+\cmoose						otatebox{45}{\usebox\cmoose}} \put(0,144.8){\us
+\gta						\def\gta{\mathrel{\spose{\lo
+\twelve						te}} \vspace{3 cm} {\twelve Pade Approximants a
+\fifteen						dex 9} \vskip 3.cm {\fifteen Integrating the Chi
+\SYM						e example. Consider \SYM in $d=4$ with
+\nn						,\;\; j=1,...,16 \;.\nn
+\proof						\proof{The cohomology of $
+\Fun						action on $\Fun(S^2)$. This classic
+\beqa						in $Z'$:  \beqa
+\earr						x{$\Psi$}), \lb{ex} \earr
+\gfexp						 fluctuations as in \gfexp\ we get
+\mm						nes  $(y^a_\el, y^a_\mm)$. $ N$ and $g^2_{\
+\grad						 linear connection $\grad[0]{}$ to the corres
+\cinf						$\aa_s = {\cinf}_s \ot {\aa_I}_s$ i
+\xoi						while   $d(\xoi,\, \omega_x\ot\omeg
+\yoi						$d(\xoi,\, \yoi)$ is the geodesic d
+\rp						ce two parameters $ \rp $, and $ \rmi $ $ (
+\suup						$\;\suup{x\in\mm}\;\left\{\,
+\kk						$\kk_1, \kk_2$ and $\ff$
+\prop						\prop{liealgebraofder}{${
+\xox						$$d(\xox,\yoz)=d_e(x_1,y_2).
+\yox						{1}{\norm{M}^2}=d^2(\yox,\yoz)$$
+\yoz						$$d(\xox,\yoz)=d_e(x_1,y_2).$$
+\dm						^\mu\bar\theta(\half\dm\phi-b_3A^{(0)}_\mu)
+\fm						d in the previous = \fm {X_A}/(R_A)$ and $B
+\hhh						um\bigotimes_{i=1}^n\hhh a{v_0}i0\cdot \mbox
+\Ph						t sectors in which $\Ph1,5.$ acts locally b
+\PH						algebra by fields $ \PH^{p,q} $ as
+\pftd						on of $\Delta^s$ in \pftd). What we have show
+\rank						ster} implies that $\rank{H_{AB}}\leq N$,
+\cB						when $\d \cB_{\mu\nu}$ is writte
+\Ed						$\Ed{\cA^{(0)}}{E}$ mean
+\Zmb						For the general $\Zmb_N$ we argue that th
+\hal						$\bar{\la}_{1\La}=-\hal \bar{\la}_{2\La} +
+\PQL						${\PQL}''$ (\ref{dco3}) we
+\rb						$N^{AA}_0$ and $\rb A\lambda0$ in \exT{
+\caC						re of the matrices $\caC^{(i)}:\;$
+\Csf						$\;\;\Csf^3\:+\,f\,\Csf^2\:+\
+\Kloc						asi-isomorphism in $\Kloc(X)$ maps to an
+\What						uantum revolution'.\\What is this- the quantu
+\If						\\If $\Phi$ is  the vect
+\dirac						 above equation by $\dirac p$, divide by $4 p^
+\chris						coordinates, where $\chris{\mu}{\lambda\nu}$ a
+\mapsm						measure at $X_0 \in \mapsm$ reexpressed in ter
+\delX						ch square root $\pf(\delX)$ is, requires the
+\pf						ndition $[\bbr{0} , \pf] \subset \pf$ yield
+\PF						The boundary field $\PF{a}{b}{i}{\beta}(x)$
+\DET						$\DET(\dbar\otimes I_Q) \
+\Index						et(\delX)$ because $\Index \delX=0$.  Freed's
+\pont						vanishing class is $\pont_{k}$.  If $\dim M_{
+\bbC						simeq \Sigma \times \bbC$, the
+\Met						es\mathcal{A} \times\Met(M)\times\Mhalf$.
+\Mhalf						space $\Mhalf$.
+\SPIN						$\SPIN(M)$ and let $\phi\c
+\bbZ						a,\bbR)/H^1(\Sigma, \bbZ)$. We could choose
+\mapsspinm						widetilde{X})z$ on $\mapsspinm \times \bbC$. So $s
+\mapsspinn						: \mapsspinm \times \mapsspinn \to S^{1}$ be the f
+\evtil						$\evtil^{*}B$ is our functi
+\cE						strength; $\cE$ denotes the $\cN=2
+\cC						constants $\cC$ now given by the $
+\ext						ensions $A \subset A\ext$.
+\zbar						mu(z)$ for $X^\mu(z,\zbar)$, etc.. }
+\Zsc						structed a section $\Zsc$ over over odd spin
+\Mhodd						a generic point in $\Mhodd$ where $\dim\ker\di
+\Map						$\Bg{1}\Map{\hat{\nu}}\Bg{2}$
+\cR						C}P^n$ is terms in $\cR_{I_1 \cdots I_p  {\
+\azo						 is in $(\cL'_U)^*_{\azo}$.  We define $\mu(
+\Hzo						product on $\Hzo$:
+\Azo						the appropriate $\Azo \in \Hzo$. In fact
+\dbar						ial $ replaced by $ \dbar $ and a overall min
+\BBox						$\BBox_-(z)$ does not have
+\dy						rs were invertible $\dy \log\det\BBox_- = \
+\binv						 image of $(\partial\binv-D^*\Delta_-^{-1})$
+\cLt						where $s_0 \in \cLt_0$.
+\Azob						does not depend on $\Azob$.  To prove (\ref{f
+\hol						$\tr(\hol(A_1) - \hol(A_2))$
+\Bzo						l often abbreviate $\Bzo_{nm}$ to $\Bzo$.  O
+\cDt						$ and $\varpi\in\ker\cDt$.  Let
+\zanalog						$\zanalog/\vartheta$.
+\real						on $\real$.
+\cMt						otimes I_{Q_r\otimes\cMt}$, $\DET(\dbar\otim
+\Aoz						 choose $A =(\Azo + \Aoz)/2$ with $\Azo$ the
+\Todd						nn-Roch. Note that $\Todd J(\Sigma)=1$ hence
+\pounds						lta_\xi A_\mu\equiv{\pounds}_\xi A_\mu={\cal D}
+\defeq						$p \defeq \sqrt{p_\mu p_\mu}$
+\ap						luding first-order $\ap$
+\raw						of $\eps\raw 0$ these two soluti
+\Xd						where $\Xd:=\fpart{X}{\tau}$,
+\fpart						lution for $\{\phi |\fpart{S}{\phi}=0\}$,
+\Xa						=\fpart{X}{\tau}$, $\Xa:=\fpart{X}{\sigma}$
+\Mat						where $u \in \U(\Mat(m,\hbox{\bf C}) \ot
+\textheight						2{ \topmargin=.46in \textheight=22cm \textwidth=15c
+\tpe						nd $p_a$ $\tca^a$, $\tpet_a$, and $\tpe_a$ u
+\mop						 continuation when $\mop{Re} s < \alpha+1$.
+\address						P11582 -- PHY.}}%\\ \address{Institut f\"ur Theo
+\Kahler						strong \Kahler corrections have th
+\Si						$\Phi:\Si\arr\Si$ projecting
+\avg						breaking vacuum at $\avg{\hat\Si} = 0$.
+\TeV						}$ of order $\geq 1 \TeV$, have been calcula
+\Rt						We find $\Rt^{i}_{j}=\d^{i}_{j}$
+\Ah						as long as $x+\Ah=x'+\Ah'$.
+\nd						re. If this is so, $\nd{\delta H}$
+\BT						are sections of $\BT^2(-2)$. ($\BT$ is t
+\bibitem						\bibitem {11} G.E.Volovik, \
+\tvf						The fluctuations $(\tvf, h, H, h_{rr})$ tra
+\thesection						\def\theThm{\thesection.\arabic{Thm}${}^{\n
+\Da						$\Da(x)$ is
+\ZBZrz						  In turn, all the $\ZBZrz$
+\cK						n $\Lambda$. Hence $\cK_{{\rm eff}} \big( \
+\sS						0$,} \lb{comm1} \] $\sS_m(\vr)\equiv\sS_m(\
+\Zrz						of the coordinates $\Zrz $, $r=1\cdots n$.
+\ks						e bosonic sector of \ks\ models (and hence
+\cb						forms $\cb{\ia}_\mu$:
+\Ds						, up to terms $\sim \Ds\c$ which do
+\at						$\at^{i}=-i\del_{i}$ and
+\gt						$ of  ${\cal U}_h$({\gt
+\br						of the $S$-matrix  $\br{b} S(z) \kt{b}$~\ci
+\GC						where $\GC$ is the $D$--dimens
+\mt						 spanned by the $i^{\mt{th}}$ four--brane i
+\young						$\mu=\young1100002$, means that
+\yng						ine{\Yvcentermath1  \yng(3)}= \yng(3)}}$$
+\TT						in $\delta g_{ab}=\TT_{ab}/r^{p+1}+\ldots
+\hx						eight function $\bg(\hx)$ satisfies the IHX
+\sig						lde{B}_{\mu\nu\l\rho\sig\tau}$, the S-dualit
+\eg						\eg nontrivial $F^{(n)}
+\mathR						$\mathR^{9-p}$):
+\vareps						one period $(L+1)\pi\vareps=2(\log N-\log\mu)$.
+\tOmega						$d\tOmega^2_3$, and identifie
+\phd						when evaluated for $\phd=1/L$ and $\theta=0$
+\signot						at $\sig=\signot$. By examining the
+\Mod						etilde K(M, [H]) =  \Mod_{U{_\mathcal K}}(M,
+\Fred						of index $0$ of $\Fred$ it is convenient t
+\End						rovides a basis of $\End(\mathbb{C}^2)^{\oti
+\Ch						$$\Ch({\cal O}(D))=1+D+\f
+\gb						order 1) on simple $\gb$ at level $k$, and
+\gvep						order $\go^2 \gvep$. As explained in t
+\parmedskip						^{(1)}_{\theta^8}$}:\parmedskip
+\Pc						easure on the dual $\Pc$, defined by the st
+\Gc						The gauge group $\Gc'$
+\Ucg						d $\chi \rightarrow \Ucg$. Now the operators
+\Hc						as to commute with $\Hc$, the roots of
+\Uc						$\Uc{g^{-1}}$. This
+\fmn						$\fmn\to \tilde F_{\m\n}$
+\fmnt						to -E$, or $\fmn\to \fmnt=\half \e_{\m\n}^{\p
+\cf						}{(-\Box)^2} \equiv \cf^{-1}\lef [\fr{1}{k^
+\tb						$\tga_{\ta\tb}$ is the metric on
+\db						 structure of $\da, \db$ it immediately fol
+\Db						tyle \frac{1}{16}} (\Db^2+R) \left( (\Db^2+
+\eb						} \tilde{m}^p_{n-1}(\eb^p_{i_2},\cdots,\eb^
+\fb						 on $\phi$ (not on $\fb$ as assumed in
+\sb						ructure $\mathcal{H}\sb R$ given by operati
+\Fint						tyle{+ \left( \sum_a\Fint \left[{1\over2}c_a{
+\Dint						 &=& \displaystyle{ \Dint\left[2\mu^2\Phi(V/\
+\Fbarint						ght] + \Fint w(U) + \Fbarint \ov w(\ov U), \crbi
+\Fd						{\mu}{\nu}$-s, and $\Fd{a}{{\mu}{\nu}}$ is
+\cfd						(\ref{qi}) that $\cfd''(\Fd)=-{\rmd \F\ov
+\dtb						$\dtb \to e^{-2i\a}\dtb$.
+\sw						-coupling spectrum $\sw$ of (\ref{viii}), a
+\rsp						different portions $\rsp, \rsm, \rso$ of the
+\rsm						ent portions $\rsp, \rsm, \rso$ of the
+\ssp						tate $(n_e, n_m)\in \ssp$
+\ssm						=-1$. Note that in $\ssm$ the monopole is st
+\rso						rtions $\rsp, \rsm, \rso$ of the
+\mspace						la_= ] = i\nabla_-W \mspace{100mu} [\nabla_-, \
+\two						\two T\equiv\hbox{{1}\ke
+\rx						\chi_2}$ which obeys\rx{6.25} is  mapped by
+\ry						are related through \ry g .
+\clap						#2\d*\hbox{\lower2pt\clap{$#3$}}}}
+\vdot						\def\vdot{\rlap{\kern-1.9pt\l
+\vtimes						\def\vtimes{\rlap{\kern-3pt\low
+\vDot						\def\vDot{\rlap{\kern-2.3pt\l
+\vTimes						\def\vTimes{\rlap{\kern-3.6pt\l
+\titlefont						lar}} \vfill \Title{\titlefont Discrete Flux as  Q
+\Ga						The $\Ga_{eff}$ will only in
+\parbigskipn						\parbigskipn {\it Proposition :}
+\dzep						inal Ward identity $\dzep \Ga=0$ be satisfied
+\dzlam						re of the algebra $[\dzlam, \dzep]$ is easily
+\thddot						contains $(\thd{N-1}\thddot)^n$, there will be
+\thd						   \calL/  \partial \thd{N}_\alpha)$ and $
+\Sc						ned in the objects $\Sc$.
+\sbra						$\sket{\Psi} E^{-1} \sbra{\Psi}$. Now, the su
+\sket						$\sket{\Psi} E^{-1} \sbra{
+\Item						\Item{(2)} Find the trans
+\fder						'} B \sb{\bf m} = i \fder {g \sp{\bf m}} \qua
+\chscy						\chscy{4. GENERAL GAUGE TH
+\Sl						 Dirac operator is $\Sl{D}+m$,
+\unitlength						{figure} \setlength{\unitlength}{10pt} \includegrap
+\Sf						ry fields $\widehat{\Sf B}$ and $\sqrt 2\Ha
+\with						string Field Theory\\with Tachyon Field} \aut
+\Burnaby						n Fraser University\\Burnaby, BC V5A 1S6 Canada}
+\twoptfn						 0,1,2,\ldots$ From \twoptfn, we have
+\bndrycondn						 boundary condition \bndrycondn, for large $p$, as
+\npt						e expressions like $\npt{0|f}$ in Liouville
+\http						linde@stanford.edu \\http://physics.stanford.
+\widebar						arepsilon_{N,\{q\}}+\widebar\varepsilon_{N,\{q\}
+\mybf						 coincides with $Q_{\mybf{q}}(x_j)$. Finally,
+\Ai						\def\Ai{\hbox{\hbox{${\cal
+\CY						(non-compact) \CY manifold and theref
+\zz						\{ \zz i^n\,{\mid}\, n\,{\
+\Telephone						 blas@ift.unesp.br \\Telephone: 55 (11) 31779065 \
+\Telefax						: 55 (11) 31779065 \\Telefax: 55 (11) 31779080.
+\tenmsbm						2,\hbox{\fam\msbmfam\tenmsbm C})$ $(s_1,s_2)$ Th
+\UNICODE						 We keep $%TCIMACRO{\UNICODE[m]{0x127}}
+\nsection						\nsection{Some remarks on mav
+\theb						and $\sig(x,\theta,\theb)$ is a chiral super
+\dagg						$V(\Ph,\Ph\dagg) = - \log \left({\P
+\Section						\Section{Generalized cohomol
+\tphi						\mu$ on $\phi$ and $\tphi$ in Eq.(\ref{eqn:a3
+\zk						$A$ field. Now a $\zk$ subgroup of $U(1)$
+\ND						jugation such that $\ND\lambda\mu\Omega\,{=
+\GG						$\G$  \rf{eff}  of $\GG$ \rf{stru}
+\pp						abla}_+\} \equiv 2i \pp$, and similarly
+\SP						$\SP$, as $T\to \infty$,
+\sheptitle						center} {\Large{\bf \sheptitle}} \vspace{0.5in} \b
+\shepauthor						{0.5in} \bigskip \\ \shepauthor \\ \mbox{} \\ {\it
+\shepaddress						 \\ \mbox{} \\ {\it \shepaddress} \\ \vspace{0.5in}
+\shepabstract						setcounter{page}{0} \shepabstract \end{titlepage}
+\va						$\wt\va$ and $\wt\vd$. If w
+\trac						am forms as usual; $\trac{\cdot}$ is the
+\sh						since $\rL{-1}\sh= \rL1$ we have $(\r
+\Gam						D(e,\tau):=\Psi[\6B(\Gam(e,\tau))]$ is dense
+\Nc						etric QCD with $\Nf<\Nc$}\label{sec:two}
+\gm						te over $(A^\gp_+,B^\gm_-)$, $(f_{2+}f_{2-}
+\gz						ighosts $\bzz$ and $\gz$ for the holomorphi
+\gD						he fifth dimension $\gD_5$ ($=\der_5^2$ for
+\gf						ven mode functions $\gf^+_n$ on the orbicir
+\gp						 integrate over $(A^\gp_+,B^\gm_-)$, $(f_{2
+\gG						nt  gauge function $\gG (x^0,x^1,x^2)$ in p
+\gr						t of the gravitino $\gr$ and its commuting
+\gn						and $(A^\gn_+,B^\gn_-)$;
+\gs						$\ju_{\pm R}={\gs-\gp\over 2\pi}, \jd
+\frc						{\vec{r}}_{-1} + (N+\frc12 \vec{b}^2)\vec{\d
+\gl						thbb C[\lambda]$ of \gl{sym}, with generato
+\tra						}}{3\pi^2}\int_{M^3}\tra{\cdot}$, i.e.\ (for
+\stxt						nonabelian part $G_{\stxt{NA}}$ of the surviv
+\tbeta						$\tbeta{Y}$ for the example
+\bbar						$K\sim (\bbar U U)^{1\over3}$. Mo
+\arrb						$F_{k0}\arrb{j}{j}{i}{i}$ relate
+\pacs						utions is stressed. \pacs{04.50.+h, 04.65.+e}
+\twobytwo						e, the matrix $g := \twobytwo{a}{-qc^*}{c}{a^*}$
+\twobytwoeven						We use $\chi = \twobytwoeven{1}{-1}$ as the grad
+\CCl						imits M$, on which $\CCl(M)$
+\row						$\row{\gamma}1k$ are the
+\tsum						[a]{n} \ni \omega^n=\tsum_\alpha [\omega^1_{n
+\Der						o that $\log\mu \in \Der_\varepsilon(H)$. Se
+\Dom						teq \supp f \subset \Dom\Onda\psi$. When app
+\Ran						Dom\psi$ and range $\Ran\psi$ are open subse
+\aspa						t is the algebra $A \aspa H$ which
+\sign						$\sign{P_{i,j}^{k,l}}$
+\braCket						$\braCket{0}{\dot\mu(B)}{0} =
+\twobytwoodd						But $D = CDC = \twobytwoodd{m}{m^*}$, so $m$ is
+\snorm						ce norm by setting $\snorm{f}^2 := \|\(f,f)\|_
+\Isom						$H \to \Isom(G/K)$ \cite[\S 13]{
+\Bild						\Bild{4}{fused.eps}{Level
+\varGamma						where $\varPi=\varGamma\oplus\varSigma\oplu
+\varSigma						arPi=\varGamma\oplus\varSigma\oplus\varGamma^*.$
+\varPi						where $\varPi=\varGamma\oplus\var
+\QH						g operators: $\Qb$,$\QH$,$\QD$,$\QK$ and th
+\QBH						; \\ [\QH,\HT]=0; &[\QBH,\HT]=0; &[\QH,\QBH]
+\zb						, $\za={\bf 1}=\za'=\zb=\zb'$.  The sum ove
+\pslsh						ed before, because $\pslsh$ is not invertible
+\thepage						page} \renewcommand{\thepage}{ } \renewcommand{\
+\svec						where $\hat r = \svec{r} / r $. This is t
+\mhat						law. Suppose that $\mhat{1}$ , $\mhat{2}$ an
+\swav						The action $\swav{S}$ which is given
+\fnote						sc R.Schimmrigk$^3$}\fnote{*}{Present address:
+\eqto						and pressure $P$ in \eqto{EOMback1}{EOMback3}
+\nnn						\ppp{(\nnn{0}{1})} \right] \ .
+\y						^\n p^\m\:- \frac i2\y^{\m\n}$ which For $
+\kansu						We rewrite $\kansu{\Delta_k}{\alpha}$
+\av						direction so that $\av{L^{AB}{\cal B}_{AB}
+\grande						\begin{center} {\grande Pre-bangian origin
+\nocite						te{SW1}, \cite{FN1}-\nocite{Aku1,B1,GG1}\cite{G
+\Istituto						versit\`a di Genova\\Istituto Nazionale di Fisica
+\diag						$F_{mn}=\diag (  F_{mn}^{({\bf 1}
+\cinza						%hep-th/01xxxxxxx\\ \cinza{DIAS-STP-01-17}\\}
+\ts						representation as $(\ts{\frac{k+1}2},\ts{\f
+\pt						mbda)=\pi(W(-\lambda\pt))$.
+\hX						en, the algebra of $\hX$ will induce a star
+\rrTth						into that of $\rrTth\times\rrTth$. As we
+\rrlam						unctions in ${\cal $\rrlam$ can be expanded th
+\fs						hat ${\rm tr\,} A =i\fs A^4$.
+\adg						$a_{\alpha}$ and $\adg_{\alpha}$
+\Institute						Research, Austria} \\Institute of Theoretical Phys
+\Clausthal						ical University of \\Clausthal, Leibnizstrasse 10,
+\mathring						have $\mathring{a}_{\tilde{I} \tild
+\twist						Let us denote by \twist{g}{h} the $8\times
+\thinspace						braofder}{${\rm Der}\thinspace\O\;({\rm Der}\thins
+\BIN						; ,\; j=1,2,\ldots ,\BIN{N}{Q+N/2} \right\}$
+\pubnumber						  %fill in the date \pubnumber{} %preprint number(
+\Title						nd{tabular}} \vfill \Title{\titlefont Discrete
+\Author						ir} \vskip0.5truein \Author{Atish Dabholkar and
+\Address						 Sandip P. Trivedi} \Address{Department of Theor
+\Hfrak						e upper half plane $\Hfrak$ and $\relax\,\hbox
+\dalemb						)$, where $\mathord{\dalemb{6.8}{7}\hbox{\hskip
+\Spec						$\Spec\subset\Supp(\id_{A\
+\fusion						$(N_J)_\mu{}^\nu = \fusion{J}{\mu}{\nu} = \del
+\rvert						$\langle0\rvert1\lvert0\rangle = 1$
+\bR						projection of $\bR^5$ onto $\bR^4$ res
+\pubdate						\begin{titlepage} \pubdate{\today}
+\rar						 taking the limit $N\rar\infty$ one reads of
+\ran						me\ast}_\ep|\psi_\ep\ran\sim 1$, which contr
+\York						niversity of York, \\York YO10 5DD, U.K.\foot
+\unH						$d \underline F = - \unH$. On pulling this
+\una						op component as $K_{\una \unb \unc \und} = \
+\adt						an is found in the $\adt \bdt cd$ component
+\bdt						 found in the $\adt \bdt cd$ component of $L
+\unb						mponent as $K_{\una \unb \unc \und} = \e_{ab
+\unc						nt as $K_{\una \unb \unc \und} = \e_{abcd} \
+\und						$\und i, \und a$ of Grass
+\q						\q In $n$-dimensional
+\ut						H$-valued fields $U,\ut$.
+\vd						$\wt\va$ and $\wt\vd$. If we divide it b
+\define						s of $A(z)$ or $h(z)\define A(z)^{D-2}$.
+\mx						)}_{r}={1\/\sqrt{2}}\mx{l}{-n-\mbox{\script
+\bbox						$\bbox{x}-\bbox{x}^{\prime
+\Ka						r z)$, which is the \Ka\
+\Hu						Since $|a^2\Hu| \sim \ell_0^2/16$
+\kt						$\kt{\hat{\mathbf{p}},j_
+\Vk						and $\prt_fZ_p=-\Vs/\Vk$. Hence $\del$-func
+\Vs						$(\Vp\chi|\f)=(\chi|\Vs(\p,z)\f)$ and putti
+\hg						$\tilde{\hg}^{a_{\scriptscripts
+\cint						\phantom{\cint{\w}{C_1}\,\cint{\w}
+\refstepcounter						\begin{figure} \refstepcounter{figure} \label{real
+\thefigure						r} \center{{\bf Fig.\thefigure}{\bf.} Turning on a
+\substack						,\nu}}_{y}\!:\Big|_{\substack{\text{2 contraction
+\dprod						$\dprod{\om(\tau_2)}{v(\tau
+\sprod						he scalar product ${\sprod{\cdot}{\cdot}}_{\be
+\rstate						neutron $\{\rstate n,\rstate{p,e,\ol \
+\tri						$\tri (e^\Phi-\1)=(e^\Phi
+\flpartial						_k}\cdots\phi^{i_1} \flpartial{\phi^i}\omega^{ij}\
+\frpartial						l{\phi^i}\omega^{ij}\frpartial{\phi^j} \ov{l}\V_{j
+\fpartial						Similarly $\fpartial{\phi^i}$ can be ide
+\mms						|\omega\rangle$ as $\mms$ and $\mmp$, respec
+\mmp						and $\mmp := \sqrt{\vp^2 + m^
+\mbold						We see $\overslash{\mbold{A}}(1)=\sum_{i=1,2}
+\ar						a \ar c,b \ar b,c \ar -a,
+\thru						\begin{equation}\{\,\thru{p}\,,\,\thru{p}\,\}
+\hdotsfor						 {\mathbf b}_1^T \\ \hdotsfor[1.5]{6} \\ -\delta_
+\I						$\I$, using
+\fct						As before, $\AC \in \fct{Lin} \Hz $ is assum
+\Vz						transformations of $\Vz$.
+\Wz						r spaces $\Vz$ and $\Wz$,
+\Cz						\Vz^*=\fct{Lin}(\Vz,\Cz)$ denotes the dual
+\Hz						on of the state in $\Hz{0}$ to the eigenval
+\AC						perator $\widetilde \AC $ such that $U$ is
+\gzit						te-dimensional then \gzit{fo.1}
+\fns						 $\Hz_0$ and $\Hz_{{\fns{eff}}}$ are finite-
+\xrightarrow						$0\xrightarrow{S_C}\dots\xrightarr
+\Ket						etilde A^{\dagger_L}\Ket{x}\,,\,\Ket{y})_L=(
+\shoveleft						J+L})\bigr>_{\!L}\\ \shoveleft{=\Bigl( \sum_{i=I}^
+\shoveright						r)\Bigr)}\times{}\\ \shoveright{ {}\times\bigl<\wid
+\hsize						space{3 mm} \hbox to\hsize{%\hss \epsfig{file=
+\defpar						$W_\mu=W_\mu[A;\defpar]$ satisfying the co
+\citd						rresponding example \citd{11r}{10r}. \par
+\noi						\noi As $z \st \cdot k$
+\citm						a ``magnetic'' mass \citm{3r}{7r}, and with t
+\np						\def\np{Nucl. Phys.$\,$}
+\rn						$\rn{n} {}={} \sqrt{\Sso
+\dpa						nteraction $\sigma^i\dpa_i (h^\mu_\mu+(p-3)\
+\zn						twisted state of a $\zn_2$ orbifold \cite{D
+\rnode						ue to the $\chi\chi \rnode{a1}{A} \rnode{a2}{A
+\ncbar						}{A} \rnode{a2}{A}b \ncbar[nodesep=2pt,angle=-
+\based						or {\cal M}-theory \\based on $\mathfrak{osp}(
+\cket						$\sum\cket{n_1}{n_2}\bra{n_1}{
+\goodbreak						\goodbreak\noindent{\bf Proof.
+\ta						while $\TT_{t\ta}=0$.
+\centeron						($Q^2\mathrel{\;\centeron{\raise.35ex\hbox{$<
+\pagestyle						n \parindent=1.15cm \pagestyle{empty} \def\rm{\sf}
+\tR						stfunction space, $ \tR{\omega}{w}\in\ensur
+\tw						$\tw$ and the curvature
+\hy						re $\Phi(\Theta,R,e,\hy)$ represents all te
+\seeq						e \mbox{r.h.s.}  of \seeq{rlate}
+\svev						ic contribution to $\svev{\phi_0}$. Finally,
+\seEq						\seEq{beta} then yields $
+\rcite						see \rcite{SeiSt} for a discus
+\seneq						\seeqs{eta} and\seneq{approx} for $r\le r
+\Asymm						sor representation $\Asymm{5.5}{0.4}$ is
+\Fund						$(1, \Fund{6.4}{0.3} , \Fund{6
+\ddag						113, INDIA\\ V. Soni\ddag\\ National Physical
+\pab						\qquad \partb1\equiv\pab1\ ,~{\rm etc.}\ .$$
+\sbv						$\delta F = \sbv{S}{F}$:
+\allowbreak						4$ for which $(x,y),\allowbreak (y,u)\in L$, $(u,v)
+\IR						${Sl(2, \IR) \over O(2)}$ in a
+\qh						`hatted'' charges, $\qh_1$ and $\qh_2$,
+\bj						$[J^i_{\bn}, \bj^j_{\bm}]_{\rm P.B.}
+\TL						\def\TL{\hfil$\displaystyle
+\TC						\def\TC{\hfil$\displaystyle
+\medbreak						\medbreak\noindent\underline{
+\derl						$U\left(\kappa\derl{A};\beta,0\right)$
+\myfrac						$\myfrac{\delta \tilde\Gamma
+\QAPX						rder the insertion $\QAPX{ }$ reduces to a
+\QCAP						fact that  $d_\QCAP{ }$ is bounded.
+\definitions						\definitions{A pair of variables
+\qr						in{array}{c} p+qr-1\\qr-1 \end{array} \righ
+\bbT						f}}\nolimits_{\mbox{\bbT C}}(N)$ over ${\mbo
+\pageref						\pageref{Dcentre}, and to fi
+\addcontentsline						\addcontentsline{toc}{subsection}{Ap
+\bbe						where $h_{\al \bbe}$ $(\al, \bbe = 1,2
+\mbf						dentify with $H^4(X,\mbf{Z})$ via Poincar\'e
+\bA						tion properties of $\bA{a}{{\mu}}$.
+\vx						$A_i(\vx ,x^0) = \sum_n A_{i
+\mbit						er the state, $| \{{\mbit A} \} \rangle$, whi
+\evev						$\evev{\hat {\cal D}^\gamm
+\mattrix						Here $\mattrix{F}$ is notation for
+\HT						ll|} \hline & & \\ [\HT,\DT_0]=i\HT; \hspac
+\Qb						nerated by $Q$ and $\Qb$.
+\DT						 \hline & & \\ [\HT,\DT_0]=i\HT; \hspace{3c
+\KT						i\HT; \hspace{3cm}&[\KT,\DT_0]=-i\KT_0; \hs
+\QD						ators: $\Qb$,$\QH$,$\QD$,$\QK$ and the same
+\QBD						]=i\beta\gamma^{-1}(\QBD-\QBb); & \\ [\Qb,\H
+\QK						 $\Qb$,$\QH$,$\QD$,$\QK$ and the same holds
+\QBK						2i\gamma\alpha^{-1}(\QBK-\QBb); & \\ [\QD,\D
+\QBb						[\QBH,\DT_0]=i(\QBH-\QBb); & \\ [\QH,\KT_0]=
+\medskipamount						uge Theories and}\\[\medskipamount] {\Large \bf Antife
+\hsp						 and $l^{ab}$ are $a\hsp{-.06}\lra\hsp{-.06}
+\Rs						d {\rm and } \qquad \Rs{}ijk \,, \end{equat
+\Gs						Automorphism $\Gs$ of $P_{++}^{(n)}$%
+\foodnode						\foodnode{Here we assume that
+\epicture						\epicture02 \end{equation}
+\mCb						tions $M,N,K$, let $\mCb a\alpha b\beta c\ga
+\rbas						$\rbas Ma{i\beta}{j\gamma}
+\tbas						\tbas k{} \otimes \tbas l
+\tdbas						\tdbas{k}{} = Z(M_2,{\rm T
+\Ann						where $\Ann{kM}N$ is the invari
+\AnnA						For $\AnnA{A^{(1)}{\otimes}A}{
+\Zdfct						 The properties of $\Zdfct XYkl$ derived above
+\webb						\newcommand\webb[2]  {{\sl #2\/}, av
+\webp						\newcommand\webp[2]  {{\sl #2\/}, av
+\phep						\def\phep  {Proc.\wb HEP$\!$}
+\Pfaff						There is a section $\Pfaff$ of the pullback
+\SU						 the propagator is $\SU(2)$-invariant, it c
+\hef						 coupling constant $\hef{}$ is related to
+\pF						le_{\rm I}$ and $|q;\pF{}\rangle_{\rm I}$
+\pB						 $\epsilon^\ast_\mu(\pB{})$
+\KI						we need $\KI^*_4$ fibres, so, fr
+\KIII						$(\KI_2+\KIII^*)$ respectively.
+\tfr						m d}^6z\, {\rm i}( -\tfr{2}{3}+\theta^\alpha
+\Zb						ept $\langle \Tr Z^J\Zb^J\rangle$ will turn
+\Ffo						The Fock state $\Ffo{~~}$,
+\ze						by a pair $(\delta, \ze=\pm)$, see  \cite{G
+\citelow						 made plain in Ref.~\citelow{ConnesMNovi}.
+\BBB						e{\otimes}\;\;\mbox{\BBB C} N_v$.
+\dummysp						(E_m^{\hbox{\hspace{\dummysp}} B} A_B) \|$,
+\bdummysp						$E_M^{\hbox{\hspace{\bdummysp}} A}$ and geometric
+\rra						~:~ C_\chi ~\rra ~ \hc_\chi^\tau ~,\
+\USp						in}&\begin{array}{c}\USp\\\text{(local)}\end
+\plus						=\! M$ or $k\! =\! M\plus 2$ that the model i
+\bmath						,b_2,\ldots,b_N\}$ $\bmath{T}(u)$ with differe
+\undertilde						${\undertilde F}^{(3)}$  which po
+\Wilhelm						meinde  zu Rostock,\\Wilhelm-K$\ddot u$lz Platz,
+\nsmetric						the original metric \nsmetric, we look at energie
+\Penrfl						dence of the metric \Penrfl\ is
+\zlag						nction $f(\tau)$ in \zlag\ as in \genrlPen. I
+\Penrf						For the metric \Penrf\ with $f(\tau) = {2
+\avoccno						evaluate \avoccno\ to give  $\langle
+\wzrhochi						the new coordinates \wzrhochi\
+\mfnew						into the metric in \mfnew, we recover the met
+\mfivemet						 S}^3$ appearing in \mfivemet.
+\mfgd						for $\rho(u)$ using \mfgd, obtaining
+\anihilation						da_B \lambda_C  = - \anihilation{B} \anihilation{C}
+\derivation						{ABC} \left( q_{sB} \derivation{sC} + \lambda_B \an
+\vn						The term $\kappa\,\vn\,\partial_m\hat A_n
+\vk						eC$. Since, $\vL \X \vk = - \ew (\vL) \X \v
+\vm						$ v = \vm, \vp, \infty $ corr
+\pseudo						 supersymmetry, the \pseudo\ Lagrangian is then
+\fss						 the fermion mass, $\fss{A} = A_\mu (x) \, \
+\GeV						esssim Q\lesssim 3\,\GeV\,$
+\sepword						})\,(de\,de)^k) = 0 \sepword{for} k = 0,1,\dots,
+\tn						where $\tn{n}$ is trajectory o
+\rfq						ravel the  condition\rfq{1.4}, we must speci
+\en						($\en{k} {}={} -e < 0$).
+\extracolsep						 \begin{tabular}{c@{\extracolsep{50pt}}cc} \includeg
+\flushleft						t \hrulefill \vfill \flushleft{June 1998} \end{tit
+\fe						field $A_\mu $ and $\fe$ is the physical Hi
+\UCVFC						ight}hep-th/0206082\\UCVFC-DF-16-2001 \end{flu
+\GradientFlow						ion, $\phi_0^a$, to \GradientFlow:
+\seqalign						}}$$\eqn{PhiZero}{\seqalign{\span\TL & \span\TR
+\span						{PhiZero}{\seqalign{\span\TL & \span\TR &\qqu
+\FiniteMass						\FiniteMass; and at small $\tau
+\ManyOps						\ManyOps.  First (and trivia
+\DifEqForg						Equations \DifEqForg\ and  \Defineg\ do
+\Defineg						ns \DifEqForg\ and  \Defineg\ do not involve $z$
+\the						essage{baselineskip=\the\baselineskip} {\sc
+\rgroup						y^b\end{array}\right\rgroup$$
+\aD						 of \D{p} ($N$) and \aD{p}
+\vrvr						t $\lv{f}(i\,T)^\dag\vrvr{i}$, we can use the
+\curw						i} must hold, with $\curw{t}$ and $\cuSO{t}$
+\cuSO						nt_0^{h(t)} M_s\,ds=\cuSO{h(t)}$, as
+\cumin						lies that $\cuSO{t} \cumin{0}= \cumin{t}$, com
+\proprw						I$, the propagator $\proprw{t,t'}$ maps the alg
+\fadcrw						ptstyle\sim$\,}}}_0(\fadcrw{t'})$ onto ${{\math
+\ym						(0,1)$ parts of the \ym field strength
+\Bgamma						fficient $2$ is $\#(\Bgamma_+^-\cap\Bgamma_-^+)
+\et						$\et_{ab}=\et^{ab}=\oper
+\te						The reflexion $\te_{e_\mu}$ at the hyp
+\undos						the (inverse) spin $\undos$ representation of
+\cm						e in $d=1+1$. Then $\cm=S^1$ and the
+\bbr						edge of the spaces $\bbr{0}$ and $\bbr{1}$ d
+\tih						~$T^\chi$~ acts in $\tih$ by:
+\tN						\tn_x, \tn_{x'} \in \tN , \, a, a' \in A \e
+\hd						 Then  $\nu_1=\nu_2+\hd\nu'$.\ $\Box$\vs{5m
+\tmu						~, \qquad \mu \cong \tmu ~, \end{equation}
+\cs						where $\cs_3(A,F_A)=\Tr(AF_{A}
+\hc						then $\Tr(C_F{y^\b}^\hc y^\b)=6\Tr C_F^2=6d
+\kc						map null states $\kc_l^{(q)}$
+\cd						the set $\{\cd_a,\De_\m\}$ of oper
+\tcp						 \circ \cd' \circ L_\tcp^\ttp \end{equation}
+\bac						plexification ~$\cg^\bac ~=~ osp(8/2N)$~
+\varsubsetneq						mathcal{F} : \gamma \varsubsetneq \gamma_i}$ constitu
+\tl						 in $Prym_{\Lambda}(\tl{B})$.  For a bundle
+\Young						 representation   ($\Young{1}$) of the
+\stab						where $\stab{\mathcal{V}}$ is th
+\auto						 the dual group of $\auto{\mathcal{E}}$.
+\bea						.eps} \vskip -208pt \bea I_{BB} \a=\a \displ
+\eea						. \raisebox{37pt}{} \eea \vskip -10pt \end{f
+\thm						sult %$\delta^{(1)} \thm \big|_{1/r^5}$
+\msyfam						when $1+2j \in {\fam\msyfam\tenmsy Z}_\geq$. Ho
+\tenmsy						+2j \in {\fam\msyfam\tenmsy Z}_\geq$. However,
+\VV						\ \ff_k =  \f_k, \  \VV_D= \td V_{2l}$
+\eom						s is that even for $\eom=-1$ one has $Y^2 >0
+\cn						functions $\sn$, $\cn$ and $\dn$, theta -
+\hphi						$N=Q[\hphi,\hbphi]$\ .  To fin
+\hbphi						$N=Q[\hphi,\hbphi]$\ .  To find nondi
+\hsigma						Replace $\hsigma$ in (\ref{NHam}), (
+\vp						and $\mmp := \sqrt{\vp^2 + m^2}$. The exte
+\vss						$\cos\vss=1$
+\wtd						from the action of $\wtd L_{-1}$ on
+\sst						formation to $\{F_{{\sst{(2)}} 12}, F_{{\sst
+\cDb						ay}{cc} {\cal D}_\xi\cDb_\xi&0\\0&\cDb_\xi{\
+\Eh						et $E_{(N,k)}$ and $\Eh_{(k,N)}$
+\citen						\citen{Saito}. Applying th
+\roughly						\def\roughly#1{\raise.3ex\hbox{$
+\The						5\\ 3508 TD Utrecht\\The Netherlands\\ \vspa
+\mathib						um eigenkets $\bket{\mathib{p} j}$ and $\bket{\
+\bscpx						p} ) \doteq 8 \pi^3 \bscpx{\mathib{p} j}{C ( 0
+\Eins						 c_{z_0}(z')=\left({\Eins}_{2k}-\hat g^\dagge
+\brg						Bianchi identities $\brg{_\d^{\mbox{\tiny{D}
+\zer						provided $V\zer $ is energy-depende
+\Triangle						inus .2in \def\Prop{\Triangle} \def\Prod{\prod} {
+\vartriangle						define $\vartriangle$ by
+\mathbi						$\mathbi H (\mathsf{B})=\ope
+\auth						ties} \vspace{30pt} \auth \vspace{15pt} Feza
+\ms						\ms\ \ $(3/5k_1=k_2=k_3
+\Mstr						A large ratio $\Mstr/\Mc$ is only obtain
+\Mc						symbol~$\Mc{4}$ is involutive.
+\brkt						ied with $\f{2}{\mu}\brkt{\alpha}{H^{l.c.}_{s
+\MeV						derate region $0.5\,\MeV\lesssim Q\lesssim 3
+\CV						vacuum manifold is $\CV=U(16)/(U(8)\times U
+\In						$E_{2PPI}$.\\\\In an analoguous way,
+\It						\\It is clear that the $
+\Since						of $E$.\\\\Since $E$ is the vacuum e
+\Next						ion has no sense.\\\\Next, we
+\Apparently						ss gap $m_{eff}$.\\\\Apparently, we haven't got any
+\nolinebreak						$\nolinebreak{[M\pm1/M]}$) lie on
+\wq						equations $\partial\wq/\partial (\tilde M_
+\weff						$\weff$ take very simple f
+\bmx						\baselinestretch{1} \bmx{1} 1 \\ 0 \end{arra
+\figref						d are as explain in \figref{f:fig0}{}. a) A=1/2
+\mc						$\bar{\mc{H}}$,
+\pl						\def\pl{Phys. Lett.$\,$ }
+\Fo						 limit, since each $\Fo$ is locally convex.
+\TGG						inuous. %\footnote{$\TGG$ is a projective li
+\Mybf						re the measure $\mu(\Mybf{x})$ is given by \r
+\halfi						$x=\pm\halfi+\R_+$. Then, in the
+\titlerm						\begin{center} \font\titlerm=cmr10 scaled\magste
+\titlei						caled\magstep4 \font\titlei=cmmi10 scaled\magst
+\titleis						caled\magstep4 \font\titleis=cmmi7 scaled\magste
+\bilin						the factors $\bilin{\rho}{\alpha}$ need
+\rom						ass, the area is $A_\rom{BS} = 16 \pi M^2/L$
+\refRef						\refRef{Horowitz:2002cx}, $
+\refsect						\refsect{s-bigbhs} we saw th
+\hb						 of $g$ instead of $\hb[]$. The
+\fock						he operators in the \fock a. We get
+\htb						for the $\htb k$) we get
+\BB						where $(\BA\cdot\BB)=\sum_{i=1}^3\BA_i\
+\Dual						Expansion from the \\Dual Representation of\\
+\Department						Theoretical Physics\\Department of Physics\\MIT, Ca
+\bket						momentum eigenkets $\bket{\mathib{p} j}$ and
+\mathecm						{H}_\xi ) : \xi \in \mathecm{X}_0}$. According t
+\bset						et$ allowing for a $\bset{( \pi_\xi , \mathsc
+\sqi						f  $\kern2pt {\hbox{\sqi I}}\kern-4.2pt\rm C
+\Green						\begin{multline} \Green[E]{G}{}(x,x')=\\ \i
+\vac						p follows from $J_0 \vac = 0$ and the state
+\vacrm						\label{eq:TttCas}\\ \vacrm[ren]{\hat T^\varphi
+\vX						as $\:\exp (i\vv \X \vX) \:$ for the tachyo
+\PUPT						rint{hep-th/0211140\\PUPT-2060} \begin{center
+\cprime						}{{\mathfrak g}}\def\cprime{$'$} \def\cprime{$'
+\Eqn						}{rcll} \bullet\ m_i\Eqn{\leftrightarrow}m_j
+\clearpage						\begin{figure} \clearpage \noindent\includegr
+\poly						ce ${\Xi}_l \subset \poly$, $\sigma ({{\Xi}_l
+\pportw						city properties of $\pportw{h}{k}{N}_F\hspace{0
+\tv						ameters $v(x)$ and $\tv(x)$ describe
+\ww						u)=\l(-u)$, we set $\ww=-u$ and write (\ref
+\bE						$\bE$ field such that
+\four						u}=\del_{\hat\mu} + \four \m_5} \G_{\hat \m}\
+\Dsqac						$\Dsqac \cD_\alpha\,U=0$. T
+\trg						 $\varphi^{abc}= 3/2\trg \tau^a [\tau^b,\tau
+\trn						$\trn$ the trace for $N\t
+\qp						+1 to $V$. Then, $\qp$ increases the ghos
+\qm						er by an unit, and $\qm$
+\mycaption						ludegraphics{kuva0} \mycaption{Some M-theory solit
+\Vol						here $\Vol(G)$ is the volume o
+\txtfrac						2 - (m_1+m_2)m_3 +  \txtfrac{3}{4} m_3^2  \\ \to
+\vereq						mathrel{\mathpalette\vereq>} 100\,\mathrm{TeV}
+\TmumuAgain						o the scale anomaly \TmumuAgain. Naively, it seems
+\Wdef						1$, all the sums in \Wdef, \Wexpand, \WVDef,
+\Wexpand						 the sums in \Wdef, \Wexpand, \WVDef, and must r
+\WVDef						in \Wdef, \Wexpand, \WVDef, and must refer to
+\November						{\sc IASSNS} 94/101\\November 1994 \end{flushrigh
+\spose						${\spose {\raise 2.0pt\hbox{
+\Yvcentermath						$${\tiny{\overline{\Yvcentermath1  \yng(3)}= \yng(3)
+\ur						transformation \ur{gt} is, however, di
+\ads						 on AdS space-time $\ads$ and local QFT's on
+\Exc						ots$ are subject to \Exc7 transformations. U
+\keywords						erlinde@phys.uu.nl} \keywords{String Duality, D-B
+\ntwo						parameter $\mu$ \ntwo supersymmetry is no
+\qt						\qt{$N(-[\frac{n}{2}-j]
+\pz						_z= \sigma(r,\alpha)\pz \beta(z)$, see
+\none						First we studied \none QED with FI $D$-ter
+\Qhat						nilpotent operator $\Qhat$ under appropriate
+\Itil						Since $\lambda_\Itil =(1/8)\lambda_+^{-1
+\hdots						der $\{ V_{u_{p+1}} \hdots V_{u_N}\} $
+\BSk						\psi^{j}_{-k})$ on $\BSk[A_{s}]_{0}$ for $0<
+\CSk						 SL(2,\RR)$ vacuum $\CSk[\emptyset]$ as Here
+\BN						The $\BN$ and thus the Planc
+\RawSienna						variant derivative $\RawSienna{D_\mu \phi} =\parti
+\unity						ssarily squares to $\unity $.
+\Maroon						, an antisymmetric $\Maroon{A_{\mu \nu \rho }}$
+\mong						$\mony_t(z)\equiv \mong_t(z)-\xi_t$ whose I
+\mony						ndom conformal map $\mony_t$ by $\mony_t(z)=g
+\hepth						10\\  BONN-HE-92-07\\hepth@xxx/9203051 \end{fl
+\arraystretch						tesize\renewcommand{\arraystretch}{0.5} $ \left(
+\restriction						$\beta_i\restriction_Z$ is an isomorphis
+\wick						$\wick{\phi^n}$ interactio
+\uu						arameter space for $\uu$ was drawn in the f
+\uuu						t calculations for $\uuu$ were also
+\uuuu						}.} In the case of $\uuuu$, for
+\mq						and make $\mq$ fully connected.
+\fus						\alpha _2=-b/2$ $\fus{-b}{
+\clebsch						tributional kernel $\clebsch{ \alpha _1}{x_3}{x_
+\gfus						\alpha _i$. $\gfus{
+\myslash						$\myslash{D}$ is given by
+\pred						\color{vert}\delta}}\pred_\mu^{\ \ii}\wedge\x
+\sixrm						 {\lower 5.0pt\hbox{\sixrm \color{vert}L} } {{
+\xe						ed_\mu^{\ \ii}\wedge\xe^\mu\big)\, .\fe
+\DD						n in denominator: $ \DD{0}\rightarrow\DD{0}
+\begingroup						ngth}{0.00087489in} \begingroup\makeatletter\ifx\Se
+\makeatletter						87489in} \begingroup\makeatletter\ifx\SetFigFont\unde
+\undefined						etter\ifx\SetFigFont\undefined% \gdef\SetFigFont#1
+\gdef						tFigFont\undefined% \gdef\SetFigFont#1#2#3#4#
+\reset						FigFont#1#2#3#4#5{% \reset@font\fontsize{#1}{#
+\fontsize						#3#4#5{% \reset@font\fontsize{#1}{#2pt}% \fontfam
+\fontfamily						fontsize{#1}{#2pt}% \fontfamily{#3}\fontseries{#4}\
+\fontseries						pt}% \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+\fontshape						y{#3}\fontseries{#4}\fontshape{#5}% \selectfont}%
+\selectfont						{#4}\fontshape{#5}% \selectfont}% \fi\endgroup% {\r
+\endgroup						}% \selectfont}% \fi\endgroup% {\renewcommand{\da
+\dashlinestretch						oup% {\renewcommand{\dashlinestretch}{30} \begin{picture
+\arc						t(-348.000,687.000){\arc{2340.000}{5.8884}{6
+\path						ellipse{226}{1304}} \path(462,1137)(1182,1137
+\blacken						th(417,687)(12,687) \blacken\path(132.000,717.00
+\Symp						 conditions on the $\Symp(2)$-structure given
+\sspin						nd $g^\perp\oplus g=\sspin(d)$ where $g$ is th
+\Asym						 )$, $(1, \overline{\Asym{6.4}{0.3}} ,1)$ and
+\brc						$H_{\rm max}=\brc{P_m,Q_{2\alpha},M_{
+\cI						\cJ_1,~ \cJ_2$ and $\cI_3$, respectively,
+\UvUa						that of {\UvUa} superstring is $10
+\nfour						\newcommand{\nfour}{\mbox{${\cal N}\!\
+\bW						$\bJ{}^\pm (\bz) := \bW{}^\pm_{\sqrt{2}}(\b
+\tabl						ost3} by 3 steps in \tabl{noghost}. Note that
+\Gm						$\Gm_{\La}$ can be taken
+\GK						d by the number of $\GK{-r}$'s $(r \geq 0)$
+\month						} \def\today{\ifcase\month\or January\or Febru
+\space						dilute $A$--$D$--$E$\space lattice models migh
+\day						ber\fi \space\number\day,\space \number\year
+\year						December\fi, \number\year} \rightline{hep-th/
+\eval						pi\rho}\left(J^{(1)}\eval{\Phi^{(B)}}_{M_{10}
+\normord						fields enclosed by $\normord{\phantom{x}}$.
+\rof						from \rof{orden} that the par
+\non						since $\vk\in\L_0$} \non for $p^\m$ and $q^\
+\Def						{\Def The holomorphic bun
+\Ex						{\Ex~}Consider a divisor
+\Cor						{\Cor Consider the matrix
+\mathZ						\mathC)/\rmH^1(\rmE,\mathZ)$ described by the
+\mathQ						rational numbers $\mathQ$ an imaginary numbe
+\mathC						J(\rmE)=\rmH^1(\rmE,\mathC)/\rmH^1(\rmE,\mathZ
+\zr						${\cal V}\cong\mbox{\zr{0.1}\rule{0.04em}{1
+\EE						subgroups of $\EE88$ for $N\!=\!16$ a
+\setS						my, since mappings $\setS^1 \to \setS^1$
+\setZ						roup $\pi_1(U(1)) = \setZ$.
+\tableauside						 $\mathrm{SU}(2N) + \tableauside=1.0ex \tableau{1 1}
+\vth						er(2\pi)^2}\int dq_0\vth(q_0^2-m^2) {\sin \s
+\Supersymmetric						ongly Coupled $N$=1\\Supersymmetric $SO(N_c)$ Gauge The
+\vcenter						(${\bf 1},   \> {\vcenter  {\vbox \>\>  $) un
+\uit						uate the action $S_{\uit c}$ we have therefo
+\gc						differentiating $\gc$ with respect to th
+\CMcal						s the functions in $\CMcal{S}_{\bf F}$
+\rest						i(v)/dv^k\hskip -3pt\rest_{I_n}|>\epsilon$. T
+\bC						p^-_{h \bA} \p^-_{h \bC} \L^{+4BC} ,\label{
+\bZ						for the $\bZ_6^\prime$ or \Z{12}
+\es						he representations $\es, \ec$ and have oppo
+\figcap						\def\figcap{$\ng+\na$ vs. Euler
+\nmid						unique line. If $% P\nmid g$\ then A.6 says t
+\mato						on fields $\Psi_s = \mato{c} (\Psi_s)_R \\ (\
+\uR						the mode functions~$\uR{0}(x_2)$, $\uI{0}(x
+\uI						ons~$\uR{0}(x_2)$, $\uI{0}(x_2)$, $\uRX{0}(
+\psR						rresponding fields~$\psR{0}$ and $\psI{0}$ a
+\psI						elds~$\psR{0}$ and $\psI{0}$ are the goldsti
+\uRX						)$, $\uI{0}(x_2)$, $\uRX{0}(x_2)$
+\uIX						and $\uIX{0}(x_2)$ through Eq
+\myfig						\myfig{cone.eps}{12}{The o
+\sthru						{\sthru  K}\,\Psi~=~\sum_{a
+\gothi						$~\pi_{\mbox{\gothi m}} = {1\over 2} (1
+\uG						ons appropriate to $\uG$ and generate the
+\International						] R. Paunov{${}^*$}\\International School for Advanced
+\rref						(x)$ defined by Eq.~\rref{defDelta}
+\fac						$(-\fac12 <\wp<0)$ with one
+\twid						The loop states $\twid{\Psi}_i(\a)\equiv T
+\AM						it #2}\\[.1in]} \def\AMIC{Aleksandar Mikovi
+\endtitle						-3840}\\[.1in]} \def\endtitle{\par\end{quotation}
+\endabstract						quotation}\par} \def\endabstract{\par\end{quotation}
+\sVEV						values $\sVEV{\hat{G}_\alpha}$ va
+\mat						with $J=\mat{0 & 1_d \cr 1_d & 0
+\gsi						\newcommand{\gsi}{\,\raisebox{-0.13c
+\mst						$\mpl$ by $\mst = g\mpl$ \cite{wit}
+\tbar						OPE with $T$ and $\tbar$. One can explicitl
+\tcK						With $<\cK \tcK> \sim x^{-\g_{str}
+\ppp						\ppp{(\nnn{0}{1})} \righ
+\gotig						l basis $(T^a)$ of $\gotig^\ast$, and to expan
+\gotigh						${\gotigh}\subset{\gotig}$.
+\Argonne						gy Physics Division\\Argonne National Laboratory
+\frenchspacing						\begin{enumerate}  \frenchspacing \item[1.]   V.\ Dri
+\Bf						all the ${{\Bf\alpha}} \in N({\cal
+\DH						cle on the algebra $\DH$. The representatio
+\hook						 by the elements $\{\hook{g}{x}\}_{g,x\in H}$
+\beas						minipage}[t]{3.8cm} \beas 1        &\simeq& |
+\eeas						 |e,\,^4\! \Gamma>, \eeas \end{minipage} \beg
+\DW						uasi--Hopf algebra $\DW$ related to an abel
+\nt						$C_{\nt}=\pm\frac{1}{2}$. I
+\Bo						$\Bo{m},\;2\leq m\leq N$
+\plpl						ith $~{\scst A {}~=~\plpl,~\mimi,~ +1,~+2} $~
+\mimi						\scst A {}~=~\plpl,~\mimi,~ +1,~+2} $~ of $~N
+\ula						$$\ula \equiv \{\mu i\}=(0
+\ulb						' metric $\eta_{\ula\ulb}$. The most general
+\ulm						to arrange $~\phi\du\ulm{\ula\ulb}$~ by
+\footnotew						 boundary conditions\footnotew{We are using the {\
+\ulc						erm in $~G_{\ula\ulb\ulc}$~ [19].
+\uld						\epsilon (\sigma^{ |\uld\] }) \du\epsilon{\D
+\ule						silon\du{\ula\ulb} {\ule\ulf} R\du{\ule\ulf}
+\ulf						n\du{\ula\ulb} {\ule\ulf} R\du{\ule\ulf}{\ul
+\sPL						and I. V. Volovich, \sPL {\bf 164B} (1985) 2
+\sNP						le and R. G. Yates, \sNP {\bf B108} (1976) 3
+\sMPL						Ooguri and C. Vafa, \sMPL {\bf A5} (1990) 138
+\sCMP						yah and R. S. Ward, \sCMP {\bf 55} (1977) 117
+\sPRL						223 ; \\ E. Witten, \sPRL {\bf 38} (1977) 121
+\bth						$\bth$ space as another f
+\restric						One also has $\restric{{\rm rank}\; R^i_{0
+\Scfam						${\fam\Scfam W}^{(l^\prime)}_n\t
+\aR						$0=(\xi,\Delta\xi)=(\aR\xi,\aR\xi)+(\aR^{\d
+\spav						\begin{titlepage} \spav{3cm} \begin{center}
+\tg						-2c_{\bar{g}}}$ by $\tg$ and the Verma modu
+\sH						ew equation $\check{\sH{a}}\ps{a}=0$ can be
+\mite						1$) defined in ref.~\mite{schellekens}
+\Mdclose						uced modular space $\Mdclose{g,n}$
+\keindex						Note $< \keindex{X}>=-R^{2}/2$.
+\ke						si_{r}$} . Since $< \ke{X} > \neq 0$, \mbox
+\proclaim						\proclaim Lemma 4.5.  The wav
+\WS						 U.K.}\\[.1in]} \def\WS{W. Siegel\\[.1in] {
+\zwon						psi^{+}_{\mp j}(w)= \zwon{\delta_{ij}}+\cdots
+\tenss						mathchoice{{\,\hbox{\tenss I{\hbox to 0.2em{\h
+\sevenss						nss C}}}}}{{\,\hbox{\sevenss I{\hbox to 0.2em{\h
+\fivess						nss C}}}}}{{\,\hbox{\fivess I{\hbox to 0.2em{\h
+\wa						Here $\Tr_\wa$ refers to the unco
+\sevenrm						hss\rm l}}}}{{\hbox{\sevenrm 1{\hbox to 0.3pt{\h
+\fiverm						venrm l}}}}}{{\hbox{\fiverm 1{\hbox to 0.2pt{\h
+\swa						$\swa{8k}$. The character
+\Int						n}  F_{\mu\nu}[f] = \Int{4}{x}\, f(x) F_{\mu
+\PLB						ohnius and P.~West, \PLB{105} (1981) 353; \N
+\NPB						LB{105} (1981) 353; \NPB{198} (1982)493. \it
+\PRP						~van Nieuwenhuizen, \PRP{68} (1981) 189. \it
+\PRD						t and D.Z.~Freedman \PRD{12} (1975) 2286. \i
+\uln						n though $~R\du{\ulm\uln}{\ula\ulb}$~ {\it i
+\sansfam						hchoice {\hbox{$\fam\sansfam\tensans\textstyle Z
+\tensans						{\hbox{$\fam\sansfam\tensans\textstyle Z\kern-0.
+\edef						\edef\@biblabel#1{$^#1$\h
+\Cite						 following relations\Cite{FRT}:
+\Dmat						$\Dmat{A}{B}=d^A \delta^A_
+\Rhats						defined by $\Rhats{ab}{cd} \equiv \R{b
+\Rhat						$\Rhat{AB}{CD} \equiv \R{B
+\Bitnet						Austin, Texas 78712\\Bitnet: Gaite@utaphy}\\ \s
+\stackreb						 for $\psi ^{\pm}_n \stackreb{\lambda {\cal O}(\l
+\MM						pacetime  manifold $\MM$ $=$ ${\rm I\kern-.
+\mreq						$x$ are defined in \mreq{bk3}.}
+\myfont						to lie in the flat {\myfont R}$^3$ plane
+\plot						\plot{3.5truein}{\tiny{$\
+\hws						$|\Psi\!\!>\:$ and $\hws{k}$ have opposite
+\gotg						for $\;t \smin {U(\gotg)} \otimes {U(\gotg)
+\smin						for $\;t \smin {U(\gotg)} \otimes
+\susy						$N=2$ \susy in target superspac
+\sush						ansformation of the \sush $(\tau^i,\eta)$
+\suli						f the $n$ -extended \suli as well.
+\sust						=(1,0)$ twistorlike \sust proposed in
+\agh						s characterized by $\agh \g=0$ and
+\eql						\eql{R$\pm$}
+\gothic						 product of ${\hbox{\gothic T}}(x,p;X,P)$
+\samepage						\begin{titlepage} \samepage{ \setcounter{page}{
+\ssc						where $I_{\ssc \NN}$ corresponds t
+\dD						ntains neither $\de_\dD$ nor $\de_\dR$
+\kr						area operator, and $\kr=(h-1)(c_-/6+\xi/3)$
+\kl						and ${\kl}=(h-1)(c_-/6-\xi/3)
+\tk						Finally by writing $\tk$ in terms of $k$ we
+\extra						}), for the $\hbox{{\extra{{\extra Z}}\hskip-\
+\Extra						 the chiral $\hbox{{\Extra{{\Extra Z}}\hskip-\
+\EEQ						\label{ex} \EEQ which come out good
+\SD						c\lambda\mu\Omega = \SD\lambda\mu / \SD\lam
+\NC						\par  For $\NC$ the two parameters
+\WA						$-particles of the $\WA$-chains near
+\NIF						values are off the $\NIF$-limit still by
+\vph						st column we quote $\vph_m$, which we define
+\BEQ						y the relations     \BEQ
+\EEA						\label{sumf} \EEA       For $\NC$ we
+\deutsch						tion $\Delta_{\mbox{\deutsch A}}$. The problem w
+\Deutsch						mbox{$U_{q}{\/\mbox{\Deutsch g}}$}\ is directly
+\kreuz						tsch G}_{q})$}\mbox{\kreuz o}\mbox{$U_{q}{\/\m
+\ths						2={k\over 2}((dr)^2+\ths (d\theta )^2).\eqno
+\chs						Gamma_{11}^0=i\omega\chs~\y$$
+\css						y-{\cal H}~\zeta{'}+\css~\zeta ~.\eqno(61)$$
+\tablerule						$&&$-1.35.10^5$&\cr\tablerule &$2.0$&&$-6.99.10^{
+\hang						\par\hang\textindent{(ii)} $~
+\textindent						\par\hang\textindent{(ii)} $~\forall (r,
+\tchi						With  $\tchi=2(1+h^{(1,1)})-2h^{
+\eN						quality we used $\hN\eN=-\eN\hN=\eN$. The e
+\ulr						$~G_{\ulm\uln\ulr}$~ and $~B_{\ulm\ul
+\uls						\[\ulm\uln\ulr\]}{}^\uls \equiv 0$.  Secondl
+\ng						$\ng$ has also got vanis
+\ngb						$\bar\c=P(1,1)=4+2\ngb+2\ng+8p_{01}$
+\aus						$K:\; g\to K_g\aus\{0,1\}$ is a homomo
+\PP						${\PP}^1$, that is a pair
+\naive						ases, which makes a \naive\
+\Mile						d Westfield College\\Mile End Road, London E1
+\tW						ves the new theory $\tW(\tPhi_i)$.
+\tPhi						the new theory $\tW(\tPhi_i)$.
+\tPsi						$\tPsi_i$ with negative ce
+\ddy						enience, we denote $\ddy 1$ by ${\tilde{\par
+\ddt						quations of motion $\ddt r S_i$. Applying th
+\utilde						where $\utilde{N}=N/\sqrt{q}$.
+\ckakko						and $\ckakko{\Theta_{ABC}, \Xi^{
+\vars						mma_{eff}^{(0)}+13 T\vars{\Gamma_{eff}^{(0)}}
+\deel						ontour integration $\deel{1}{2\pi i} \oint_{\
+\message						etherlands\\[10mm]} \message{baselineskip=\the\b
+\tenbf						\begin{center}{{\tenbf QUANTUM MECHANICS O
+\tenit						\baselineskip=13pt {\tenit Institute of Physic
+\three						e T(u)\two T(u+\eta)\three T(u+2\eta)  $$
+\ktp						r $\widehat{SU(2)}_{\ktp+1 }$ characters.
+\At						$\At^{\mu}(\Ut)$ are fun
+\ktm						NS sector and when $\ktm =\ktp =1$,
+\SSS						ransform matrix of $\SSS$ characters are giv
+\Ak						involve the $\Ak$ characters again,
+\SUkp						The $\SUkp$ subalgebra of $\At
+\kp						fields $l^{(--)\M} (\kp)$,
+\km						$r^{(++)\M} (\km)$
+\ppu						s} $(V^+,V_-)$ and $\ppu\pmd$ (or their conj
+\ppd						\ \{(V_+V^-)^{\ktp}(\ppd\pmu)^3\}^{|p|} & p<
+\YS						with $\YS=-1$.
+\YW						=\hf$ doublet with $\YW =-1$. Here the $U(1
+\HLk						e have imbedded in $\HLk$ a representation o
+\Zi						 in $m$ away from $6\Zi_k$, we notice that
+\mref						When $Q<0$, \mref{char} has three dif
+\RRhat						$\RRhat{a_1}{a_2}{d_1}{d_2}
+\Rp						 A}{\bar B}$}, and $\Rp{AB}{CD} \equiv \R{B
+\Rb						$\Rb{\bar{A}\bar{B}}{{\b
+\Rpinv						}}{{\bar C}\bar{D}}=\Rpinv{AB}{CD}$, since it
+\gov						s $\ket{\psi (Q^V_0 \gov{\bar{R}}{\bar{R}'}{
+\sL						ative on time from $\sL{k}{0}{.i}$ in (\ref
+\tT						 a \k metric, then $\tT^{\bI}_{\bJ\bK}=0$ a
+\ctop						For $\htop=-{\ctop\over6}$ the two Ver
+\tcc						 the ideal $\cJ{2}:=\tcc{2} + \J{2} $ commut
+\undertext						the \undertext{ideal}  Fermi gas o
+\feff						potential $V_{\hbox{\feff eff}}(\lambda)$ is
+\chh						hamiltonian vector $\chh$ which is a Killing
+\gab						neral solution for $\gab$ has precisely the
+\rab						That the matrices $\rab$ satisfy such a rel
+\grt						$\grt(\theta$$=$$0) = \gr
+\tdt						$$\tdt = \e_1 + (z/z_2)^{\
+\tdz						(\t , z) = F(\tdt , \tdz)\;,$$
+\spa						$\spa{i}.j= \langle i^- |
+\uij						$\uij=e^{i\theta_{i j}}=\
+\ucji						j=e^{i\theta_{i j}}=\ucji$ are elements of $U
+\Xmode						all modes $\Xmode^\pm(\omega)$ with $
+\markboth						\markboth{\it $D_k$ GRAVITATI
+\Toprel						$\Toprel{\lower 2pt \hbox{$\
+\elevenit						In case of a {\elevenit real\/} spin-$1/2$
+\tpo						s like a legitimate \tpo vector.
+\bdm						where \bdm W_{\rm eff}\equiv W
+\dS						. Noticeably, a \mdg\dS$, which gives $\Del
+\dV						 $\int\frac{1}{4}F^2\dV$ poses a minor
+\hfc						ac{3q^2}{4\Lambda_i}\hfc M_i=\frac{9q^2}{4r_
+\mg						o a group $\bG$ by $\mg$. Unless specified
+\sppt						o Natsuume\fnote{*}{\sppt} \vspace{6pt} {\sl
+\vz						$\vz_1 ,\vz_2 \in\{ \vA,
+\parsmallskip						ny positive $F(v)$. \parsmallskip
+\ghat						) reference metric $\ghat_{\mu\nu} = \eta_{\m
+\xplus						 is independent of $\xplus$, the derivative
+\xminus						 $A(\xplus)$ and $B(\xminus)$.
+\Kplus						 \psi_2 = -\invNhat \Kplus\dhat_1\psi_1 .$$
+\dhat						elative cohomology $\dhat$ is decomposed
+\alminus						$\left[G, \alminus_m\right]$ with $\ps
+\alplus						ss $\pplus, \qplus, \alplus_{-n}$
+\dzerohat						$ \dhat_1\psi_1 = -\dzerohat\psi_2 $.
+\Fc						\  C&U \ea \ri) \in \Fc_g$,
+\Bc						ong \lf(\ba{cc} \Ac&\Bc\\  \Cc&\Dc \ea \ri)
+\Cc						where $\Cc^0=1$ and $\Cc^1=\Cc
+\sieb						$({\bf 27} \sieb)^K$ ($K\geq2$) term
+\ri						1}\lef [\fr{1}{k^4} \ri ]$ and $\mu$ and $\
+\vr						both orthogonal to $\vr=T_iX_j$.
+\defe						where $\alpha \ \defe \ \gamma/2$
+\associated						plectic structures \\associated to Lie-Poisson grou
+\kbar						ontribution $\Delta(\kbar^2)$ to the reggeon
+\skew						\check X }$, and ${ \skew4\check {\bar X  }}$
+\qbar						nite (for non-zero $\qbar,~\kbar$) as $M^2 \t
+\subhead						\subhead{14.2 Should $QCD$ B
+\nats						\newcommand{\nats}{\mbox{${\rm I\!N }
+\komplex						\newcommand{\komplex}{\mbox{${\rm I\!\!\
+\kF						with $\kF=k_F$ the Fermi mome
+\NSF						shright} UMDGR93-32\\NSF-ITP-93-26\\hep-th/9
+\ml						$g\ml{n+k}{n+1}$) and the
+\mr						ralized connection $\mr{A}$ incorporates
+\enddel						x 3$ unit matrix.   \enddel
+\sq						\newcommand{\sq}{\mbox{\tiny$\sqrt{
+\fff						+ \ha  \fff^2_2 - \fff_1 \fff_2
+\bbpm						$\bbpm{1}{1}{j}$, $\eee{1}
+\eee						d monoid operators $\eee{a}{b}{j}$
+\qbinom						$$\cdot \qbinom {k+p-1}{k}\cdot \qb
+\Eqref						,\mu}$ presented in \Eqref{Lbmueff} we have ch
+\refpa						nce the base states \refpa{eq:basest} change s
+\authoretc						{\authoretc{\ J\"urgen Fuchs\ $
+\andauthoretc						\andauthoretc{\ Christoph Schweig
+\cts						series of \cts\ based on $C$ type
+\fline						{}\fline{} $^1$~~Heisenberg
+\Per						EBN@FY.CHALMERS.SE}\\Per Sundell\footnote{TF
+\Chalmers						Theoretical Physics\\Chalmers University of Techn
+\refbr						, and we find using \refbr{nablan} and the con
+\hika						 a four-dimensional \hika manifold $\cM$ ther
+\epsi						j = - \delta^{ij} + \epsi ijk \cJ k$.
+\cJt						o be antiselfdual: $\cJt iAB =-{1\over 2} \e
+\addtocounter						\addtocounter{prop}{1} \noindent
+\dcite						(see ref.~\dcite{gtaylor}), and $ \w
+\May						179\\hep-th/9305170\\May 1993 \end{flushrigh
+\centerdot						d roots. $\alpha_{1}\centerdot\alpha_{2}=1$ so, $(
+\eqsim						llet}_j\stackrel{d}{\eqsim}\det H^{\bullet}(F_
+\dbe						$\5M,\, \5W_{\da\dbe\dg},\, \5\lambda^i_
+\Ps						w\cite{hj} that if $\Ps$ is
+\dR						, the de Rham GDA $(\dR{d},{\rm d})$
+\dh						$1\leq \ia \leq \dh$ be
+\elevenbf						{\elevenbf\noindent 2. The pha
+\rpi						$\rpi{j}=(D_{j-\frac{1}{2
+\rF						ng) generators for $\rF{}$ (resp.
+\rB						$\rB{}$). The adjoint de
+\modu						1\over 2}\delta(x^+)\modu{x^-}=\ft{2}{k}{x}{1
+\sijmxy						ar if we eliminate $\sijmxy$ from the first equ
+\rijmxy						$\rijmxy$ with $\psi(p,r)$.
+\pbajp						ijmxy=\rd <0|\sum_A \pbajp(y)\paip(x)|0>$ and
+\paip						 <0|\sum_A \pbajp(y)\paip(x)|0>$ and the vacu
+\ty						0,\rvec x)\stackrel{\ty T}\longleftarrow\hs
+\tz						ere $z = K_1^T y$, $\tz = K_2^T y$,
+\pbra						\begin{equation}  \pbra q(\vec{x}),p(\vec{y
+\pket						(\vec{x}),p(\vec{y})\pket =\delta^{(2)}(\vec{
+\demi						ase the operator $A=\demi[Q,\bar S]_+$ is
+\vP						fields $\vP(t)$ and $\vbP(t)$ a
+\vbP						ields $\vP(t)$ and $\vbP(t)$ are the topolog
+\vq						erators $\exp{i\vr\.\vq}$, $\vr\in\L$, may
+\vl						onal to the vector $\vl=X_j$.
+\bP						ts $q$ to $\gt\times\bP_{r}$,
+\bQ						$\bQ$-exact lagrangian $
+\deriv						nd $k_{\alpha\beta}=\deriv{z_\alpha}{z_\beta}$
+\wzwts						or $B$ and $D$ type \wzwts, only simple curren
+\CFTs						r the corresponding \CFTs, provided
+\PD						($\partial=\PD{z},\bar{\partial}=\
+\bsk						e\hline\end{tabular}\bsk \end{table}
+\mbar						nctions $\Ga_{n,0,m,\mbar}$ can be related to
+\zd						}^b=\delta_{j b}$, $\zd={\bf 1}$. Alternati
+\btu						elative thresholds $\btu_{E_6-SU(3)}$
+\DL						here $M^{(0)}_{ba}=-\DL D_{ba}$ and the aux
+\AB						since $\AB{I}{V_{L_i}}=0$. As
+\CB						th $\Th_\pm\in \exp(\CB_\pm\oplus \Cmath k)
+\carre						$\carre1112$, $\carre1121$,
+\Carre						ing 2 combinations $\Carre121112$, $\Carre1121
+\catcode						selineskip 13pt{\ } \catcode`\@=11 {\ }\\ Shahn
+\pref						05cm}(\ref{H0}) and \pref{Hn},
+\pcite						 the method used in \pcite{Abe}. There $\hat{g
+\derpar						{G_{\rm H}  , H\} + \derpar{G_{\rm H} }{t} & \f
+\Katholieke						heoretische Fysica \\Katholieke Universiteit Leuven
+\Celestijnenlaan						niversiteit Leuven \\Celestijnenlaan 200D \\B-3001 Leuve
+\xx						$$\xx{n-p}=\frac{1}{(n-p)
+\Ab						N(2)=\bigcup_{m=2}^N\Ab{m}$ and vector spac
+\Xt						-space coordinates $\Xt'$ and $\Pt$:
+\Gt						 exists a function $\Gt{\mu\nu}$ which is a
+\eh						\equiv \hat{\de}_m (\eh_n^\a \Xh^n)$ we can
+\Xh						at{\de}_m (\eh_n^\a \Xh^n)$ we can write, a
+\Pt						dinates $\Xt'$ and $\Pt$:
+\ntr						of the type $\langle\ntr{}(\bar{\Psi}\bar{\P
+\euo						the zweibein $\euo \mu \alpha$, which
+\vgl						satisfies \vgl{etaLeibnitz}, where
+\Bg						suitable extension $\Bg$ of the
+\Ev						igma} =\bigotimes_j \Ev{j}$.
+\vtop						\to \G$, such that, \vtop{
+\stretch						mal Field Theory \\[\stretch{0.75}] \end{large}
+\cmmt						_{rs}$. The symbol $\cmmt{\quad }$ denotes th
+\sd						 we define the map $\sd{\bullet}{\bullet}$
+\mattwo						f{\alpha}{\beta} := \mattwo{a}{b}{c}{d} \indf{\
+\tde						al P})$ and $ \chi^{\tde{\alpha}}({\cal P})$
+\for						ne Green functions \\for scalar two-loop dia
+\earo						imes\mbox{$\Psi$}), \earo
+\bbl						\mbox{\bbl C}\cdot{\bf 1}\oplu
+\by						$\by\rightarrow\infty.$
+\titlehead						tlepage} \newlength{\titlehead} \settowidth{\title
+\Sg						in{equation} I\equiv\Sg_a|a><a| \end{equati
+\MF						\CS\ theory can be $\MF$ of flat connection
+\Det						$\Det^{\prime} \calo = \l
+\bF						or those subgroups $\bF$ of $\bG_{L}\times\
+\bH						tion may belong to $\bH$.
+\azb						ation if $\az$ and $\azb$
+\unA						$\unA^{g}$ while those on
+\SI						}  \rci\lambda\mu = \SI\lambda\mu / \SIv\la
+\az						 transformation if $\az$ and $\azb$
+\Sa						he gauge fields at $\Sa$ and $\Sb$. Denotin
+\Sb						amiltonian pair if $\Sb{H_0}{H_1} = 0$.
+\dw						 measure $\det^{1-g}\dw(t)$.
+\wif						he $G/G$ model, the \wif\
+\dz						ly linear terms in $\dz$, one obtains
+\dzb						\dz g$ and $j_{\zb}=\dzb g\,\g$ generating t
+\sg						ices of $\Gd$. Let $\sg$ be a permutation
+\pplus						dure is to express $\pplus, \qplus, \alplus_{-
+\delplus						  $T_{++}=0$ reads $\delplus\left(\delplus\chi
+\nchiepsi						dependent part of $<\nchiepsi>$
+\weight						d after we specify $\weight$.  Moreover, many o
+\qminus						\pplus/\gamma\hbar} \qminus  {\rm e}  ^{-ic\ppl
+\psmearvac						tisfies  $L^{tot}_0 \psmearvac = \psmearvac=0$. Th
+\psmearnorm						written as $c_2 \psmearnorm$, where $c_2$ depen
+\kf						$\kf(\xiplus)$ then beco
+\Fii						geometric function $\Fii(a;b;z)$ as follows:
+\qplus						to express $\pplus, \qplus, \alplus_{-n}$
+\pdownvac						where $\pdownvac$ is the zero-mode v
+\Dhat						iffential operator $\Dhat(M,x)$ and the funct
+\period						ht\} = {1\over i} n \period $$
+\qe						in terms of  $\qe, \pe, \beta^+_n$ an
+\pe						in terms of  $\qe, \pe, \beta^+_n$ and the
+\yplus						_{n \ne 0} \exp (in(\yplus -\xplus)) = 2\pi \d
+\parag						\parag{$d=1$ case }
+\BMfont						\else{$\BMfont#1$}\fi}
+\realnumber						uperspace}) \otimes \realnumber ^2$,
+\res						y $[\psi,\varphi]:= \res{z}V(\psi,z)\varphi$
+\pdo						For any \pdo\, $A$ of type (\ref
+\tu						$X_a=\tra{XT_a}=\tu_{ab}X^b$ etc. Then
+\qquotient						ve preliminaries \[ \qquotient{\pi(J_\pi^k)}{\pi(J
+\rh						transformations,  $s\rh_1^\a  = i\P_1^\a$,
+\BI						nt $c^{(0)}\in\mbox{\BI C}\,\backslash\{0\}
+\pairing						$\pairing{\zeta'{}^i}{v'{}_j}
+\EF						ox{\rm Aut}\, \mbox{\EF C}{}^C)$.
+\tgn						$\tgn{i}{j}$ can be viewe
+\Rmat						the $R$-matrix $(\Rmat{i}{j}{k}{l})$ is al
+\CGg						$\CGg{i}{j}$, $\CGf{i}{j}
+\CGgc						$\CGg{i}{j}$, $\CGgc{i}{j}$, $\CGf{i}{j}
+\CGf						$\CGg{i}{j}$, $\CGf{i}{j}{k}$ and $P_{\
+\CGfc						, $\CGf{i}{j}{k}$, $\CGfc{i}{j}{k}$ are
+\Kdel						P=(P^{ij}{}_{kl}):=(\Kdel{i}{l}\Kdel{j}{k})$
+\repr						is read as $\repr{i}{j}$ whenever equ
+\FF						 super-invariant  ${\FF}$ only.
+\frm						$\frm\oplus\frl\oplus[bc]
+\frl						$\frm\oplus\frl\oplus[bc]$ interpre
+\unboldmath						1,$\boldmath$\sigma$\unboldmath$), \bar{\sigma}_\mu
+\Gcc						$\Gcc p $ and $\Gcp p $ c
+\Gcp						$\Gcc p $ and $\Gcp p $ correctly gives
+\Cco						to Eq.\ref{15.11}, $\Cco p $
+\DI						essary that $\tilde{\DI}_{c}(r)\DI_{c}(s)$
+\sdag						$\DI\sdag_{c}$ under $\de(i\x
+\Ix						$\Box \in \{\Lix{k},\Ix{k},\mbox{\bf d},\mb
+\dvam						and $f\dvam{n+k}{p}$ over $p\le
+\RS						since a \RS\ has complex dimens
+\Sig						. a section of ${(T_\Sig^*)}^{\otimes\, n}\e
+\December						-62\\hep-th/9612031\\December 1996 \end{flushrigh
+\mfd						nstruct its mirror {\mfd} $\mw$ in the recip
+\mw						 A mirror variety ${\mw \equiv }$ ${\cal F}
+\kae						\dpoly})$ with the {\kae} structure of ${\ca
+\dis						homology cycles ${\dis{\sum}_{j}} c_{ij} {
+\vpi						\times \frac{1}{{({{\vpi}_{0}})}^2}$.
+\delz						f the terms $\left({\delz}\right)^{n} \,\,,\h
+\vvp						basis ${\mbox{}^t}({\vvp{0}},{\vvp{1}},{\vvp
+\GQG						\def\GQG{ $ ({\cal A},{\cal
+\dud						+ \Omega\dud{i}{a}{c}\Omega\dud{
+\frg						rank of $\frg$ and $p$ the number
+\ppps						 x_{[\mu}p_{\nu]} + \ppps{X^{[\mu}_{,0a}} X_{
+\ppx						_{\mu\nu} X^{\nu} + \ppx{\lambda}{\mu}{} \ .
+\pps						\pps{,00} \right)$$
+\Zf						$$\ZFf(X_{w,v}^+)=\Zf(X_{w,v}^+),$$ $$\ZF
+\Thm						\Thm {11:}  {\it $\hat{Z
+\Q						$\Q$, that is $(f_i-f_j
+\ZFf						$$\ZFf(X_{w,v}^+)=\Zf(X_{w
+\univ						l algebra ${\cal A}_\univ$.
+\vvert						C^i_{\cal G}\vvert {K}{I}{J} T^i\vvert
+\thol						representation and $\thol{\a_j}{\cL_j}$ are t
+\zmk						integral for $\zmk{\prime}$ by an ``ob
+\eqnum						\eqnum{15}$$
+\Zt						$\Zt{a}$'s act as genera
+\fd						$$\fd{{  \Gamma}}{\hat{W}
+\mtbb						on $R^n\times \hbox{\mtbb Z}_2$,
+\refs						t$. Recall from eq.~\refs{ranges} that the ti
+\dalpha						$\ov{\cal D}_\dalpha S = 0$ and has as c
+\SG						ical quantities in $\SG$ are
+\NP						berg and E. Witten, \NP{B289}{87}{589} \bib
+\PL						 and J. H. Schwarz, \PL{B149}{84}{117} \bib
+\PR						 van Nieuwenhuizen, \PR{D17}{78}{3179} \ite
+\PRL						ine and N. Seiberg, \PRL{55}{85}{366} \item
+\nC						ts of order two in $\nC\,$.
+\kC						$\kC\cong\bZ^+[\pC]\,$ a
+\gC						morphism $\,\pC\cong\gC\,$. To a class of p
+\pC						\psi^{-1}(1)\subset \pC \,$.
+\HC						ses of holomorphic $\HC$-bundles). Then, we
+\met						If we vary $\met{\mu}{\nu}$ in $\Agr
+\DiffoS						e embedding map of $\DiffoS$ and
+\Dinf						g_1g_2,e^{-k\Gamma_{\Dinf}(g_1,g_2)}c_1c_2)\}
+\wZ						in{array}{c} uX\\vY\\wZ \end{array}\right)
+\Y						Only the operator $\Y$ in Prop.\ 5 cannot
+\Vb						basis $V_3=\Vb{3}=\B{2}$ for the s
+\Ao						ee how the numbers $\Ao{[{\bar\rho}_1,{\hat
+\Vbo						Bo{m},\;V_m^{(0)},\;\Vbo{m}$, respectively.
+\subs						 obvious that $\Pi_{\subs{\mu\nu}}\left( k \r
+\dtd						luctuating part of $\dtd{Y}_{n,t}$ is $O(\ba
+\dinprod						$\dinprod{\,}{\,}:{\cal T}_{{
+\ztraml						ms contributing to $\ztraml$. This would be eas
+\Jgen						$g_{{\Jgen{1} }\Jgen{2} }^{\Jg
+\fusV						dehat q}}(sl(2))$. $\fusV 1,2,,23,3,12 $ is a
+\gaghat						U_q(sl(2))$, while $\gaghat \bigr. {\hat {\Bigl
+\gadhat						_{{\widehat J}_{23}}\gadhat$ stands for the
+\subsxn						\subsxn{How to do Quantum T
+\hv						, since the vector $\hv{\nu}{2}$ is the hig
+\rpf						ial representation $\rpf{j}{1}{z}$. Formally
+\bezier						\vector(1,-3){0.2}} \bezier{224}(15.00,5.00)(25
+\rpp						o}^{\mu}{}^{(2)}(z)=\rpp{m}{j}{2}{z} \prod_{
+\refe						extra $i$ in Action \refe{act}.}
+\tcite						otimes \Omega(M)$ {}\tcite{osvb}{kalkman},
+\poisson						tric $\omega^{ij} = \poisson{x^i}{x^j}$ is the m
+\GL						$P_{++}^{(n)}=\{\GL=\Gl_1 \GL_1+\Gl_2 \
+\Sp						, or (for even $F$) \Sp{F-6}.  In fact all
+\rs						ldmath $1$}_N$) and~\rs{s3}(iv)).
+\vt						d=10 Majorana-Weyl $\vt$ spinor into 4 d=4
+\qint						is given by $a_j ({ \qint {2j} \over \qint 2}
+\Example						q.(\ref{Wbase}) of \\Example 1,
+\fonta						$\alpha\in$ {\fonta R}. As can be seen
+\twlrm						ebox{0pt}[0pt][0pt]{\twlrm (a)}}} \put(260,800
+\stepcounter						\stepcounter{rown} \end{equation
+\tM						$(h^{(1,1)}(\tM), h^{(2,1)}(\tM))=(
+\blacktriangleleft						\triangleright\!\!\!\blacktriangleleft} T$ where $T$ is th
+\Kgen						} $ is replaced by $\Kgen{12} $. We denote th
+\threej						where $\threej {j_1}{j_2}{j_3}{m_1
+\dL						latter by $\dL$.
+\medio						d} \\ \vspace{5mm} {\medio  Abstract} \\ \end{
+\rada						and ${\bf t} = [\rada w0r]\in C_s(K_b)$,
+\Cal						where ${\Cal F}_R$ is a constant
+\pc						$ is retained under \pc.
+\pco						the inverse \pco s $Y^i\in(o;o)$.
+\sdot						h{k}^\pm\equiv k^\mp\sdot\Gamma^\pm$.
+\Sbm						$\dket{N}$ ($N\in\Sbm{Z}$),
+\romannumeral						{}~~~~(\romannumeral2) $p(w)p(w-n)\tilde
+\Vp						rator $\p_0=\Res{z}{\Vp}$ is just
+\FOR						\Res{z}{z^n\Vp\f}=0 \FOR{ $n$ sufficiently l
+\bw						 a preferred state $\bw\in\cF$, called the
+\Fz						ogeneous subspaces $\Fz{n}$, $n\in\Z$, are
+\een						q.\ \Eq{Scale-com}. \een \end{theo}
+\Pz						2}+\frac32\rL{-1}^2)\Pz{-1}$ (see
+\FLie						roperty of the map $\FLie\to\End\cF$, $\p\map
+\amm						by and oscillators $\amm$, $m\in\Z$, $1\le\m
+\XO						tional extension $\Q\XO\L$, and the discret
+\ew						$\ew (\vL )$ is a level-
+\eW						ectors outside the $\eW (\9)$ transforms
+\eC						ive null vector in $\eC$. Since, $\vL \X \v
+\eG						d that $\eW\cap\Aut(\eG)=1$. Then the group
+\vri						e components along $\vri{-1}$, which we cann
+\ghA						Kac Moody algebra} $\ghA$ trivially, and the
+\vy						where $(\tx f)(\vy) := f(\vx - \vy)$.
+\ctz						 \eC$, it is known (\ctz{Prop.3.12}{Kac90})
+\III						$\III$, the point has nev
+\gfake						ster'' Lie algebra $\gfake$ \ct{Borc90}. the V
+\vxi						and \(\{\vxi_i(-1)|\vo\>\| i=1,\
+\vet						\vs=m\vd$,} \] for $\vet,\vze\in\gh(\9)$ and
+\val						g the direction of $\val\phi$: $\val{\phi_A}
+\vkx						is given by $\log(1+\vkx)$. Luckily, however
+\eL						\cr} \lb{order} \] $\eL_n$'s obey a Virasor
+\vL						$\ew (\vL )$ is a level-one r
+\vze						\vd$,} \] for $\vet,\vze\in\gh(\9)$ and $\9$
+\ketrm						$\tilde{\Pi}_1\ketrm{phys}'=0$
+\unused						line(-1,1){25}} \def\unused{\put(67.5,86){.} \p
+\UN						 $Y_{rs}=y_{rs}\cdot\UN$ with $y_{rs}\in{\d
+\marginpar						pological invariants\marginpar{\ninerm \vspace{-1.
+\xag						vector fields $\xag$ and $\xa(h)$ is
+\sgr						$\sgr$ is not connected b
+\ah						k manifold such as $\ah$, for reasons
+\aht						of $\aht$ in $H^{2}(\S,{\mat
+\ahk						involving $\ahk$ disappear and one
+\xa						$\Omega(\p)$ with $\xa(g)$ and $\xa(h)$ an
+\mapupl						\def\mapupl#1{\lower0.60ex\hbox
+\ave						of $\ave{{\cal O}_0}_\lambda
+\tprod						mod\,}\, p$ let $a'=\tprod a2k$, i.e.
+\authors						Curved Space--Time} \authors{H. Zerrouki\footnot
+\aphi						the operator $\tilde\aphi{0}+\tilde\achi{0},
+\achi						tilde\aphi{0}+\tilde\achi{0}, \quad \eta_0$ a
+\pGam						$$\pGam{z}= \frac{\inp{p}{p
+\Fp						$\Fp{a,b,c,:z}$ having
+\tfra						q^{(2\epsilon-{\tfra{k+2}{2}})n}+\tilde\
+\aPhi						a{k+2}{2}})n}+\tilde\aPhi{0}\log q \Bigr\}.$$
+\QS						$\QS$ and ${\bf Sym}$ by
+\qs						basis $(V_I)$ in $\qs$, one has
+\Br						$\alpha\in \Br pa$, $\beta \in \Br
+\ck						is a cycle in $\ck {n-1}{n+2}$ and the
+\BV						\mbox{$\hom V{\BV*}{\mbox{$\bigodot$}
+\Rada						for any $(\Rada b0{k+q+1})\in\BV{-q
+\HOM						\mbox{$\HOM{\mbox{$\bigodot$}^\
+\REF						pi))=o(\pi)-1$. Thus\REF{A}\ is proven.
+\hoj						$\sum\otimes_{i=1}^n\hoj{(a_j\cdot a_{j+1})}
+\sn						functions $\sn$, $\cn$ and $\dn$,
+\dn						$\Eps(-\dn Y_\mu+b_3\dm A_\nu^
+\sigharm						harmonic $2$-form, $\sigharm $.  Being Grassmann
+\headfontb						ge} \begin{center} {\headfontb Physical States of
+\addfont						ein \begin{center} {\addfont{Department of Physi
+\sbft						sions, derived from \sbft{}, are given in the
+\Tra						$\TraC{a}\equiv \frac{1}{
+\TraC						$\TraC{a}\equiv \frac{1}{2
+\TraL						trace class but $\TraL{\ccr{a}{\hat X}}$ s
+\tras						} t^2 p^2}\ee{pv}\, \tras{\Gamma^{(d)}
+\reel						 algebra U$_q$SL(2,$\reel$)
+\uj						where $\uj{}{}$ is the saddle
+\UUU						vious equation for $\UUU$ can be rewritten i
+\affine						ons of\vspace{2mm} \\affine Lie algebras.}} \\
+\cth						placing $\th R$ by $\cth R$ in \rf{eq:b33} w
+\sbm						\cal J}_n=\sum_{m\in\sbm{Z}}:\bar{\flat}_m\f
+\Con						nce the torsion of $\Con\a\m\b$ does not cou
+\planck						small magnitude of $\planck^2$ in the contorsio
+\Chr						sider $\Con\a\m\a = \Chr\a\m\a + \frac{4}{3}
+\PSI						iant derivative of $\PSI$ led to the self-in
+\chr						$\chr{a}\m{b}=e_{{\mbox{\
+\PSId						ve defined $j_z^\a:=\PSId\c^\a\psid$ and $j_z
+\YDW						\newcommand\YDW{\mbox{$\dot{y}^{\al
+\YDMM						\newcommand\YDMM{\mbox{$(\dot{y}^{\a
+\YDMN						\newcommand\YDMN{\mbox{$(\dot{y}^{\a
+\YFETAM						\newcommand\YFETAM{\mbox{$\eta_{\rho}^
+\AMBIGUITYM						\newcommand\AMBIGUITYM{\mbox{$ ( m_{\rho}
+\measM						\newcommand\measM{\mbox{$ d^4x (\sqrt
+\WW						-identity operator $\WW_{rig}$ is given by
+\WWW						\newcommand\WWW{\mbox{$\frac{3}{4}m
+\WCW						\newcommand\WCW{\mbox{$\frac{3}{4}m
+\WAWB						\newcommand\WAWB{\mbox{$\frac{3}{4}m
+\YVF						\newcommand\YVF{\mbox{$V^{\nu}\dot{
+\amb						d projective space $\amb$ determines a Calab
+\meas						\newcommand\meas{\mbox{$ d^4x (\sqrt
+\ambig						\newcommand\ambig{\mbox{$W_{\lambda}\
+\KETA						MBIGUITYYY{\mbox{$- \KETA [(Q^{\nu}P_{\rho} -
+\KYDOT						AMBIGUITYY{\mbox{$- \KYDOT K^{\rho}[(Q^{\nu}P_
+\AMBIGUITY						\newcommand\AMBIGUITY{\mbox{$[(Q^{\nu}P_{
+\AMBIGUITYY						\newcommand\AMBIGUITYY{\mbox{$- \KYDOT K^{
+\AMBIGUITYYY						\newcommand\AMBIGUITYYY{\mbox{$- \KETA [(Q^
+\ghtl						\newcommand\ghtl{\mbox{$\Gamma^{HTL}
+\EMLAM						\newcommand\EMLAM{\mbox{$[Q_{\alpha}
+\EMYDOT						\newcommand\EMYDOT{\mbox{$[Q_{ \{ \alp
+\EMETA						\newcommand\EMETA{\mbox{$[Q_{\alpha}
+\yslash						\newcommand\yslash{\mbox{$e^{-\frac{\L
+\yd						\newcommand\yd{\mbox{$e^{\Lambda}
+\pbzero						\newcommand\pbzero{\mbox{$\bar{\Psi_{0
+\pzero						\newcommand\pzero{\mbox{$\Psi_{0}$}}
+\September						805027\\ \hfill{  }\\September 1998 \end{flushrigh
+\modulus						$\modulus{q}=1$).
+\range						theta$'s, ${\cal P}_\range{1}$ recovers the te
+\structure						$\structure{\pi_{21},V_2\otimes
+\alg						ist indecomposable $\alg{A}$-modules which a
+\twomatrix						egin{displaymath} g=\twomatrix{\bar{a}(g)}{\bar{b}
+\keta						l_{i}}X_{j}^{l_{j}} \keta h$
+\ketc						_{i}}X_{j}^{l_{j}} {\ketc {h^{\prime}}}$,
+\zch						$\hbox{\zch g}(u)$ is given in
+\Ee						\footnote{Also the $\Ee(P)$-third
+\Ez						bation formula for $\Ez(P)$ of
+\BEA						 order $\la^3$:     \BEA
+\Pmi						to be at $P=\pi\pm 2\Pmi\approx \pi\pm \pi/6
+\pdr						cos{\pp}$ and $\cos{\pdr}$, we see that
+\sui						r each $Q,\;P$ for $\sui$
+\Es						the boundaries $\Es_Q^\pm(P)$ for two {
+\cAs						The structure $C(I,\cAs)$ of the algebra en
+\cHs						pace-like k-cycle $(\cHs, D_s)$ over $\cAs$
+\cBs						he unit element in $\cBs$. Because of eq.(\r
+\pds						$\pi_D(\OA)=\pds(\OA)\cup\pi_D(\cK_0
+\cHp						 dense subspace of $\cHp^k$ and
+\cHps						 dense subspace of $\cHps^k$.
+\cEs						es that $\cE = C(I, \cEs)$, where $\cEs$ is
+\cEt						ection uniquely on $\cEt$. The curvature $\v
+\vF						The curvature $\vF=\vF_{st} + \vB$ of
+\vA						gauge fields and $\vA_-=\vA_1-\vA_2$ corr
+\vE						d for the momentum $\vE$
+\fk						\def\fk{\mbox{ $f_K$} }
+\sideset						duct $\omega \equiv \sideset{^A}{}{\omega} \otim
+\WF						at the elements of $\WF(v)$ transform as el
+\Rn						ngential bundle of $\Rn$. It is therefore p
+\Universit						right} { THEP 95/17\\Universit\"at Freiburg\\Augus
+\Bulgarian						tute of Electronics\\Bulgarian Academy of
+\an						$\an/ \sqrt 2$, a pair o
+\am						 expectation value $\am$ of the ''one-boson
+\vst						ons $1,0$, and the $\vst$ scalar.
+\cw						$\cw({osp(4|2)}^{\bf c},
+\cws						ined, the quotient $\cws/\cg^*_-$
+\dpoly						equiv }$ ${\cal F}({\dpoly})$ of the manifold
+\reg						\reg{duality} is satisfi
+\parcial						$\parcial{q}$
+\uind						$$\xt = X^v{}\uind{i}{n-p}{}_k dx^k\ot
+\Mults						_1} & V_1 \\ \hline \Mults     & V_r\;,\;\; r=
+\ppmod						ine{b}-\overline{a} \ppmod{Q}$, via the decomp
+\Mult						} \prod_{j=1}^{N-1} \Mult{m_j+n_j}{m_j} \frac
+\gtk						\gtg) (${\cal U}_h$(\gtk)) coordinates $Z^i_
+\gtg						bra of ${\cal U}_h$(\gtg) (${\cal U}_h$(\gtk
+\gtb						\gtp$_0=\,$\gtb$_-$
+\gth						t from ${\cal U}_h$(\gth)$\otimes{\cal U}_h$
+\gtn						and \gtn$_0=\,$\gtn$_+$.
+\gtp						\gtp$_0=\,$\gtb$_-$
+\cq						\cq \right)\:,\label{ca
+\dii						$\dii + \slash{\o}$, but
+\Str						plies  also  that  $\Str\ C_{2n}(F) =0, \ n=
+\CE						ation between $\hat \CE^*_\pm(\mu)$ and ver
+\Al						ial bundle $\CE \eq \Al$ is considered.
+\Cliff						Clifford algebra $\Cliff ( \hbox{\bf R}^4, \
+\gotfam						gebra ${\protect\fam\gotfam\twlgot g}_r$
+\twlgot						{\protect\fam\gotfam\twlgot g}_r$
+\dvm						\def\dvm{\raisebox{-.45ex}{\
+\DM						y $A_{\dpx}$ or $A_{\DM}$. The helicity
+\dpx						ally denoted by $A_{\dpx}$ or $A_{\DM}$. The
+\frame						l{{\small noninv}} {\frame{\shortstack{{\small
+\euler						rest, $n_0\in \mbox{\euler n}^{\mu,1}_+$
+\Hinv						his way, the space $\Hinv$ can be identified
+\ssstyle						{k}}$ and $L_0=L_0^{\ssstyle {\rm GKO}}$.
+\Hhw						 onto the subspace $\Hhw^{\Gamma_{\widehat{{
+\rgf						1\cdots hO_s$ and $|\rgf_{\!A_u}\!\!\,(c,h)|
+\APx						$\gamma_x:\APx/{\cal G}_{P_{\!\bf
+\Htot						 transformation on $\Htot$ induced by the loo
+\Hflg						$\Hflg$ and is independent
+\Heq						-action on $\Hhw$, $\Heq$ is in one to one c
+\Heqhw						on the space $\Heqhw^{\circ}$ where
+\Ptriv						$Z_{\Sigma_{\tau},\Ptriv}^{G,k}(A_u;{O_{\!\g
+\gmaG						$\gmaG\Lambda=\Lambda$ and
+\tilT						){\times}\tiLtilH|_{\tilT})=i\hat{{\rm V}}$ w
+\tiLtilH						on of $U(1)_r\times \tiLtilH|_{\tilde{H}}$ on ${
+\FM						artial}{\partial N})\FM=0$,
+\tiL						s of our equations $\tiL_0F=-N^2x^2$ and
+\bv						Here, $\bv=gdg^{-1}$, $g_{\m\n
+\brho						a\J\to\chi^z_{\bz}, \brho'_{\bz\bi}\to \rho_{
+\Ker						mma$ is valued in $(\Ker\,df)^{\perp}$,
+\delrho						where $\delrho_{zi}=\eta_{zi}-\del
+\tilrho						rtation $\rho\mapsto\tilrho$.
+\sGamma						s Green's operator $\sGamma^{\dag}\sGamma$ has
+\bvarphi						where $\bvarphi'_{z\bz\bi}= +\frac{
+\bJ						n that $J^{\pm}(z), \bJ{}^\pm(\bz)$
+\fn						. When all different\fn{In which case $A$ m
+\dags						Theta=\sum_{A=1}^n d\dags qA \wedge dq^A=\Ome
+\pst						iplets  $X^i,\ps i, \pst i,\cH_i$
+\vier						where $e^m = \vier{m}{\mu}\partial x^\
+\eqrf						$\s$-model given by \eqrf{action}. We intend
+\riem						$\nabla$ and $\riem{}$ are the covarian
+\Enull						 ${\Theta_{AB}}^C = \Enull{A}{\alpha} \Enull{B
+\mkreis						vanishes because $ {\mkreis{G}} ^{\varphi \varp
+\hidewidth						\omit\hidewidth $q_{(89)}$\hidewidt
+\cir						$\bar{b}=a$. Let $x=\cir{x_0\ldots x_{n-1}}$
+\cirr						e the rotated room $\cirr {${\gamma_i R}$}$ t
+\eul						2}{\bigwedge} \mbox{\eul g}$ (in fact, $A=\a
+\smsb						{\eul l} _u)^{\mbox{\smsb C} }$.
+\bel						coordinate will be $\bel$ and its anticommut
+\epk						playstyle \kappa \( \epk{} -1 \) - \frac{M_0
+\ddj						egin{equation} y_c^n\ddj{n}\sim a^{5\over 2}
+\ddja						egin{equation} y_c^n\ddja{n}\sim a^{7\over 3}
+\ddjb						egin{equation} y_c^n\ddjb{n}\sim a^{11\over 3
+\fon						 easy to see that $ \fon $
+\gon						ric equation, and $ \gon(u) $ is given by
+\bbbold						f vectors in $\mbox{\bbbold T}$ (of both even a
+\Ac						M \cong \lf(\ba{cc} \Ac&\Bc\\  \Cc&\Dc \ea
+\AMIC						it #2}\\[.1in]} \def\AMIC{Aleksandar Mikovic\
+\AMsazda						avia} \\[.1in]} \def\AMsazda{Aleksandar Mikovi\'
+\parn						fty$ at finite $u$, \parn
+\rder						to $\rder{S}{z^a} \delta z^a
+\sdy						of precisely the \sdy equation $f_{\da\db
+\hk						given the \hk structure on $\hx$,
+\Dpp						 the connection of $\Dpp$:
+\bB						fields $\bv$ and $\bB$ are of the form $\
+\dpp						H^{++i-}  &=& 0  &= \dpp \bt_h^{i-} - \bt_h^
+\AOi						$B_r \in \AOi{r}, \ \Oi{r}$
+\Fcomp						a\varphi} -{1\over2}\Fcomp \ov m -{1\over2}\Fb
+\Fbarcomp						omp \ov m -{1\over2}\Fbarcomp m -\theta\sigma^\mu
+\Dcomp						al_\mu\ov \varphi) +\Dcomp(d+{1\over4}\Box c).
+\git						$M_2 ({\fam\git\twelvegi C})$.
+\twelvegi						$M_2 ({\fam\git\twelvegi C})$.
+\gba						 \nu}^a  & = g {\fam\gba\twelvegb G}_{\mu}^a
+\twelvegb						}^a  & = g {\fam\gba\twelvegb G}_{\mu}^a , & a =
+\normalbaselineskip						m\git\twelvegi M} = \normalbaselineskip=18pt \pmatrix{ M_u
+\map						for some $U\in\map(M^3;G)$, hence $F_A
+\traz						$\traz{M} = 0$ trivially b
+\pai						\psi}^{\alpha}_i(r)=\pai{r}$, where the bar
+\bdp						relations for $\bdp {\alpha }$:
+\py						$\,\p1\,,\,\py2\,,$ $ \px3\,,\,\px
+\pxy						\py2\,,$ $ \px3\,,\,\pxy4\,$.
+\pw						generated by all $B(\pw_i)=A(I_i)$. But in
+\fig						d third diagrams in \fig{eselfen},
+\halv						he choice $\del\Xi=-\halv\del F$ in \r{242},
+\cj						Define spaces $\cj{0},\cj{1},\cj{2} \s
+\rag						The states $|\phi_a\rag$ are defined in (2.
+\uqg						o some irreducible $\uqg$ modules
+\uqgt						um affine algebras $\uqgt$
+\frap						 deduce that $V_a\ot\frap$ carries the follow
+\psa						e^{\pm s_i\th}$ in $\psa$ is dictated by
+\psat						relate $\psat$ to $\pi_{h,a}^{(\m
+\sabd						\Eq{intertwine} of $\sabd$ follows immediatel
+\uqgu						$\uqgu$ representations $\
+\sab						That also $\sab$ satisfies \Eq{boot
+\antip						$\antip(X^\pm_i)=-q^{\pm d_
+\htt						orresponds to $\Htt=\htt$ and at this partic
+\dkC						$ is related to the \dkC number $\htt$ by
+\uqc						$\uqc$ symmetric theory a
+\Htt						 $\th=i\pi\frac{-B}{\Htt}$ is due to the
+\Tprime						mass $\Tprime$ (the so-called the
+\Jpopl						operators by  $\Jpopl{\sigma_+} $, and $\
+\Jsopl						l{\sigma_+} $, and $\Jsopl{\sigma_+} $.  For a
+\Jpop						$\Jpop{}$ and $\Jtop{}$ co
+\Jtop						$\Jtop{x_<}\equiv\kappa_3^
+\Jmop						 the definition of $\Jmop{x^-}$
+\Jsop						 Eq.\ref{D2FP}, by $\Jsop{\sigma_+'''}$
+\Dop						left[q^{J_3}\right],\Dop{} {}$ again.
+\zm						here $q(x^+) \equiv \zm{A}^3_{-}$.
+\bsig						of $\bsig0$ in the sector of
+\distd						emann Surface} 		\\[\distd] Dana Stanley Fine
+\pprod						where the product ${\pprod^{D-1}_{l=1}}$ means
+\dtp						$$\oint_\infty\dtp{w}\beta(w)e^{\sqrt{
+\tenof						20})$, $n \in \mbox{\tenof N}$, is defined as
+\rz						., $\varpi$ in Eq.\ \rz gov below),
+\gi						$tr \left(\gi p g + {k\over 4\pi}
+\gd						$(\, e_a (\gw^b ) = \gd_a{}^b \, )$
+\gu						ss components $\gd, \gu$ do not exist on
+\gui						wedge \\[2pt] \left(\gui (\gd \frac{\partial
+\gdi						partial \gu} )\gu - \gdi (\gd \frac{\partial
+\mathinner						isomorphism $\mathinner{\bf R}^3\mapsto Lie
+\nb						heta \g^5 \widetilde\nb_m \bar\chi_n) + 2i
+\fp						motion ($\fp$ equations) are der
+\nabtil						$\nabtil^{ab}_{\mu}$ is the
+\no						ymath} \Gamma^{(n)}=\no{\Gamma^n}. \end{dis
+\pDD						$\pDD_{\overline{\Gamma}}
+\rL						 namely the space $(\rL{-2}+\frac32\rL{-1}^
+\got						g subalgebra $\hat{{\got h}}_w$ is
+\Nat						$r,s \in \Nat , a_l \neq 0$ for $
+\VP						x operators, i.e.\ $\VP{z}\VF{w}$ and $\VF{
+\VF						ators, i.e.\ $\VP{z}\VF{w}$ and $\VF{w}\VP{
+\ben						hh{1em} \\[-2.5ex]  \ben \item The Jacobi id
+\Vf						\( \p_0= \Res{z}{\dz\Vf}= 0 \) by \Eq{Tra}
+\Qmind						and identify $\Qmind{0}_{SUSY}$ with the
+\abstracts						\abstracts{$D=11$ supergravity
+\bbbd						has to be found in $\bbbd \times (\bbbr_{+})^
+\ham						e constant term in $\ham{emag}$ must be
+\polmu						 with polarization $\polmu{+}$
+\sP						f(t,{\bf x}) = e^{i(\sP{f}\cdot{\mbox{\scri
+\act						from $\act$ through
+\rhs						that is, the \rhs of \ex{A.7} is $\ba
+\XX						geometry of $\XX$, we find that its
+\Rc						coefficient $\Rc a{({\bar\lambda}_3,
+\Rcp						dom, as ${\rm dim}\,\Rcp{1}{4}={\rm dim}\,\R
+\Rcpp						rious submanifolds~$\Rcpp{q}{r}{s}$
+\Mcpp						$s$~projections. $\Mcpp{q}{r}{s}$~is the co
+\aq						is~$\aq{1}{1}$.
+\seeqs						\seeqs{eta} and\seneq{appr
+\gv						nds on the sign of $\gv$)
+\Ten						\frac{1}{2}\Ten{H}^l\!\u_{ij}.$$
+\penalty						bar{\mbox{\rm q}} $-\penalty10000\hskip 0pt plus
+\monoidbox						ebox{-10pt}{\usebox{\monoidbox}} \vspace{.5cm} \\
+\braidbox						ebox{-10pt}{\usebox{\braidbox}} \hspace{1.3cm} (B
+\cMs						n the moduli space $\cMs{II}$ and a null vec
+\XL						n}} = < \vec{n}\cdot\XL{\vec{x}}>$,
+\XR						that the operators $\XR{\vec{x}}$ are
+\tca						\pet_a$, and $p_a$ $\tca^a$, $\tpet_a$, and
+\tpet						nd $p_a$ $\tca^a$, $\tpet_a$, and $\tpe_a$ us
+\dGX						ndependent field,  $\dGX{{\mu\nu},a}$ is
+\dG						When $\dG{a}{{\mu}{\nu}}$ is
+\VG						ant expression for $\VG{ab}{{\mu}{\nu}}$ an
+\epu						have $V_{ik}\epu{abc}\F{a}{i}\F{b}{k
+\pq						The charges $\pq_{i}$ act also as $v
+\sbf						{\cal F}_s\sbf{\alpha_3}{\alpha_1}
+\dRn						DD_d^{(0)}$. Then $(\dRn,{\rm d},\int,\DD,\p
+\Cn						ict ourselves from $\Cn$ to
+\CCn						in $(\CCn,\hd)$ as discussed
+\hint						 $(\CCs{2n-k-1},\hd,\hint)$
+\hdel						tions \Ref{om} and $\hdel=\delta-\iota$,
+\hI						cal V})) = -2(t^2-t)\hI({\cal V}^2)=0$ and
+\CCs						c^k_{2n-k-1}$ for $(\CCs{2n-k-1},\hd,\hint)$
+\fra						psilon_3\lr{h;\left[\fra{h-2}{2}\right]}$ an
+\August						versit\"at Freiburg\\August 1995\\ hep-th/95100
+\hG						lity is to replace $\hG$ by its
+\ddtt						$\ddtt+{2s}\leftrightarrow
+\Mcpar						 the modular space $\Mcpar{2,1}$ it is enough
+\authorinfo						p=1.25\baselineskip \authorinfo{Kazuyuki FUJII}{fuj
+\Un						ariant measure on \(\Un{n}\): \be dg\propto
+\grsmn						assmann manifold, \(\grsmn{N}{n}\simeq\Un{N}/
+\Mn						10},M_5,\Mu,M_d,M_e,\Mn$ and $M_N$ is
+\Mnm						( {}^{\forall}A,B\in\Mnm{m+n}{n}\), there ho
+\Roman						e $D=10$ type \hbox{\Roman{dummy}B}  matrix mo
+\Uppsala						Theoretical Physics\\Uppsala University\\ Box 80
+\acomm						he Poisson bracket $\acomm{\,}{\,}$ is defined
+\walg						transformations as $\walg{}A+f''(\bar{\omega}
+\anom						 rectify this: let $\anom{\epsilon}$ and $\ba
+\cward						formal functionals $\cward{\epsilon}$, $\canom
+\wward						 W}_3$ functionals $\wward{\lambda}$,
+\banom						nom{\epsilon}$ and $\banom{\lambda}$
+\canom						\cward{\epsilon}$, $\canom{\epsilon}$ and
+\cact						$\cact{\epsilon}$ and $\wa
+\wanom						$\wanom{\lambda}$ and $\wac
+\wact						act{\epsilon}$ and $\wact{\lambda}$ are preci
+\wti						th a gauge ladder ${\wti \AA}$
+\ptil						measure $\Dcal \ptil$ to be general coor
+\fg						oduced $\ptil\equiv \fg~\p$ for the
+\Dcal						measure $\Dcal \ptil$ to be genera
+\Dvec						the operator $\Dvec_x^{ij}$\ can be alw
+\Vvec						small perturbation $\Vvec$.
+\feble						orta{M} 0$ means $f \feble{M} 0$ and ${\rm d}
+\nor						) - \frac{\alpha^2}{\nor{\bm x_1}} \right) .
+\delt						 subset defined by $\delt1>0$, $\delt2>0$.
+\forta						pfc}, G_k\}        &\forta{P^{(f)}}& \hbox{\sc
+\thinmuskip						riptscriptstyle |$} \thinmuskip=4mu \!\!C\thinmuski
+\SC						\centerline{\SC {of a Scalar Partic
+\elevenmsb						mitting $SL(2,\mbox{\elevenmsb R})$ invariant
+\ITP						it #2}\\[.1in]} \def\ITP{\footnote{Work supp
+\camera						s2.3in\newpage} \def\camera#1#2{ \topmargin=.46
+\evensidemargin						oddsidemargin=.28in \evensidemargin=.28in \marginparsep
+\marginparsep						vensidemargin=.28in \marginparsep=0in \parindent=1.15
+\rng						\rm string}^2=\lng c\rng$ and
+\nsum						), \ \displaystyle{ \nsum{q}{0}} \int\limits_
+\ptp						\def\ptp{Prog. Theor. Phys.$
+\prl						\def\prl{Phys. Rev. Lett.$\,
+\titlesf						bigskip \centerline{\titlesf Covariant Methods f
+\DAMTP						ght} hep-th/9605020\\DAMTP 96-46 \end{flushrig
+\Riem						The metric $\Riem{\:}{}$ is supposed
+\spc						where $\spc_\A$ is the spin con
+\ksm						\ksm s, due to the anoma
+\abm						ition of $\ap$ and $\abm$ in order to preven
+\gmn						 reduced a general $\gmn$
+\cpm						chiral ring of the $\cpm$ model at level $k$
+\Zmn						group $H/Z = \sumun/\Zmn$ in the appendix. B
+\Zset						$\Zset_{mM}$. Setting
+\Cset						For $\lambda \in \Cset$ we consider the su
+\glt						KS} that for $A \in \glt , W \in Gr$
+\glh						ty} \hookrightarrow \glh$ is
+\normprod						hi}_{u}) J^{l}(z) = \normprod{e^{-\phi(z)-u(z)} \
+\Nset						to arbitrary $c \in \Nset$. Discussion}
+\sym						ion  of the $U(2N)$ \sym theory \ci{KTTT}:
+\reps						or the $(0,s)$ \reps of the rotation gro
+\ABS						$\ABS{B - B_r}$
+\ketl						\newcommand{\ketl}[1]{{|{\mbox{$#1$}}
+\AOiu						$\AOiu{1} \subset {\AOiu{2
+\RWTH						eoretische Physik  \\RWTH Aachen \\ D-52056 A
+\pbr						acobi identity for $\pbr{}{}$)} \nn \\
+\tV						.18em P}_1$--split $\tV$ of the
+\Italy						3 -- I-16146 Genova\\Italy} \vspace{15mm} \end
+\Switzerland						 CH-1211 Gen\`eve 4\\Switzerland} \end{center}
+\tab						 $V_n^{(2)}$. Using \tab{irreps} we
+\Romannumeral						_{\mbox{\scriptsize \Romannumeral{2}}} $.
+\nket						$\nket{T(1,5)}^+$.
+\ssf						bviously,~$\mathop{{\ssf Im}}\delta_W$ is ge
+\egs						$\egs():=(0,1,\ldots,n-1,
+\ho						integer in $\eta(p)=\ho$.
+\des						or $\des(\tilde{T})=\des (T)
+\drawline						ture}(40,55)(0,-10) \drawline(0,0)(40,0)(40,40) \
+\Rua						e Estadual Paulista\\Rua Pamplona 145\\01405
+\Brazil						- S\~ao Paulo, S.P.\\Brazil\\ \end{center}
+\sgm						with $\sgm_j=1$ if $e_j\perp e
+\IZ						\alpha.\alpha_a \in \IZ$.
+\cgh						h of the subspaces $\cgh_{\pm 1}$ has two ge
+\Wc						local extensions of \Wc for arbitrary posit
+\ma						(1,3,-2)$ for $SU(2)\ma{L}\times SU(2)\ma{R
+\SYMMETRIES						L EQUATIONS AND\\ ~\\SYMMETRIES IN THE LAGRANGIAN\\
+\FORMALISM						N THE LAGRANGIAN\\~\\FORMALISM II. ARBITRARY VECTO
+\Ag						$\rho(\Ag(W_+)_{r(\theta)})\s
+\cit						g({\rm su})$ in Ref.\cit{42}
+\sux						el computations in $\sux$ below, we need onl
+\amp						theta}A\ket{\theta}/\amp{\theta}{\theta}$
+\AMICIF						Z, UK}\\[.1in]} \def\AMICIF{Aleksandar Mikovi\'
+\AMSISSA						.phy.bg.ac.yu}} \def\AMSISSA{Aleksandar Mikovi\'
+\AMVR						avia} \\[.1in]} \def\AMVR{Aleksandar Mikovi\'
+\NSNS						\def\NSNS{${\rm NS}\otimes{\r
+\pfb						um numbers $\{\pbe, \pfb \}$, corresponding
+\pM						ven eigenstate of $M\pM$, the left and
+\pbe						hen $V=V(\fb)$ and $\pbe$ is conserved, the
+\can						iefly. Assume that $\can$
+\man						only $A^\man_{D/2}$ is affected.
+\cam						nomials up to $A_3^{\cam}$ are listed in App
+\zf						agram contribution $\zf$.
+\hen						with $\hen _{(n-1)/2}=0$ for $
+\rS						$\can=\rS^d$ is
+\zeb						$\zeb (s,a|\vec 1 ) =\zeb
+\pold						Obviously $\pold _{\nu}=0$ for $\nu$
+\hem						up to $\hem _3$.
+\pois						$\pois{E}{E}$ and $\pois{A
+\pbraket						$\pbraket{F}{F} := \opname{tr
+\ncgintdbox						op{\mathchoice{\copy\ncgintdbox}{\copy\ncginttbox}
+\ncginttbox						py\ncgintdbox}{\copy\ncginttbox} {\copy\ncginttbox}
+\htop						 for this value of $\htop$
+\Ups						 can normalize $\ket\Ups^{(1)}_{3\over2}$ in
+\ddp						,L)=\nonumber\\ \int\ddp{n}\exp \left(i\sum_
+\ddx						3}\frac 1{(2n)!}\int\ddx{2n}\;\px{2n} \;{\ma
+\tsa						$\omega_1 \tsa \omega_2 \in \Om{1}
+\dlink						\dlink{p}{w}{s} \tsa \link
+\sakai						 Sakai,\fnote{\dag}{\sakai} and Masamichi Sato
+\sato						 Sato \fnote{\ddag}{\sato} \vspace{16pt} {\sl
+\gL						b=a$, $\chi=0$ and $\gL=0$; we remark our c
+\gq						($\eta_{{\tilde\gq}{\tilde\gq}}=1$) as
+\gw						$(\, e_a (\gw^b ) = \gd_a{}^b \,
+\gW						and $\; d^2\gW_{(3)}$ is the stand
+\gfi						with arbitrary $\gfi$, which leaves (25)
+\veps						re $p_2^2=0$. Here $\veps_2^{\mu\nu}$ is the
+\figonea						In \fig{\figonea}, we plot slices of
+\figalign						\figalign{usingnf2.eps}{\usin
+\figtwo						figalign{fig3b.eps}{\figtwo}{Monopole expectati
+\figthree						$-plane.}{fig4.eps}{\figthree}{Monopole
+\figeight						\figalign{fig8.eps}{\figeight}{Dyon expectation v
+\figeightb						-plane.}{fig8b.eps}{\figeightb}{Dyon
+\figeightc						tive potential (\fig\figeightc). In particular, $V
+\footnotesep						{1.2} \renewcommand{\footnotesep}{10pt} {\large Alex
+\vc						$\vb=T_k X_i^{-}$, $\vc=T_j X_i^{-}$,
+\viel						with $H^a=H^\mu\viel a\mu$, $H^\mu$ as i
+\Viel						where $F_{ab}=\Viel a\mu\Viel b\nu F_{\
+\quot						4 \; +\;  H \; +\;  \quot{1}{2} H^2 \right) \
+\koer						} $ for $n \, \in $ \koer{N} in terms
+\verw						Multiplication of \verw{suNcayham} with $H^
+\ebar						ith fixed $\epsilon,\ebar$ for all states in
+\Sgm						ubsets $\2U_j\subset\Sgm_e$, $j=1,2$, the re
+\SSL						superdimension of~$\SSL21$ is zero, and it
+\Jpmop						 the action of the $\Jpmop{}^{(LR)}$ operator.
+\Jtpsi						 the same matrices $\Jtpsi J,{m-n+\lambda},n,m
+\Jpmpsi						two matrices  $\Jpmpsi J,\lambda,n,m,\varp
+\Jspsi						$\Jspsi J,\lambda,n,m,\varp
+\Xpmpsi						$\Xpmpsi J,\lambda,n,m,\varp
+\Ttop						denoted $\Ttop{\sigma_+}$, and
+\Tpmop						operators $\Tpmop{\sigma_-}$. As in t
+\Ttsop						The fact that   $\Ttsop{\sigma_+} $ has gra
+\Tpsi						in terms of the $ \Tpsi J,\alpha,n,m,\varpi
+\Top						$\Top{+}, \lambda, {\sigm
+\CAn						for the matrices $\CAn J,{2\lambda},{\rho'
+\CBn						$\CBn J,{2\lambda},{\rho'
+\veb						({\ve_\ia}_{(v)} , {\veb^\iad}_{(v)}) = (\ve
+\Thb						ponent in the $\Th, \Thb$-expansion of the c
+\parb						artial_\ia$, resp.~$\parb_\iad$ part of the o
+\sigb						$\sigma^0=\sigb^0=1_{2\times2}$.
+\cHA						ace $\cH_\cA \subset\cHA$ which is generated
+\CLA						on a subalgebra of $\CLA$ and $\ODA$: the co
+\JD						in $\JD{1}{1}$.
+\vG						any $u\in\vG$ represents a full
+\Sm						$ \Sm{}\PsiN{x}{y}=0 $.
+\bin						\newcommand{\bin}{$\bullet$}\newcomm
+\PSS						ow of the norm of $ \PSS{x}{y} $  for large
+\tSL						of~$\tSSL21_k$ and~$\tSL2_{k'}$
+\kettop						We write $\kettop{h,t}\equiv \kettop{
+\pho						correlator for $\pho\lambda(v\raisebox{.
+\phn						\def\phn{$\phantom{1}$}
+\phx						\def\phx{$\phantom{*}$}
+\mfrak						idetilde{\CA}_N,\BD,\mfrak{H}_N)$.
+\Bx						s contribution of $(\Bx\cdot\BL)$, in the n
+\BL						\begin{abstract} \BL The complete soluti
+\Ba						operators $\Ba^{\dagger b}, \Ba_b$
+\BD						where $\BD$ is the Dirac opera
+\BA						. Uniqueness of the \BA\ function implies t
+\BX						noindent Expanding $\BX$ and $\tilde\BX$ in
+\IN						DUCTION THEOREM\\ ~\\IN THE LAGRANGIAN FORM
+\unB						g}$ while those on $\unB_{q}$ imply that thi
+\bPsi						$\bnbl$ applied to $\bPsi^{a}$ contains $\F$
+\qg						of $\qg$ coming from propag
+\qrho						 size of instanton $\qrho \sim \qg/ < \bZ Z >
+\bla						i-chiral fermions $<\bla\bla\bar{\psi}\bar{\
+\bsi						$\delta\equiv\d(\si-\bsi)$ with  $\sigma\in
+\Mm						e TCSA results for $\Mm3,14.+\Ph1,5.$}
+\chemin						similar to  $\chemin A^e,B^e $. Let
+\cheminp						   define  symbols $\cheminp A'{}^e,B'{}^e $ rel
+\WZW						arly in which $\cs_{\WZW} (g)$ appears as an
+\dv						$L_{\xt}:=[\xt,\dv]:=\xt \co \dv - (-1
+\rfa						amine the equations \rfa{ch4eq18} in
+\refc						$ was calculated in \refc{R}:
+\beH						($\beH:={\rm e}^{t_H}$,
+\bei						$\bei:={\rm e}^{t_{E_i}}$
+\betwo						fold points $\beone=\betwo$,
+\beone						he orbifold points $\beone=\betwo$,
+\tilY						times{\bf C}^*=\{(X,\tilY)\}$
+\beQo						$\widehat{E}_{12}=X=\beQo \beQt\beta_{12}p_1^
+\beQt						hat{E}_{12}=X=\beQo \beQt\beta_{12}p_1^{-1}p_
+\tcg						s corresponding to $\tcg$ are unchanged with
+\soul						x\ e^{i p \cdot x}\ \soul{\varphi}(x)$$
+\bcg						verline{\alpha}}}\in\bcg$. Let us remark tha
+\pro						ensional kernel is $\pro{1}{0}$. Another
+\cz						ametrization ghost $\cz$, the conformally i
+\bzz						ion and antighosts $\bzz$ and $\gz$ for the
+\belb						morphic sector and $\belb=\grb=0$ in the the
+\grb						c sector and $\belb=\grb=0$ in the the $s-$e
+\ald						to $Q_{\alpha \ald}$ and $ \bar{R}_A^{
+\Secondly						\\Secondly, when we perform fo
+\potnl						In \fig\potnl\ $V_{\rm eff}$ is p
+\Vfivebox						\hbox{\Vfivebox(\hbox{$\clubsuit$},
+\Fsquare						\hbox{\Fsquare(0.4cm,\hbox{$\clubs
+\tee						\[  \tee j\epsilon = -\mbox{
+\namefont						ein \begin{center} {\namefont M. Alvarez\footnote
+\enn						\newcommand{\enn}{$$}
+\fix						 the understanding $\fix{-1}=0$.
+\Cou						$\Cou{k}{r}$ for $k\in{\m
+\eig						The zeroth order $\eig{0}$ thus has to be
+\spe						delta\phi} \right) -\spe{0}$ will thus be
+\hH						sion of $\D{1}$ to $\hH{1}\,.$
+\mYbox						\setbox\mYbox=\hbox{$\mYarg$}\mYd
+\mYarg						setbox\mYbox=\hbox{$\mYarg$}\mYd=\wd\mYbox
+\mYd						Ybox=\hbox{$\mYarg$}\mYd=\wd\mYbox
+\ztwo						of closed $\ztwo$-graded subspaces o
+\Space						$\Space(U)\subseteq\mathbb
+\seven						$(B,(E\Cau)\seven)$-completeness.
+\sodd						However, if $B\sodd\not=0$, it follows
+\ztN						if $R$ was $\ztN$-commutative then $
+\euc						$Z\euc[\J^\Phi|\J^\Psi]$ b
+\sevR						le; thus, $S\in\O(M)\sevR$. Moreover, the con
+\CMPref						(In \CMPref{3.1}, we had also a
+\CatC						s an object $X$ of $\CatC$ such that $F$ is i
+\Sets						a functor $F: \Gr\to\Sets$  together with an
+\BerSmf						\BerSmf\to\{\text{category
+\Gr						mf as a functor $F: \Gr\to\Sets$  together
+\rdmm						D}'(\rdmm)\otimes V$ i. e. it
+\sol						$\Xi\sol\in \M^{B^l(\Bbb R)}
+\Cau						$(B,(E\Cau)\seven)$-completene
+\Higgs						al representation $U\Higgs: G\to\Ort(\cV\Higgs
+\Spi						Clifford module $\cV\Spi$ ("spinor space" in
+\Gauge						=2\delta_{ij}$. $\cV\Gauge$ ("gauge" or "colou
+\Ferm						cV\Gauge)$. Let $\cV\Ferm:=\cV\Spi\otimes_{\m
+\rot						in the $\rot{5}{9}{\theta}$-dire
+\CX						ha\,$, \,where $\CL_\CX$ is the Lie derivat
+\raisetag						s (4)}(x-y)\big)\,. \raisetag{17mm}\label{eq:d142
+\Mu						atrices $M_{10},M_5,\Mu,M_d,M_e,\Mn$ and $M
+\eqnskipamount						}  \! $}}, \vspace\eqnskipamount \vspace\eqnskipamou
+\subnoteq						$\O(2)\subnoteq\O(1,3)$. The ground
+\SUM						_jZ^j\over2}\cr &+ {\SUM_{a=1,2}}(F_a^{jk}{\
+\Confrm						Consider the space $\Confrm n$ of configuration
+\pri						2\in\hat{H}^{-p+1}(g\pri,M^{\prime(1)})$,
+\Dt						$\Dt_{\la} > 0$ if $\bar
+\rig						\Bigl(\lef{T_0}{\:}-\rig{T_0}{\!}\Bigr)\Bigr
+\UUITP						hleft} NBI-HE-97-38\\UUITP-10/97\\hep-th/97081
+\nr						\nr{top}, with the repl
+\CJ						$\CJ(\Gamma_N)$, $m=(m_1
+\qzm						lie in $\qz{2h}\cap\qzm{}=\qz{\ggt{2h}M}$,
+\qz						lie in $\qz{2h}\cap\qzm{}=\qz{\
+\Sect						\Sect{From the integral f
+\ef						})$ and the germs {{\ef H}}$_{\tau}$, {{\ef
+\efm						ich is of the form $\efm h(M)$ for some
+\ffm						e sets $\tilde M_i:=\ffm h{h_i}(M_i)$
+\Ha						, must also leave ${\Ha}_{phys}$ invariant.
+\spin						e $\Viel a\mu$ and $\spin {ab}\mu$
+\Gg						of $\cG$, the $\Gg IAB$ are the entrie
+\tdeg						$G> 4$ are $\4s_{\tdeg 0}$-exact, while
+\antib						$\antib{\Omega^\omega T^f}{
+\Ctilde						rd along a face of $\Ctilde nt$
+\avel						 the correction to $\avel{{\cal O}_0}$ reads
+\fullref						Thm.\ \fullref{th-notan} stating t
+\Bbbfam						re $\vec n_j\in{\fam\Bbbfam Z}^9$ and we have d
+\vsize						] \epsffile{f1.eps} \vsize=5 cm \label{fig1} \
+\hoffset						cm \vsize=23 truecm \hoffset=0.7 truecm \begin{f
+\verb						.~Seeger% \footnote{\verb+mseeger@theorie3.ph
+\reb						 k=0$, discussed in~\reb{modified}, will
+\thelemma						\renewcommand\thelemma{\thesection.\arabic
+\even						$v\in\P(E';E)_{\even,\Bbb R}$
+\whatref						v]\in\P(E';F)$; cf. \whatref{2.3} for details.
+\rdm						lized functions on $\rdm$ which contain
+\spsc						$\spsc_t:=0$ for all $t$.
+\mathsl						angle$ generating ${\mathsl Fun}(SL_{q}(2,\mbox
+\deri						 matrix element of $\deri_i$, defined by the
+\bep						$\dl_L g (x) = \bep_0 H g  + \bep_+  E_
+\tj						rm tr}_{{\cal B}}^{}\tj\,{=}\,\breve {\cal
+\refnote						Y AND THE MOMENT MAP\refnote{$\dagger$}}
+\tsnorm						\begin{flushleft} {\tsnorm PACS: 04.70. Dy, 04
+\xp						and, for $\xp\ge\xp_0$, it is giv
+\xm						mal map $x^{-}\to F(\xm)$, with $F$ given b
+\Silver						rsity of Cambridge,\\Silver Street, Cambridge C
+\QB						entz group and the $\QB^\ad_i$'s to
+\tf						y $\tau\sim\kappa\ln\tf{\kappa}{\Lambda_{QC
+\tnb						g $\nb{N} = \varphi(\tnb{N})$, $\nb{B} = \va
+\metric						metric $\metric{\;}{}$.
+\vari						\nb{X}}(F\nb{Y}) = (\vari{\wp(\nb{X})}F)\nb{Y
+\Vari						alar fields) or by $\Vari{\tnb{X}}$ (when act
+\alge						N}}{\nb{X}_{n_1}}\in\alge{2}$ by
+\VARI						$\VARI{\nb{X}}(F\nb{Y}) =
+\Riemann						operator if $\Riemann{K\nb{X}}{\nb{Y}} =
+\form						$H_n\colon\form{1}\to{\cal X}$, $n
+\Poisson						$\Poisson{F}{G} = (J\mathop{\
+\Nov						{\bf DIAS-STP 96-22\\Nov 1996} \end{flushrig
+\DISORDER						\title{\\DISORDER OPERATORS, QUANTUM
+\Idoubled						The operators $D_A,\Idoubled D_A$ are defined by
+\gtrless						m := \langle L_k; k \gtrless 0 \rangle$
+\skpi						$$\det \skpi{.}{.}_{N_2}(h) = p_
+\sptilde						$\ (dx_i,dx_j)^{\sptilde}$\ follows easily f
+\endcases						e^{-i\phi}\to \infty\endcases\\ &\partial_{t^{k+m
+\cMi						ne of determinants $\cMi{\lambda}$ by the pr
+\stint						ain an integration $\stint\vartheta(\lambda)\,
+\black						^*({\cal G},{\hbox{{\black R}}})$ for the triv
+\href						get the black hole (\href{010}). For this, ho
+\RMA						erable models with $\RMA$ matrix associated
+\Dl						e comultiplication $\Dl$,co-unit $\ep$ and
+\Acturally						relation.\\Acturally,there are dual rela
+\vint						$\vint = \chint \bar\nabla
+\tA						where indices $\tA,\tB,...$ are those
+\cpfp						$\cpfp{n}{m}$ is given by
+\cpf						erators ${}^{\alpha}\cpf{n}{m}$ which define
+\fdot						and it depends on $\fdot_i$ symmetrically. {
+\swb						da^{\hat I}\sim e^{i\swb{X}^{\hat I}}$,
+\sLAP						\newcommand{\sLAP}{{\scriptsize E}{\f
+\Zmath						onstructed using a $\Zmath_2$ twisted
+\Qmath						\def\Q{\ifmmode\Qmath\else$\Qmath$\fi}
+\Nmath						\def\N{\ifmmode\Nmath\else$\Nmath$\fi}
+\Cmath						 explicitely known $\Cmath$-number $4\times 4$
+\Rmath						$SO(n)\bacs SL(n,\Rmath)$ case is similarly
+\Ist						res. The remaining $\Ist0-\mathrm{II}^*$
+\parfillskip						product expansion. {\parfillskip=0pt\par} \end{abstr
+\diagchar						|c|c|c} & {1\over2} \diagchar{'14} & {1\over2} \d
+\diagop						36} \Bigr) = \Bigl\{\diagop,from'36to'105.\Bigr
+\rational						m dim}\phi_a \equiv \rational12(d_a + D)$. This g
+\RX						in terms of $\RX$ restricted to $Y$
+\RY						applied to $\RY$ lead to
+\twelveof						20})$, $n \in \mbox{\twelveof N}$, is defined as
+\pord						where $\pord\ldots$ denotes norm
+\dfour						}\frac{1}{(2n)!}\int\dfour{p_1}\ldots \int\dfo
+\Scs						 trivalent because $\Scs$ is a cubic functio
+\zcs						n-Simons invariant $\zcs$, $k\in \relax{\sf
+\zcsc						Each  of the $\zcsc$ is  the  product o
+\Scsc						lrbc{ {ik\over 2\pi}\Scsc }$ (here $\Scsc$ is
+\ztrcs						he coefficients of $\ztrcs$ are calculated by
+\Gd						e image of a graph $\Gd$, by the
+\cx						same arguments as in\cx{Wi1} indicate that
+\bK						 $\tGamma^{\bI}_{\bJ\bK}$
+\Va						the representation $\Va$, is $Q$-invariant
+\Pexp						operator $\Tr\Pexp\lrbc{ \oint_{\cK} A
+\cvphi						he boundary values $\cvphi^i$, $\eta_0^I$. One
+\zphim						ents the integrand $\zphim$
+\Vfib						$. Since the space $\Vfib$
+\Vbun						${\wedge}^\ast\Vbun$:
+\Gphi						of propagators $\Gphi$, $\Gchi{\mu\nu}$ a
+\Gchi						opagators $\Gphi$, $\Gchi{\mu\nu}$ as well as
+\zgmh						Each contribution $\zgmh$ can be presented a
+\wgh						4}. The integrands $\wgh$ are calculated by
+\epsn						$(2n,0)$-form $\epsn^{I_1\ldots I_{2n} }
+\smg						$\smg\p$ from $1,\ldots,m
+\eex						on $\hx$. Combining \eex{3.04},\rx{3.6}
+\Vab						)$ representations $\Vab$ assigned to
+\hbcs						 extra factor of $i/\hbcs$ because one pairin
+\thetx						unction is again $b_\thetx(\hx)$. The combinat
+\vphib						agator $\lrl{ \vphi \vphib}$
+\vtcs						am with 2 vertices $\vtcs$ is
+\dfr						where $\dfr$ is the framing cor
+\tx						$y=y(\sigma), \ \tx^\pi=0$ as in \ci{MR
+\treid						$\lrbs{\treid}^{-1}$. The torsion
+\treido						$\treido = {1\over 4\sin^2\l
+\hsg						side a given space $\hsg$ is determined by t
+\kth						} coincide for $\hx=\kth$. Thus we are ultim
+\teta						fields $\teta^I(x)$ equal to zero
+\sA						\pm \prod_{I\not\in \sA}\chi_2^I$.
+\tGamma						the connection $\tGamma^{\bI}_{\bJ\bK}$
+\tnabla						here $\tnabla_\mu$ is a covariant
+\bL						re tensor $R^I_{\;JK\bL}$ which
+\bubble						e $j_i\in{1\over 2}{\bubble Z}$, there are infi
+\dsl						Due to $(\dsl[1.5pt]{p}_{i}-m)$ o
+\EP						ray}{rcl} \partial_t\EP\lambda&=&\frac{i\la
+\EMV						)-\partial_x g(u,v))\EMV\lambda,\\ \vspace{-
+\EM						to\infty$ function $\EM\lambda$
+\tSl						is the $\tSl2$ `spectral' parame
+\ketSL						est-weight{} state $\ketSL{\mu_1,\mu_2,t;\thet
+\ssr						generators $\ssr1$ and $\ssr2$ when
+\ketGH						{j,\Lambda,k}\otimes\ketGH{\lambda}$. {\it The
+\NONCOMMUTATIVE						ANDARD MODEL WITHIN\\NONCOMMUTATIVE GEOMETRY:\\[3pt]A C
+\Vi						\def\Vi{\hbox{\hbox{${\cal
+\Di						\def\Di{\hbox{\hbox{${\cal
+\parz						\def\parz{\hbox{\hbox{${\part
+\fbp						($\bp=0=\fbp$) and vanishing cou
+\ncintdbox						op{\mathchoice{\copy\ncintdbox}{\copy\ncinttbox}{\
+\ncinttbox						opy\ncintdbox}{\copy\ncinttbox}{\copy\ncinttbox}{\
+\Yfund						verline{\Yasymm}+ F(\Yfund + \overline{\Yfund}
+\Yasymm						into $\Yasymm$ and $\overline{\Ya
+\Ythree						(6)$ theory with a $\Ythree + 5(\Yfund + \overl
+\qqq						epsfbox{FIG19a.eps}}\qqq {\epsfxsize=53pt  \
+\sqg						 of the local term $\sqg\p R$
+\nl						 11.25.Db,\ 11.30.-j\nl Keywords: \ Weyl an
+\sprodd						e scalar product  ${\sprodd{\cdot}{\cdot}}_{\be
+\sproddd						Let us use  $ {\sproddd{f}{g}}_0 $ as a sho
+\YMHth						 the chiral $SU(2)$ \YMHth~relevant
+\ncs						d}^{2} \Omega$ on a \ncs~of static gauge tra
+\YMH						 the chiral $SU(2)$ \YMH ~quantum field theo
+\ewsm						fied version of the \ewsm, with $SU(2)$ gauge
+\srs						 sums of the type $$\srs{\boldsymbol n}{m}{\
+\Fac						{{\sc Jorge Alfaro}\\Fac. de Fisica\\Univers
+\Universidad						ro}\\Fac. de Fisica\\Universidad Cat\'{o}lica de Chi
+\Ec						by $\Ec_4,\Ec_6$ and the th
+\nwc						\nwc{\bz}{\mbox{\boldmat
+\repvect						where $\repvect{R}{a}{b}$ denotes a
+\tabularxcolumn						able} \renewcommand{\tabularxcolumn}[1]{>{\raggedright\
+\arraybackslash						n}[1]{>{\raggedright\arraybackslash}m{#1}} \begin{cente
+\ptl						$W=W(u,x^i)$, with $\ptl^2_x W =0$
+\maa						demand $\mbb^2 =\maa^2$ and inquire what
+\PSL						M\"obius group $G=\PSL(2,\RR)$.
+\Pnot						the Lie algebra of $\Pnot$ and $H_{k}= i_k (H
+\Complessi						transformations in $\Complessi$ that leave the uni
+\Mob						)representation of $\Mob$ (cf. Corollary~\re
+\cinfcerchio						therefore identify $\cinfcerchio$
+\fphi						_k=-i \mbox{sign}(k)\fphi_k$, where
+\March						703142\\OUTP-97-13P\\March 1997\end{flushright
+\mov						\mov(7,0){$+\ \dots$}\mo
+\uq						described by the \uq{a_2^{(1)}} invarian
+\nno						ultline} \label{d2} \nno{{\mathbf{d}}}^2=\su
+\uA						\def\uA{\,\lower 1.2ex\hbox
+\uX						\def\uX{\,\lower 1.2ex\hbox
+\uD						\def\uD{\,\lower 1.2ex\hbox
+\uF						\def\uF{\,\lower 1.2ex\hbox
+\uW						\def\uW{\,\lower 1.2ex\hbox
+\uWbar						\def\uWbar{\,\lower 1.2ex\hbox
+\uV						\def\uV{\,\lower 1.2ex\hbox
+\uZ						\def\uZ{\,\lower 1.2ex\hbox
+\uv						\def\uv{\lower 1.0ex\hbox{$
+\uPsi						\def\uPsi{\,\lower 1.2ex\hbox
+\uPhi						\def\uPhi{\,\lower 1.2ex\hbox
+\uchi						\def\uchi{\lower 1.5ex\hbox{$
+\utheta						\def\utheta{\lower 1.5ex\hbox{$
+\uchitilde						\def\uchitilde{\lower 1.5ex\hbox{$
+\ueta						\def\ueta{\lower 1.5ex\hbox{$
+\uetatilde						\def\uetatilde{\lower 1.5ex\hbox{$
+\uPsibar						\def\uPsibar{\,\lower 1.2ex\hbox
+\uetabar						\def\uetabar{\,\lower 1.5ex\hbox
+\uchibar						\def\uchibar{\,\lower 1.5ex\hbox
+\zero						$ \widehat Z= Z' \zero=    (Z')_   {F=0}
+\ulambda						\def\ulambda{\,\lower 1.2ex\hbox
+\ulambdabar						\def\ulambdabar{\,\lower 1.2ex\hbox
+\ulambdabarzero						\def\ulambdabarzero{\,\lower 1.2ex\hbox
+\ulambdabarnew						\def\ulambdabarnew{\,\lower 1.2ex\hbox
+\uAcl						\def\uAcl{\,\lower 1.2ex\hbox
+\uAbarcl						\def\uAbarcl{\,\lower 1.2ex\hbox
+\bal						$h_{\al \bal} = \hf$, ($\al = 1,
+\Graduate						nt of Mathematics, \\Graduate School of Science,
+\Toyonaka						 Osaka University, \\Toyonaka, Osaka 560, Japan \
+\Rmt						$\Rmt$ (\ref{nrm1}) while
+\vfc						the \vfc it is enough to sho
+\trig						ted to the standard \trig $R$-matrix (\ref{sr
+\subitem						 6, 18 \item branes \subitem anti-parallel, 16,
+\dtt						tion of $\partial^{-\dtt{\alpha}}$ on these
+\tSSL						al-flow orbits} of~$\tSSL21_k$ and~$\tSL2_{k'
+\bs						$\of{d+\delta_{F}}\bs{e}=-\of{\omega_{F}+
+\fourth						($c_a=1,-2,-\fourth$). \
+\Trieste						Via Beirut 2, 34014\\Trieste, Italy}\\ \end{cent
+\uf						\def\uf{\lower 1.5ex\hbox{$
+\baGa						$\baGa^A$ due to \r{49}. T
+\sts						$|\sts{n}|$ is an area of
+\solA						$A_\mu  {}={}  \solA{k}{\mu}  {}+{}  {\t
+\Ssolfi						with $|\Ssolfi{k}\!(0)| {}={} \inf
+\Ssoly						$\rn{n} {}={} \sqrt{\Ssoly{n}{\! i} \Ssolyd{n}
+\Ssolyd						qrt{\Ssoly{n}{\! i} \Ssolyd{n}{i}}$
+\derr						derivative $\derr{\ifmmode\varphi\els
+\tq						\newcommand{\tq}{\mbox{$\tilde{\q}$
+\util						$\xi_2 \equiv \util_2 \cdot \xi$  and
+\FI						ial components of $ \FI$ and $G$
+\brt						idetilde{\phi}}_2}},\brt i$.
+\bro						{\overline k}^i,k^i,\bro i,r^i$.
+\hro						detilde{\phi}}_1}}, \hro i$.
+\hrt						 over $\hro i$ and $\hrt i$ yields
+\gy						oice (\ref{bd}) of $\gy$ in (\ref{SYM'}) is
+\ec						presentations $\es, \ec$ and have opposite
+\hgt						where ``$\hgt$'' denotes the heig
+\bnbl						ero. The charge of $\bnbl$'s is $2\Nf$. Combi
+\Nf						$SU(\Nf)_L \times SU(\Nf)_R
+\nbl						isotriplet part of $\nbl^{f}Z^{p}$. In
+\qrhi						$\qrhi$.  Using eq. (4.13)
+\bcC						s ${\cal C}^a$ and $\bcC_a$ should have oppo
+\bcP						&\{\bcC_2,\,P_\lm,\,\bcP^1\}, & \quad  (4)&\
+\defd						where $z\defd\exp(2\pi i\sigma)$.
+\rVert						lVert{v}^\vee_G(v_F)\rVert =\prod_{G=1}^{r|s}\
+\hcite						$H$ \hcite{BerDeR}
+\nona						+ q'_\psi(\lambda), \nona{15} \phi(\lambda) =
+\above						=\left({0\ \sigma_n \above0pt {\tilde\sigma}_n
+\BY						$\BY_p(.)$ and $[x,.]$ a
+\MAT						$\MAT{1}\alpha\\k\end{arr
+\EuScript						Let $\EuScript{H}_i^{(s)}=cl(\math
+\fodos						his is shown in \fig\fodos.
+\quarkcon						 are plotted in \fig\quarkcon\ for $m=2$
+\usings						align{usingnf2.eps}{\usings}{The singularities
+\Ncal						$\Ncal_\m$\ and $\Mcal$ (
+\Mcal						\cdots,N;\ \mbox{Tr}\Mcal=\Mcal^{ii}, \mbox{e
+\aminus						$\aminus = 0$, where
+\aplus						$\aplus$,
+\HL						gives $\pil(\psi)\in\HL$.
+\twobrac						imes z\,{\mathbb  C}\twobrac z  \,,  \end{equati
+\Vac						 unique since with $\Vac{\chi(\theta)} = \su
+\avac						$\avac{0;a'(\theta')}L_{\v
+\fz						rity in the $\langle\fz \fz\rangle$ propaga
+\ena						, \pa C \, \pa^2 C, \ena where $C$'s lowest
+\mxth						x  \ialign{$\mxth#1\hfil##\hfil$\crcr
+\cmap						\newcommand{\cmap}{{$\bf c$} map}
+\gsim						\def\gsim{\mathrel{\mathstrut
+\nointerlineskip						cr\noalign{\kern-0pt\nointerlineskip}
+\Disc						evaluation of $\Disc \Pi(p)$ is equally
+\stackunder						 T}_{fin}{\cal (H)=}\stackunder{n\geq 0}{%
+\RRs						\newcommand{\RRs}{ {\mbox{{\footnote
+\RRf						\newcommand{\RRf}{ {\mbox{{\footnote
+\KK						 $\lk$, $\kappa \in \KK$, of positive
+\KKf						\newcommand{\KKf}{ {\mbox{{\footnote
+\dsx						\newcommand{\dsx}{d \mbox{\boldmath
+\sx						\newcommand{\sx}{\mbox{\footnotesiz
+\DRs						 radius $r$; hence $\DRs$ is stable under th
+\DR						\newcommand{\DR}{{\cal D}({\mbox{{\
+\Aa						 that the algebras $\Aa^{(m)}(\Oo)$ are con
+\Pg						action of $\Pg$ on the observables
+\aLx						tion $(\Lx) \mapsto \aLx(A)$ is strongly con
+\Hh						Let $(\pi_{\la},\Hh_{\la})$ be the GNS-
+\Au						$\poi(\Au)$, $\Au \in \uAAm(\
+\Aul						Au$, the operators $\Aul$ occupy, for all va
+\Alu						scaling algebra $\Alu$ contains  the orbi
+\au						 induced action of $\au_{\Lx}$
+\aLxu						-transfor\-mations $\aLxu$
+\poi						$\poi(\Au)$, $\Au \in \uA
+\aoi						the nets $(\Aoi,\aoi)$ depend on the cho
+\Uoi						where $\Uoi(\Lx)$ are the unita
+\Aoi						the nets $(\Aoi,\aoi)$ depend on th
+\mAoi						\oip$ on the nets $(\mAoi,\maoi)$ which carry
+\maoi						on the nets $(\mAoi,\maoi)$ which carry some
+\mvzi						$\mvzi$ by $(\poi,\Hoi,\Oo
+\Weyl						 representation of $\Weyl$ which is induced b
+\tmt						 similarly $\tmx := \tmt \lcrc \tx$ for $x =
+\ax						$\amx := \amt \lcrc \ax$ and similarly $\tm
+\amt						 time translations $\amt$ are  not
+\amx						notation we put $\amx := \amt \lcrc \ax$
+\tmx						\ax$ and similarly $\tmx := \tmt \lcrc \tx$
+\malz						 the automorphisms $\malz_{\Lx}$ extend to th
+\mvsz						 of the facts that $\mvsz \lcrc \sgl = \omega
+\sgl						d function $\la \to \sgl(W(f))$
+\Rr						$\Wu_{\la} \in \Rr^{(m)}(\la\Oo_0)$
+\amLx						$\amLx$
+\Aam						 that the algebras $\Aam(\Oo_0)$
+\uAAm						$\Wu \in \uAAm(\Oo_0)$.
+\Wu						$\Wu \in \uAAm(\Oo_0)$.
+\umalz						the action of $\umalz_x$. As a consequenc
+\sir						n-1$. Then $\nu\pri=\sir_\al(\nu)$ implies $
+\IFF						M(\mu)\subset M(\nu)\IFF\left(M(\nu):L(\mu)\
+\CI						exactly, where $\hat\CI$ is the ($k$-depend
+\realfonta						 $S^1 \times {\hbox{\realfonta R}}^3$
+\realfont						constant on ${\hbox{\realfont R}} \times S^2$.
+\plabel						 \partial_0 A_0 )^2 \plabel{Lgf} \end{equation}
+\SSTr						\SSTr \ C_{2L+2} (F)$,  w
+\Ht						+  H_0 \Ht (dx_3^2+dx_4^2) $$
+\Vo						$\Vo =(2\pi )^2R_5R_6$,
+\Vt						=(2\pi )^2R_5R_6$, $\Vt =(2\pi )^2R_3R_4$,
+\Vtr						$\Vtr =(2\pi )^2R_1R_2$ a
+\No						 part ($ \sim g^2_s \No  \Nt \Ntr $)
+\Nt						ied Cartan algebra $\Nt^{{\bf C}}
+\Ntr						\sim g^2_s \No  \Nt \Ntr $)
+\Vv						$b_\mu, A_\mu, \Vv_\mu{}^i_{\, j}$ ---
+\Dd						derivative $\Dd_\mu$ stands for a c
+\bX						 $I$ indices, e.g. $\bX N_I = \bX^J N_{JI}$
+\hfrac						\newcommand{\hfrac}[2]{\hbox{${#1\over
+\dstar						\dstar~being of order $M_W
+\Istar						the \Istar~fermion zero-modes
+\ein						The first term of $\ein[{\mathrm{int}}]{0}{
+\Agrav						he ``free'' action $\Agrav[(0)]$ will remain
+\rbox						\mbox{$d^{V}$ (\rbox{1pt}{$\stackrel{n}{
+\nbrpq						. (3.7) gives $deg$(\nbrpq{n}{n}) = $2n-1$,
+\dvol						where $j:= j^i \dvol{i}$  is the electri
+\xt						graded operator $\xt$ and $[\;,\;]$ is a
+\nbr						\mbox{\nbr{$\tilde{X}$$_1$}{$\
+\xdot						$( \xdot , \xprim ) \rightar
+\xprim						$( \xdot , \xprim ) \rightarrow ( p^0
+\HE						ormalsize KUNS-1484\\HE(TH)~97/20\\{\tt hep
+\ener						 mean-field energy $\ener$.
+\zoz						point $\zoz$ (more precisely, o
+\cyav						$\cyav{L^{AB}{\cal B}_{AB}
+\bbf						e coefficients  $C^{\bbf{\alpha}}_{\bbf{\bet
+\vew						$\vew{{\cal J}_i}[\hat g]
+\pair						\equiv e^{-i\pi s}\pair\chi{g\inv}\mu(hg\in
+\Kappa						$S_+ = \Kappa S_-^*$. The second
+\endmatrix						& -c^* \\ -b^* & a^*\endmatrix\right)$$
+\exv						tions of the field $\exv{{\hat\Phi}(x)}_\Lam
+\ssffam						The case of ${\fam\ssffam c}=3$ (i.e., $t\to\
+\theenumii						\def\theenumii{$_\pm^{00}$}
+\athr						$\athr$ is of minimal rank
+\tabcolsep						ulkenhaar}\footnote{\tabcolsep 0pt\begin{tabular}[
+\Gh						ith respect to the $\Gh(\A)$-invariant meas
+\hA						$U_i$'s in $\hA_j(U)$ with $\tU_i$'
+\tU						tum torus given by $\tU_i$.
+\submit						{Abstract} \medskip \submit{Physical Review {\b
+\wbar						defined expression $\wbar\cH_\bot$, that incl
+\bacs						$SO(n)\bacs SL(n,\Rmath)$ case
+\debut						*_-$ is solution of \debut
+\mrm						$\mrm{S}(\Udef[2]\times\U
+\Udef						rightarrow G(p,q):= \Udef[1]\times\SUdef[p]\t
+\SUdef						,q):= \Udef[1]\times\SUdef[p]\times\SUdef[q] \
+\sudef						= \ \udef[1] \oplus \sudef[p] \oplus \sudef[q]
+\cent						$D\leq\cent[\tilde{G}(p,q)]$ le
+\mathg						                   {\mathg{g}_{\mathit{SM}}}$,
+\udef						h} \lalg (p,q)\ = \ \udef[1] \oplus \sudef[p]
+\fmin						(i\sin \frac{\pi B}2\fmin{i\pi}\right)^{-1}$
+\Ut						on by functions of $\Ut$
+\Ub						$ is defined by $P_g\Ub_h\ra=\d(g,h)\Ub_h\r
+\Ubt						s of $\Ut_a$'s (or $\Ubt_a$'s), $\Gamma$ may
+\arr						$\Phi:\Si\arr\Si$ projecting onto
+\appref						esults are given in \appref{a:results}.
+\esp						defined by $q\equiv \esp{-2\pi\mu}$ and
+\ddE						}_{\mathrm{even}}$, \ddE 6 and \ddE 8),
+\exT						fusion \exT{rule }algebra, and
+\pHB						$\pHB AA0$; roughly, the
+\mgz						an the total space $\mgz$.)
+\mge						\mge$, where $\mte$ is t
+\mgzb						ections:} } \ B \ra \mgzb \} .$$
+\mgeb						$\mgeb$.  Now the {\em bas
+\mte						ters}  of $G$.  So $\mte
+\ssection						\ssection{BRST-Properties of
+\HetG						assume that the $\HetG$-bundle on $S_H\tim
+\uBmu						\def\uBmu{\,\lower 1.2ex\hbox
+\uAmu						\def\uAmu{\,\lower 1.2ex\hbox
+\uB						\def\uB{\lower 1.0ex\hbox{$
+\Abar						$A$- and $\Abar$-legs and increases
+\vhiggs						vev $\vhiggs_1$ into $\vhiggs_3$
+\ssl						ere the derivative $\ssl{D}$ is covariant
+\binomial						$\binomial{N}{k}$ basis elemen
+\nonpert						us to the following \nonpert superpotential
+\ualpha						 at $r_{ij}=0$ for $\ualpha_i\cdot \ualpha_j>0$
+\ubeta						le root, $\ualpha_i=\ubeta_A$ for some $A$.
+\ugamma						\newcommand\ugamma{\,\lower 1.2ex\hbox
+\ug						 magnetic charges ${\ug} =\ubeta_A$ for $A=
+\umu						\newcommand\umu{\,\lower 1.2ex\hbox
+\esb						ative of the germ {{\esb M}} at the point
+\eu						is a map $\rho :\ ${\eu W}$\to{\mathcal N}$
+\bib						ar, Mandal and Wadia\bib{dmw}$^{,}$\bib{dmw2
+\fdd						\g_0}\bar{\eta}_I = \fdd{\g_0}{\psi}{I}, {\c
+\dfu						{\cal E}^{a} \equiv \dfu{\bc}{b} +
+\fvev						$\sym_2 [(\Psi^{-1}(\fvev(x_i))^{\prime}]$.
+\gvev						where $\fvev$ and $\gvev$ are arbitrary real
+\Dplusa						cit expression for $\Dplusa(x)$ given by (\ref{
+\fzmail						ilio Elizalde$^{1,}$\fzmail{elizalde}\,, \\
+\ficmail						tonio Filippi$^{2,}$\ficmail{a.filippi} \,, \\
+\femail						ergio Zerbini$^{3,}$\femail{zerbini}
+\Self						S Equations \\ from\\Self-Dual Yang-Mills Sys
+\Supergauge						-Mills Systems with\\Supergauge Groups} \vskip 5em
+\Actions						ge{\bf Appendix A. \\Actions of $D$
+\suba						The $\UD1{f_{\suba\subb}^{\restc}}$ ar
+\subb						The $\UD1{f_{\suba\subb}^{\restc}}$ are
+\restc						UD1{f_{\suba\subb}^{\restc}}$ are
+\subc						ilde f_{\suba\subb}^\subc =(-)^{\epsilon_\sub
+\resta						d be of the form $M^\resta(\xi)\delta\xi^*_\re
+\UD						tended so as to be $\UD0s$-closed,
+\abrkt						$\abrkt{\phi^A}{\phi^*_{Bb}
+\bivect						bivector~$\bivect E$ such that $\abrk
+\restrict						ut{B^1_0}{B^2_0}^c= \restrict{\commut{B^1(\hbar)}
+\pbrkt						bracket~${\pbrkt\cdot\cdot}^q$ would
+\twoform						$\twoform E(e^i\,,\,f_j)=\del
+\BK						n Cohen (1968-1997)\\BK \end{flushright}
+\ddA						alized by replacing \ddA 3 by other graphs $
+\ddAgx						of \ddAgx m, where $m=n+k$. R
+\ASU						2 = \sum_{\Lambda\in\ASU nk} d_\Lambda^2$.
+\as						$[\alf p]\times\as\Lambda$ for all
+\Sex						ing \erf{SbbS} by $(\Sex ut)^*$ and
+\from						ack String Entropy \\from Anomalous D-brane C
+\JJ						defined on a coset $\JJ_i^p= k_a^p e_i^a,
+\fsl						iS_f^{-1}(p) \equiv \fsl{p} - \Sigma (p) $ a
+\Diagr						 form \begin{eq}{l} \Diagr{{\,{\rm I\kern-.16e
+\ketbra						large $\eta$}_{lm}:=\ketbra{{\cal O}^{(l)}{\cal
+\seg						$S=\seg{S_0\ldots S_{n-1}}$
+\YMth						le would be $SU(3)$ \YMth~\cite{YM54}
+\Zggan						the $SU(2)$ \Zggan~follows directly fr
+\Wan						eory has no genuine \Wan, since $\pi_4\,[SU(
+\Ban						\Ban~still gives a facto
+\pbcs						anti-\pbcs~on the fermionic fi
+\YMparHth						dimensional $SU(2)$ \YMparHth~with
+\braR						 of the reflector, $\braR(12)=\braR(21)$.}
+\ketR						her contraction by $\ketR(EF)$ in Eq.~(\ref{e
+\Vev						 gluino condensate $\Vev{{\rm tr} \lambda^2\
+\tenfraktur						${\tenfraktur\fam\gothicfam D}_1(
+\gothicfam						${\tenfraktur\fam\gothicfam D}_1(s)$ have poles
+\tsalt						hat{M}'_{\Lambda} + \tsalt$ for $\Lambda > 1$
+\tsaltone						tsalt$ and $g^1_b + \tsaltone$, where $a$ and $b$
+\nast						+\alpha)a^{1/\alpha}\nast^{0} \right)^{\frac{
+\MIT						partment of Physics\\MIT, Cambridge, MA 0213
+\rst						group is such that $\rst{\Hat{U}}{\tilde{S}_
+\shortmid						\raisebox{19572sp}{$\shortmid$}
+\ys						ameters $\xi$ and  $\ys\!\zeta$
+\delr						hi^{[n+1]} \equiv  (\delr  - n\rho')\varphi^{
+\rcc						\begin{equation}  \rcc\lambda\mu\Omega = \
+\rci						\rci{\eta}\varepsilon =
+\SIv						u = \SI\lambda\mu / \SIv\lambda   \end{equat
+\rcA						\begin{equation}  \rcA\lambda\mu = \SA\lam
+\SA						}  \rcA\lambda\mu = \SA\lambda\mu / \SAV\la
+\SAV						u = \SA\lambda\mu / \SAV\lambda \,.  \end{eq
+\alfa						ots i_6]} +\frac67 (\alfa) \left(1-\frac{m}{2
+\rbr						4N+32\over3}M^2_\psi\rbr\hat{V} $$
+\brs						$\brs_{\Gacl}$ and Ward o
+\Gacl						$\brs_{\Gacl}$ and Ward operator
+\cst						where $\cst{\alpha}{\beta} \equ
+\qbezier						,0){\line(0,1){10}} \qbezier(4,0.5)(2.7,3.5)(4,6
+\abswidth						p {\begin{minipage}{\abswidth} {\begin{center} {\
+\killing						2}{\pi} \int_\Sigma \killing{u^{-1} \partial_\bz
+\mani						Taking $\mani$ locally to be $\R\
+\Dsl						rators $D_{\nu}$, $~\Dsl$ are given by
+\July						907140\\ \hfill{  }\\July 1999 \end{flushrigh
+\quattrobox						\, : \, TS \to \copy\quattrobox $, where $ \, TS \,
+\trebox						aight line in {\copy\trebox}; therefore, the ex
+\rnc						ge} \vspace*{\fill} \rnc{\baselinestretch}{1
+\Parkville						ersity of Melbourne\\Parkville, Victoria 3052, Aus
+\bO						A + d)\O^{-1}$, $B'=\bO (B + d)\bO^{-1}$.
+\kpm						$\kpm$.
+\pam						the chiral vectors $\pam X_R^{\M}$ and $\pap
+\pap						\pam X_R^{\M}$ and $\pap X_L^{\M}$
+\kap						where $d=4$ and $1/2\kap_5^2=\Omega_5 N_c^2
+\zet						$ and the limit of $\zet \rightarrow 0 $
+\displaybreak						_2(w)\,S'V'_2(w))={}\displaybreak[0]\\ {}=-2i\sin\tfr
+\spfn						\begin{gather} \spfn{\theta}: \begin{ali
+\ketbc						$\ketbc{0}\otimes\gamma_{\l
+\ketBG						_{\lambda-1}^{r-1}\,\ketBG{0} \ketbc{1-p}\otim
+\theThm						\def\theThm{\thesection.\arabic
+\ketBC						$\mathcal{G}_{-mp}\,\ketBC{1-mp}\otimes\ketAA{
+\ketAA						,\ketBC{1-mp}\otimes\ketAA{-m,r-p-1}$ (see the
+\textcircled						\textcircled{\small$\bullet$}-mo
+\xleftarrow						$0\xleftarrow{S_C}\dots\xleftarro
+\mathsurround						-1} \raise1pt\hbox{$\mathsurround=0pt\,\scriptstyle \
+\Bbbb						J_k=\sum_{j\in\mbox{\Bbbb Z}}\psi_j\psi_{j+k}
+\usbl						erms of the blocks $\usbl{x}$ defined in
+\taeufm						free fermions and ${\taeufm {\frak{su}}}(2)_1$
+\group						The generators of $\group{SO}(4,4)$ on $\math
+\tpsi						rm $U\equiv e^{i[Q, \tpsi]}$, where $\tpsi$ i
+\hka						and  $\al := 1/\hka $.
+\TeXButton						 }$. w:X\rightarrow \TeXButton{N}{\mathbb{N}}$ or
+\DpNL						$\DpNL{({\bar\lambda}_1,\p
+\tNl						:= \tNl{({\bar\lambda}_1,\p
+\dlangle						where the symbol $\dlangle \cdots \drangle$
+\drangle						ol $\dlangle \cdots \drangle$
+\bcW						algebras $\cW$ and $\bcW$ to be isomorphic.
+\sW						chiral fields $\sW$ are local with res
+\sJ						$\sJ^3(z)$ does not obey
+\sT						om the OPE between $\sT(z)$ and $\psi(x)$:
+\sG						$\sG^{\pm}(z)$, we use t
+\fatma						\subsection{The {\fatma c}$\;$=$\;$1 orbifo
+\epm						 the spectrum, for $\epm{}= \pm(m+\lambda)$,
+\pspm						the wave functions $\pspm {}$ -- we
+\psp						 its wave function $\psp{0}$ is localized ne
+\Qbar						 a basis for $H_3(X,\Qbar)$, in such way
+\alfp						e fusion graph of $[\alfp 1]$ (or $[\alfm 1]$
+\alfm						f $[\alfp 1]$ (or $[\alfm 1]$),
+\epspm						$\alpha^\pm_\mu(v)=\epspm\mu\theta ^*v$.
+\epsm						mu\theta^*\gamma(t)=\epsm\mu\theta ^* \gamma(
+\CU						uantum deformation $\CU_q(\Ng)$ of the enve
+\asym						 $Sp(2N_c)$ with an \asym tensor. It is an in
+\Wtree						superpotential $\Wtree=h\,\mathop{\rm Tr}
+\afun						B$ transform in the \afun
+\quarter						$\ithb SL=-\quarter S\bar{\cal D}^2L=-\
+\Wmag						$\Wmag$ on $h_1$, $h_2$ an
+\nonab						ic orbifolds, where \nonab singlets charged un
+\ws						 of $h_\sigma$ and $\ws$, so that $\r(\sigm
+\deff						}$  (here $k\times p\deff\varepsilon_{ij}k_ip
+\Sum						Here, the symbol $\Sum{E}$ denotes summati
+\adsp						\def\adsp{{\it AdS}$_{p+2}$}
+\nnu						$\nnu$&$$&$$&$2,3,{\bar1}
+\FbR						\abs{\FbR1}+\abs{\FbR2}+\abs{
+\FR						2}+\abs{\FbR3}-\abs{\FR4}=0 \end{equation}
+\bibliographystyle						\begin{small} \bibliographystyle{utphys} \bibliograp
+\bibliography						\begin{small} \bibliographystyle{utphys} \bibli
+\fmfleft						{fmfgraph*}(100,40) \fmfleft{i1,i2} \fmfright{o1
+\fmfright						40) \fmfleft{i1,i2} \fmfright{o1,o2} \fmf{phantom
+\fmf						{fmfgraph*}(100,40) \fmfleft{i1,i2} \fmfrigh
+\fmffreeze						m,tension=1}{v2,o2} \fmffreeze \fmf{fermion,tensio
+\fmfdot						tension=0.7}{v2,v2} \fmfdot{v2} \end{fmfgraph*}
+\tmath						condition \tmath{\gamma_+\, \theta=0
+\refer						on the fields \refer{boundcond} lead to
+\el						  the branes  $(y^a_\el, y^a_\mm)$. $ N$ an
+\AND						ATING, WARMING UP, \\AND PROBING THE PRE-BAN
+\ILambda						ow.  The % , $\ell^{\ILambda}(r)$
+\JHEP						2.\\hep-th/9902111.\\JHEP 04(1999)029. }} \en
+\Ne						\cal G}/{\cal G}''} \Ne{{[{\bar\rho}_2,{\ha
+\Cr						\Cr\rho_{{\hat\psi}_\rh
+\dudu						ion}  N = N'' \cdot \dudu{\rho_1} \cdot \dudu
+\sO						times a factor of $\sO\lambda/|{\cal G}^\c
+\Expi						 that the operator $\Expi{{}[\Omega,\chi]}$,
+\elabel						\elabel{tcln}\end{split}\en
+\Dbar						n mode in the $D2$-$\Dbar{2}$ pair for $b < \
+\Beverly						sics and Astronomy \\Beverly and Raymond Sackler
+\Tel						 of Exact Sciences \\Tel Aviv University, Ra
+\markfont						$x_i \rightarrow {\markfont \lambda_i} x_i, |\l
+\ten						ns} \vspace{0.9 cm} \ten { Maciej Pindor Ins
+\gotic						ted operator $\mbox{\gotic L}_a$
+\theprop						nt {\it Proposition \theprop .} The action of
+\tga						$\tga_{\ta\tb}$ is the me
+\fri						for $S_B$ but with $\fri B^2$ appearing
+\bpsi						^k_\pm = \psi^k \pm \bpsi^k$.
+\Supp						$\Spec\subset\Supp(\id_{A\max})$, impl
+\menge						al{D}}'(\ensuremath{\menge{R}^{d}}\setminus\{0
+\nm						a_k...\lambda_1)$, $\nm\Lambda=k$.
+\qopname						}^d \longrightarrow \qopname\relax o{Diff} (X,\o
+\Weff						$\partial\Weff/\partial F^\tau=\th
+\cads						es,Finnell:1995dr} $\cads=1$. By
+\WSW						 \eqref{fcnlid} to $\WSW$ using
+\Ng						urrent algebra $\hat\Ng$
+\Ntt						 the long roots in $\Ntt$ have
+\CW						$\CW({{\bf C}} P^1,\un{\
+\Nh						0}+\m B^{01})\m$ $\,\Nh\subset\Ng\,$. The f
+\adss						f string theory on $\adss$ are given by a dou
+\adsx						rgravity theory on $\adsx$, where $X^{5} = S^
+\Yang						nce in topological \\Yang Mills theory revisi
+\sirc						adius of $S_4$ and $\sirc e_\mu^m(x)$ is the
+\disp						$ \disp  { z \cdot F \cdot
+\ytil						exum})    replace  $\ytil '$ by ${\widehat y}
+\ztil						 y_a   , \quad     {\ztil}   _a   =  \Pi   \
+\dron						derived  for   $\dron y_3  /  \dron y'_2$
+\Solutions						mplete Black Brane \\Solutions in $D$-Dimensional
+\DE						For each \DE\ lattice let us def
+\handC						the lower face of $\handC$ (the face with edg
+\handF						 equations $\D_1f_1=\handF(u) f_1$
+\bst						{ij}^{\pm}(u)$ and $\bst_{ij}(u)$
+\wT						at $\beta_{ij}(u_0)=\wT \beta_{ij}(u_0)$. A
+\sref						 u_0)$ of equations \sref{ll1}{ll2} with the
+\handR						on $\psi(u,Q|\handD,\handR))$ has the form:
+\handD						s less or equal to $\handD$;
+\handB						 $J(\Gamma)=\comp^g/\handB$ is called the Jaco
+\handK						where $\handK$ is the vector of R
+\RE						a group. % on $(\SL_\RE)$.
+\vett						flux $\int d^2 x B(\vett{x})$ replaces $B$ i
+\Pcurlymath						e for the operator $\Pcurlymath{O}$.
+\kdb						essions for $b_0$, $\kdb$,
+\June						\tt hep-th/9906090}\\June 1999}\\ \vspace{3.5
+\kd						$(\kd{0})^{\perp}$, then
+\dil						kern-3mu}=}\limits^{\dil}\;(1+k)x^\mu$.
+\noa						mu } \,, \nonumber\\\noa3 & M_{\mu \nu } &&
+\wen						 $\Theta _B$ satisfy\wen{2}
+\per						umes the form $g (z \per ^2 , \nu) $.
+\bds						where  $k(G)$. $a_{\bds{\alpha}}$, $Q_{\bds
+\Bn						for $E_{ij}=G_{ij}+\Bn{0}_{ij}$ \cite{GPR}
+\An						ega$ with $dy^i\!-\!\An{i}$,
+\htE						h the monodromy of $\htE{0}=\X{2}{-1}{\bf C}
+\hDD						of~$\hDD{k'}_{k}$ by $\tSSL2
+\tGL						`reconstruction'~$\tGL2\oplus\mathfrak{w}\
+\ketsl						uilt on the vector~$\ketsl2'{j',\Lambda,k'}$ w
+\ade						For any $G$ of \ade\ type, with the exc
+\GO						icit dependence on $\GO$.
+\za						bar J_0^{{\rm (P)}\,\za}$, we find that and
+\zs						\zs_{12}(\za_2) } $ and
+\zg						he sum over $\zd\,, \zg$ are worked out usi
+\psun						jacency matrix}} $a=\psun \,,b=\psde\,, c=\ps
+\psde						rix}} $a=\psun \,,b=\psde\,, c=\pstr \,,d=\ps
+\pstr						sun \,,b=\psde\,, c=\pstr \,,d=\pssi $ are de
+\pssi						sde\,, c=\pstr \,,d=\pssi $ are determined fr
+\fchoice						eral, a $k$-point 1P\fchoice{\kern .08em}{}I\ Gr
+\TM						the Todd class, $\td\TM$ is equal to $1$ pl
+\urs						\urs{largexmu}{largexnu}
+\fai						$\fai{\rho}{i j}{-}{x,y}$
+\zl						 VME.  For \taz, $H=\zl\subset Aut(g)$, thi
+\taz						as in the VME.  For \taz, $H=\zl\subset Aut(
+\subsecd						ion{The OVME and $A(\subsecd_{\hsp{.04}\l})/\sub
+\tad						\bu{ \tad\ with prime $\l$ \\
+\mz						e orbifolds of the $\mz_\l$(permutation)-in
+\subsecz						ubsection{From the $\subsecz_\l$-invariant CFT's
+\eer						\eer \end{eqnarray}
+\nabh						{a_{S}b_{S}}_{\mu}, \nabh^{a_{S}b_{S}}_{\mu}$
+\mycaptionl						7.eps} \end{center} \mycaptionl{ Same as in fig.6,
+\mfrac						$\mfrac14\delta\theta_2^{kl
+\DamirFont						$C_{\mbox{\DamirFont\symbol{'005}}}$ and
+\XFig						ure} \begin{center} \XFig{omult2.ps}{68 168 5
+\guido						\author{\guido$^{(1)}$, \emilio$^{
+\sergio						and \sergio$^{(1)}$ }
+\hPhi						 and similarly $\hi_\hPhi$ indicates
+\htx						d-volume direction $\htx$. Taylor and
+\undr						in stead of the $\undr{3}$ to compile the
+\aik						 higher order than $\aik$ in the string
+\dM						$\tilde H^{(k)}_\mu\dM{\rm Im}(T)/(T+\bar
+\bia						ref{bia_even}) for $\bia$ with
+\nonvan						a \nonvan $\xi^2_{\rm FI}$ im
+\SR						nfinitesimal. % on $\SR$.
+\EN						$$ %\EN
+\MON						e same subspace. % $\MON$.
+\SM						photon field of the \SM, as long as there i
+\Physik						f\"ur Theoretische \\Physik,  Universit\"at Lei
+\Diagrlrud						\begin{eq}{ccc} \Diagrlrud {W_L}{W_R}{W_R^T} {
+\mathb						d line. The curves $\mathb{w} _{\pm}$ are give
+\back						mu\nu}=g_{\mu\nu}- {\back{g}} _{\mu\nu}$ and
+\fmflabel						\fmflabel{$T$}{T}
+\pg						$\pg{f}{f}_{\mathcal M}=
+\vardl						$\vardl{\Gamma^A(x)}$ is $\
+\eject						fold $SU(2)$. \vfill\eject allowed in $d=11$,
+\Span						$\tilde{V}_i=\Span{|2\rangle,|3\rangle
+\PV						three-dimensional \PV~masses $\Lambda_{0r
+\bcs						with antiperiodic \bcs~for the fermions ov
+\cgth						For a \cgth~with an \emph{odd}
+\pbk						\mbk{E}{\psi}$ and $\pbk{E}{\phi}$ must be w
+\mbk						$\mbk{E}{\psi}$ and $\pbk
+\kb						^-=\sum_i \lambda_i \kb{\psi_i^-}{\psi_i^-}
+\dbk						and $\dbk{f}{E_n}$ are scalar
+\mkt						cattering states'' $\mkt{E, b}=\mkt{\hat{\ma
+\pkt						ether with the ket $\pkt{z^*_R}=\pkt{E_R + i
+\vep						$\D^{a} S[\varphi] $\vep^{a}$, $\varphi^A \t
