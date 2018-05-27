@@ -6,13 +6,14 @@ from pdf2image import convert_from_path
 
 from data.generation.utils import \
     bad_latex_tokens_1, bad_latex_tokens_2, bad_latex_tokens_3, begin_block, begin_latex_document, end_latex_document, \
-    entire_block, math_block_regex, valid_math_token, bibliography_regex, extraneous_closures
+    entire_block, math_block_regex, valid_math_token, bibliography_regex, extraneous_closures,\
+    empty_block_regex
 
 
 # TODO: need to figure out a way to remove eniter bad tokens including extraneous }'s
 
 class DataGenerator:
-    def __init__(self, source, snippet_dest, image_dest, snippet_size, image_resolutation=150, image_padding=10):
+    def __init__(self, source, snippet_dest, image_dest, snippet_size, image_resolutation=150, image_padding=10, max_snippet_length=500):
         self.doc_dir = source
         self.snippet_dir = snippet_dest
         self.image_dir = image_dest
@@ -20,6 +21,7 @@ class DataGenerator:
         self.snippet_counter = 0
         self.img_res = image_resolutation
         self.img_padding = image_padding
+        self.max_snippet_length = max_snippet_length
 
     def generate(self):
         self.snippet_counter = 0
@@ -64,6 +66,21 @@ class DataGenerator:
     def _sparsify_math_blocks(self, math_text):
         tokens = re.findall(valid_math_token, math_text)
         return " ".join(tokens)
+
+    def _starts_ends_are_balanced(self, lines):
+        block_start_symbols = 0
+        block_end_symbols = 0
+        for line in lines:
+            block_start_symbols += line.count("\\begin")
+            block_end_symbols += line.count("\\end")
+        return block_start_symbols == block_end_symbols
+
+    def _snippet_is_okay_size(self, lines):
+        snippet_length = sum([len(l) for l in lines])
+        return snippet_length < self.max_snippet_length
+
+    def _line_is_interesting(self, line):
+        return "\\" in line or "$" in line or "{" in line or "}" in line
 
     def create_snippet_from_lines(self, lines, last_line):
         '''
@@ -113,7 +130,7 @@ class DataGenerator:
                     cleaned_line_3 = bad_latex_tokens_3.sub(r"\g<token_end_three>", cleaned_line_2)
                     done = extraneous_closures.sub("", cleaned_line_3)
                     line = done
-                    if not line or line.startswith("%"):
+                    if not line or line.startswith("%") or not self._line_is_interesting():  # skip the line if there's nothing interesting
                         continue
                     if end_latex_document in line:
                         break
@@ -121,8 +138,6 @@ class DataGenerator:
                         matches_begin_block = re.search(begin_block, line)
                         if matches_begin_block:
                             building_block = True
-                        elif "\\" not in line or "$" not in line:  # skip the line if there's nothing interesting
-                            continue
                         elif line.count("$") % 2 == 1:
                             building_inline = True
                     if building_block:
@@ -131,10 +146,11 @@ class DataGenerator:
                         if match:
                             multi_line_builder = ""
                             building_block = False
+                            empty_block = re.search(empty_block_regex, new_block)
                             math_block = re.search(math_block_regex, new_block)
                             bibliography = re.search(bibliography_regex, new_block)
-                            if bibliography:
-                                line = ""
+                            if empty_block or bibliography:
+                                continue
                             elif math_block:
                                 line = self._sparsify_math_blocks(new_block)
                             else:
@@ -153,8 +169,10 @@ class DataGenerator:
                             line = new_block
                     lines_queue.put(line)
                     if lines_queue.full():
-                        self.create_snippet_from_lines(list(lines_queue.queue), i)
-                        self.snippet_counter += 1
+                        snippet_lines = list(lines_queue.queue)
+                        if self._starts_ends_are_balanced(snippet_lines) and self._snippet_is_okay_size(snippet_lines):
+                            self.create_snippet_from_lines(snippet_lines, i)
+                            self.snippet_counter += 1
                         lines_queue.get()
 
     def _generate_image_from_pdf(self, pdf_path, snippet_name):

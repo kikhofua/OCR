@@ -26,9 +26,9 @@ entire_block = re.compile(r"""
 # """, re.VERBOSE | re.DOTALL)
 
 math_block_regex = re.compile(r"""
-    (\\begin{(equation|multiline|align|eqnarray|IEEEeqnarray|cases)} | \$\$ | \$)       # starting math mode
+    (\\begin{(equation|multiline|align|eqnarray|IEEEeqnarray|cases)} | \$\$)       # starting math mode
     (?P<math_content>.*)  # the content of math mode
-    (\\end{(equation|multiline|align|eqnarray|IEEEeqnarray|cases)} | \$\$ | \$)         # ending math mode
+    (\\end{(equation|multiline|align|eqnarray|IEEEeqnarray|cases)} | \$\$)         # ending math mode
 """, re.VERBOSE | re.DOTALL)
 
 bibliography_regex = re.compile(r"""
@@ -36,6 +36,10 @@ bibliography_regex = re.compile(r"""
     .*
     \\end{thebibliography}
 """, re.VERBOSE | re.DOTALL)
+
+empty_block_regex = re.compile(r"""
+\\begin{((?P<block>[a-zA-Z0-9]+)} | \$\$)\s*(\\end{(?P=block)} | \$\$)
+""", re.VERBOSE)
 
 extraneous_closures = re.compile(r"dummytext({}|\[\])")
 
@@ -499,6 +503,7 @@ bad_latex_tokens = r"""
     | \\normalbaselineskip
     | \\twoheadrightarrow
     | \\blacktriangleleft
+    | \\includegraphics
     | \\bibliographystyle
     | \\timelikegeodesic
     | \\abovedisplayskip
@@ -512,6 +517,8 @@ bad_latex_tokens = r"""
     | \\Celestijnenlaan
     | \\nointerlineskip
     | \\refstepcounter
+    | \\begin{figure}
+    | \\end{figure}
     | \\Supersymmetric
     | \\evensidemargin
     | \\NONCOMMUTATIVE
@@ -634,6 +641,7 @@ bad_latex_tokens = r"""
     | \\mycaptionl
     | \\epsfxsize
     | \\massshell
+    | \\bigskip
     | \\pagebreak
     | \\resection
     | \\textwidth
@@ -683,6 +691,7 @@ bad_latex_tokens = r"""
     | \\centerdot
     | \\titlehead
     | \\psmearvac
+    | \\newpage    
     | \\qquotient
     | \\marginpar
     | \\headfontb
