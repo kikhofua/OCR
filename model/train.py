@@ -8,12 +8,12 @@ from torch.utils.data import DataLoader
 import argparse
 from model.encoder import *
 from model.decoder import *
-from model.deep_output import TokenEmbedder
 from torch.autograd import Variable
 from torch.nn.utils.rnn import pack_padded_sequence
 from PIL import Image
 from torchvision.transforms import ToTensor
 from data_processing.data_loader import *
+from model.deep_output import *
 
 
 lstm_hidden = None
@@ -29,22 +29,23 @@ device = torch.cuda.is_available()
 # ndf = int(opt.ndf)
 # nc = 3
 
-# if opt.image_dir in ['img_snippets']:
-#     # folder dataset
-#     img_dataset = dset.ImageFolder(root=opt.img_dir)
-# assert img_dataset
 
-
-def train(args):
+def train(args, vocab):
     latex_img_data = ImageSnippetDataset(args.latex_dir, args.image_dir)
-    data_loader = DataLoader(latex_img_data, args.batch_size, shuffle=True, num_workers=args.num_workers)
+    torch_data_loader = DataLoader(latex_img_data, args.batch_size, shuffle=True, num_workers=args.num_workers)
 
     # Build the models
+    embeddings = nn.Embedding(541, 300)
     encoder = EncoderCNN(args.ngpu)
     attention_model = AttentionModel(args.hidden_size, args.output_depth, args.output_width, args.output_height)
     attention_hidden = Variable(torch.zeros(1500), volatile=True)
     lstm_stack = LSTMStack(args.input_size, args.hidden_size, args.num_layers)
-    # deep_output = Deep
+
+    # attn_layer_size, encoder_output_size, embedding_size
+    attn_layer_size = 2
+    encoder_output_size = 2
+    embedding_size = (541, 300)
+    deep_output_layer = DeepOutputLayer(attn_layer_size, encoder_output_size, embedding_size)
 
     if torch.cuda.is_available():
         encoder.cuda()
@@ -52,25 +53,39 @@ def train(args):
         lstm_stack.cuda()
 
     # Loss and Optimizer
+    loss = 0
     criterion = nn.CrossEntropyLoss()
     params = list(attention_model.parameters()) + list(encoder.parameters()) + list(lstm_stack.parameters())
     optimizer = torch.optim.Adam(params, lr=args.learning_rate)
 
     # Train the Models
-    total_step = len(data_loader)
+    total_step = len(torch_data_loader)
     print("total step", total_step)
+    current_token = "<SOS>"
+    previous_index = vocab[current_token]
+
     for epoch in range(args.num_epochs):
-            attention_hidden = hidden_tuples[0]
-        for i, (img_tensors, targets) in enumerate(data_loader):
+        for i, (img_tensors, targets) in enumerate(torch_data_loader):
             print("i", i)
-            # targets = pack_padded_sequence(targets, batch_first=True)[0]
-            attention_model.zero_grad()
-            encoder.zero_grad()
+            print(targets)
             features = encoder(img_tensors)
             attention_outputs = attention_model(features, attention_hidden)
-            lstm_output, hidden_tuples = lstm_stack(attention_outputs, lstm_hidden)
-            # TODO:
-            loss = criterion(lstm_output, Variable(targets, volatile=True))
+            print(type(attention_outputs))
+            lstm_output, hidden_tuples = lstm_stack(attention_outputs, lstm_hidden, embeddings(torch.LongTensor([previous_index])))
+
+            # output = None
+            # attn_output_size, encoder_output_size, embedding_size
+
+            output = deep_output_layer(attention_outputs, embeddings[previous_index], lstm_output)
+            topv, topi = output.data.topk(1)
+            ni = topi[0][0]
+
+            previous_index = ni
+
+            loss = criterion(output, Variable(targets, volatile=True))
+            attention_model.zero_grad()
+            encoder.zero_grad()
+            lstm_stack.zero_grad()
             loss.backward()
             optimizer.step()
 
@@ -149,8 +164,14 @@ if __name__ == '__main__':
 
     parser.add_argument('--ngpu', type=int, default=2)
 
+    latex_path = "/Users/Kamoya/OCR/data/latex_snippets/"
+    imgs_path = "/Users/Kamoya/OCR/data/img_snippets/"
+
     args = parser.parse_args()
-    train(args)
+    data = ImageSnippetDataset(args.latex_dir, args.image_dir)
+    vocab = data.get_vocab()
+    # print(vocab["<SOS>"])
+    train(args, vocab)
 
 
 

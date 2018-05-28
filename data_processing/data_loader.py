@@ -1,7 +1,7 @@
 import torch
 from torch.utils.data import Dataset
-from torch.autograd import Variable
-from torchvision import datasets
+# from torch.autograd import Variable
+# from torchvision import datasets
 import os, os.path
 from PIL import Image
 from torchvision.transforms import ToTensor
@@ -22,7 +22,6 @@ class ImageSnippetDataset(Dataset):
     def __getitem__(self, index):
         """Returns one pair of  (image, snippet_vector) pair"""
         # Converts image to tensor
-
 
         img_filename = str(index) + "_sn.jpg"
         self.tensor = to_tensor(img_filename, self.imgs_path)
@@ -49,8 +48,10 @@ class ImageSnippetDataset(Dataset):
         target = torch.LongTensor(latex_index_vector)
         if torch.cuda.is_available():
             target = target.cuda()
-
         return img_tensor, target
+
+    def get_vocab(self):
+        return self.v.get_vocab()
 
 
 def to_tensor(x, path):
@@ -87,6 +88,9 @@ class Vocabulary:
 
     def __len__(self):
         return len(self.word2idx)
+
+    def get_vocab(self):
+        return self.word2idx
 
 
 if __name__ == '__main__':

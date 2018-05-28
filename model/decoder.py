@@ -47,9 +47,10 @@ class AttentionModel(nn.Module):
 class LSTMStack(nn.Module):
     def __init__(self, input_size, hidden_size, num_layers):
         super(LSTMStack, self).__init__()
-        self.rnn = nn.LSTM(input_size, hidden_size, num_layers, batch_first=False)
+        self.rnn = nn.LSTM(input_size, hidden_size, num_layers, batch_first=False)  # TODO: dubious that this is 2 sequetial LSTMs
 
-    def forward(self, attention_model_output, hidden, num_layers):
-        out = self.rnn(attention_model_output, hidden)
+    def forward(self, attention_model_output, hidden, embedded_vector):
+        cat = torch.cat((attention_model_output, embedded_vector), 0)
+        out = self.rnn(cat, hidden)
         return out
 
